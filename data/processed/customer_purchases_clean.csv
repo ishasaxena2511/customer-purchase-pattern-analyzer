@@ -1,0 +1,1161 @@
+Customer_ID,Customer_Name,Age,Gender,City,Region,Occupation,Product_Category,Product_Name,Purchase_Date,Quantity_Purchased,Unit_Price,Total_Purchase_Value,Payment_Method,Purchase_Channel,Customer_Segment,Loyalty_Status,Discount_Used,Purchase_Frequency,Last_Purchase_Date,Is_Outlier
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Books,Business Strategy Guide,2024-12-22,2,736.67,1473.34,UPI,Mobile App,Standard,Gold,0.0,31,2024-12-30,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Beauty & Personal Care,Herbal Shampoo,2024-10-27,3,673.18,1918.56,Cash on Delivery,Online,Standard,Gold,0.05,21,2024-12-03,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Electronics,Bluetooth Speaker,2024-11-02,1,3252.8,2927.52,Credit Card,In-Store,Standard,Regular,0.1,22,2024-12-24,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Beauty & Personal Care,Perfume Spray,2024-07-12,2,1738.62,2781.79,Cash on Delivery,Online,Standard,Gold,0.2,36,2024-12-27,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Books,Data Analytics Handbook,2024-10-09,1,601.75,541.58,Cash on Delivery,Online,Standard,Regular,0.1,19,2024-12-18,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Electronics,Bluetooth Speaker,2024-11-07,2,1651.02,3302.04,Net Banking,Online,Standard,Platinum,0.0,43,2024-12-29,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Home & Kitchen,Stainless Steel Knife Set,2024-07-10,1,729.63,620.19,Cash on Delivery,Online,Standard,Regular,0.15,19,2024-12-18,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Sports & Fitness,Yoga Mat,2024-07-01,1,1155.36,1155.36,Debit Card,Mobile App,Standard,Platinum,0.0,43,2024-12-29,False
+C0092,Aditi Chopra,51,Male,Jaipur,North,Student,Sports & Fitness,Running Shoes,2024-04-18,1,3381.02,3211.97,Net Banking,Mobile App,Standard,Silver,0.05,9,2024-09-23,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Clothing,Athletic Shorts,2024-08-02,2,501.1,1002.2,UPI,In-Store,Standard,Regular,0.0,15,2024-12-26,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Electronics,Power Bank,2024-03-24,1,1242.86,1180.72,UPI,In-Store,Standard,Gold,0.05,26,2024-12-26,False
+C0150,Ananya Verma,49,Other,Hyderabad,South,Sales Executive,Clothing,Athletic Shorts,2024-09-22,1,975.07,926.32,UPI,Online,Standard,Regular,0.05,3,2024-11-23,False
+C0057,Vikram Mukherjee,47,Female,Mumbai,West,Doctor,Home & Kitchen,Stainless Steel Knife Set,2024-12-15,2,1365.45,2594.36,Credit Card,Online,Standard,Silver,0.05,11,2024-12-15,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Adjustable Dumbbells,2024-10-05,3,4230.4,12691.2,Debit Card,Online,Standard,Platinum,0.0,26,2024-12-25,True
+C0065,Varun Joshi,53,Male,Chennai,South,Product Manager,Home & Kitchen,Ceramic Mug Set,2024-07-06,1,565.23,508.71,Credit Card,Online,Standard,Gold,0.1,1,2024-07-06,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Electronics,Bluetooth Speaker,2024-04-09,1,2539.06,2285.15,Credit Card,Online,Standard,Regular,0.1,18,2024-12-01,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Beauty & Personal Care,Face Cleanser,2024-06-05,1,606.04,606.04,UPI,Online,Standard,Gold,0.0,31,2024-12-30,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Home & Kitchen,Non-Stick Frying Pan,2024-06-24,2,1173.46,2112.23,Credit Card,In-Store,Standard,Platinum,0.1,43,2024-12-29,False
+C0148,Divya Kumar,25,Male,Bangalore,South,Marketing Specialist,Sports & Fitness,Adjustable Dumbbells,2024-03-15,1,2956.77,2808.93,UPI,Mobile App,Standard,Silver,0.05,9,2024-12-20,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Electric Blender,2024-09-01,1,2172.24,2172.24,UPI,Mobile App,Standard,Platinum,0.0,26,2024-12-25,False
+C0069,Neha Deshmukh,36,Male,Bangalore,South,Accountant,Sports & Fitness,Resistance Bands Set,2024-10-11,2,1021.88,1737.2,UPI,Online,Standard,Regular,0.15,8,2024-11-20,False
+C0070,Tanvi Gupta,64,Male,Pune,West,Marketing Specialist,Books,Python Programming,2024-12-30,1,1089.06,1034.61,Credit Card,Online,Standard,Platinum,0.05,3,2024-12-30,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Resistance Bands Set,2024-01-21,1,524.02,471.62,UPI,Online,Standard,Regular,0.1,36,2024-12-31,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Sports & Fitness,Resistance Bands Set,2024-09-29,3,505.37,1516.11,UPI,In-Store,Standard,Gold,0.0,36,2024-12-27,False
+C0024,Shreya Reddy,66,Male,Kolkata,East,Product Manager,Home & Kitchen,Ceramic Mug Set,2024-04-10,1,838.49,712.72,Cash on Delivery,Mobile App,Standard,Silver,0.15,5,2024-08-28,False
+C0057,Vikram Mukherjee,47,Female,Mumbai,West,Doctor,Home & Kitchen,Ceramic Mug Set,2024-05-01,1,675.08,607.57,Net Banking,Mobile App,Standard,Silver,0.1,11,2024-12-15,False
+C0047,Rahul Reddy,62,Male,Hyderabad,South,Sales Executive,Electronics,Bluetooth Speaker,2024-12-17,5,2264.15,10754.71,Credit Card,Online,Standard,Regular,0.05,5,2024-12-17,False
+C0049,Riya Nair,39,Male,Kolkata,East,Teacher,Books,Psychology of Money,2024-06-27,1,528.95,502.5,Credit Card,In-Store,Standard,Silver,0.05,5,2024-09-05,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Beauty & Personal Care,Face Cleanser,2024-02-12,5,440.59,2202.95,UPI,Online,Standard,Gold,0.0,36,2024-12-27,False
+C0012,Varun Reddy,32,Male,Chennai,South,Consultant,Home & Kitchen,Non-Stick Frying Pan,2024-07-26,5,836.95,4184.75,UPI,Mobile App,Standard,Silver,0.0,7,2024-10-18,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Clothing,Slim Fit Jeans,2024-06-17,2,2338.58,3975.59,Cash on Delivery,Online,Standard,Regular,0.15,19,2024-12-18,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Home & Kitchen,Electric Blender,2024-05-14,3,2650.6,7951.8,Credit Card,Online,Standard,Platinum,0.0,17,2024-12-28,False
+C0072,Priya Nair,22,Female,Bhubaneswar,East,Student,Sports & Fitness,Running Shoes,2024-04-02,3,4876.74,12435.69,Credit Card,Online,Standard,Gold,0.15,5,2024-08-29,True
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Beauty & Personal Care,Herbal Shampoo,2024-06-21,1,456.97,388.42,Credit Card,Online,Standard,Regular,0.15,13,2024-12-08,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Electronics,Smartwatch,2024-01-13,2,6808.19,13616.38,Net Banking,Online,Standard,Gold,0.0,13,2024-12-28,True
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Books,Psychology of Money,2024-08-20,2,357.71,608.11,UPI,In-Store,Standard,Silver,0.15,13,2024-12-26,False
+C0139,Tanvi Reddy,43,Male,Mumbai,West,Architect,Books,Data Analytics Handbook,2024-02-23,3,1031.87,2940.83,UPI,In-Store,Standard,Regular,0.05,4,2024-12-11,True
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Beauty & Personal Care,Face Cleanser,2024-07-23,2,571.58,1086.0,Credit Card,Online,Standard,Gold,0.05,26,2024-12-26,False
+C0019,Rahul Joshi,39,Female,Kolkata,East,Entrepreneur,Clothing,Slim Fit Jeans,2024-02-18,2,2682.8,5365.6,Debit Card,In-Store,Standard,Silver,0.0,3,2024-02-18,False
+C0069,Neha Deshmukh,36,Male,Bangalore,South,Accountant,Books,Data Analytics Handbook,2024-11-20,3,637.61,1912.83,Cash on Delivery,In-Store,Standard,Regular,0.0,8,2024-11-20,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Home & Kitchen,Non-Stick Frying Pan,2024-12-03,3,1477.98,4212.24,Cash on Delivery,Online,Standard,Platinum,0.05,43,2024-12-29,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Beauty & Personal Care,Herbal Shampoo,2024-11-11,2,340.18,646.34,UPI,Online,Standard,Regular,0.05,15,2024-12-26,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Sports & Fitness,Resistance Bands Set,2024-09-29,4,866.47,3119.29,UPI,Online,Standard,Regular,0.1,18,2024-12-01,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Home & Kitchen,Stainless Steel Knife Set,2024-12-24,1,1799.36,1709.39,Credit Card,Online,Standard,Regular,0.05,22,2024-12-24,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Books,Psychology of Money,2024-07-28,1,479.43,431.49,Debit Card,Online,Standard,Gold,0.1,20,2024-12-13,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Books,Psychology of Money,2024-08-12,2,605.67,1090.21,UPI,In-Store,Standard,Platinum,0.1,17,2024-12-28,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Clothing,Casual Jacket,2024-11-05,2,2946.88,5893.76,UPI,Online,Standard,Gold,0.0,36,2024-12-27,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Electronics,Wireless Headphones,2024-02-22,1,1834.54,1834.54,Cash on Delivery,In-Store,Standard,Regular,0.0,15,2024-12-26,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Electronics,Power Bank,2024-04-11,1,1938.62,1744.76,UPI,Online,Standard,Platinum,0.1,24,2024-12-16,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Beauty & Personal Care,Sunscreen SPF 50,2024-06-04,38,787.37,29920.06,UPI,Mobile App,Standard,Regular,0.0,22,2024-12-24,True
+C0088,Ravi Deshmukh,51,Male,Delhi,North,Doctor,Books,Atomic Habits,2024-05-13,1,430.55,430.55,UPI,In-Store,Standard,Gold,0.0,4,2024-10-12,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Beauty & Personal Care,Moisturizing Cream,2024-05-14,1,573.04,573.04,Credit Card,In-Store,Standard,Gold,0.0,36,2024-12-27,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Electronics,USB-C Hub,2024-06-05,1,958.2,958.2,Debit Card,Online,Standard,Gold,0.0,20,2024-12-13,False
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Clothing,Formal Shirt,2024-05-04,4,2145.13,7722.47,Credit Card,In-Store,Standard,Silver,0.1,13,2024-12-26,False
+C0031,Aarav Iyer,57,Male,Chennai,South,Architect,Electronics,Bluetooth Speaker,2024-01-25,2,2868.94,4877.2,UPI,In-Store,Standard,Silver,0.15,12,2024-10-25,False
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Beauty & Personal Care,Perfume Spray,2024-04-11,3,2678.48,6428.35,Net Banking,In-Store,Standard,Regular,0.2,13,2024-12-21,True
+C0057,Vikram Mukherjee,47,Female,Mumbai,West,Doctor,Clothing,Slim Fit Jeans,2024-09-04,1,1465.15,1318.64,Credit Card,Online,Standard,Silver,0.1,11,2024-12-15,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Sports & Fitness,Adjustable Dumbbells,2024-03-26,1,3538.86,3538.86,UPI,Online,Standard,Regular,0.0,15,2024-12-02,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Books,Data Analytics Handbook,2024-11-15,4,718.16,2298.11,UPI,Online,Standard,Gold,0.2,21,2024-12-03,False
+C0135,Meera Patel,54,Female,Kolkata,East,Software Engineer,Clothing,Casual Jacket,2024-09-16,1,2528.29,2528.29,UPI,In-Store,Standard,Platinum,0.0,11,2024-12-30,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Home & Kitchen,Ceramic Mug Set,2024-12-27,4,971.74,3886.96,UPI,In-Store,Standard,Platinum,0.0,17,2024-12-28,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Electronics,Bluetooth Speaker,2024-02-13,2,3408.39,5794.26,UPI,Online,Standard,Gold,0.15,20,2024-12-13,False
+C0063,Varun Chopra,68,Female,Bangalore,South,Software Engineer,Home & Kitchen,Ceramic Mug Set,2024-03-31,1,533.25,453.26,Credit Card,Mobile App,Standard,Regular,0.15,5,2024-11-10,False
+C0114,Rohan Gupta,53,Other,Ahmedabad,West,Data Analyst,Beauty & Personal Care,Face Cleanser,2024-12-11,1,263.05,249.9,UPI,Online,Standard,Platinum,0.05,11,2024-12-11,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Home & Kitchen,Electric Blender,2024-12-30,1,2616.27,2616.27,UPI,Online,Standard,Platinum,0.0,14,2024-12-30,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Clothing,Cotton T-Shirt,2024-08-08,3,540.18,1620.54,Credit Card,Online,Standard,Silver,0.0,19,2024-12-24,False
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Beauty & Personal Care,Sunscreen SPF 50,2024-11-22,1,995.78,945.99,Debit Card,In-Store,Standard,Silver,0.05,13,2024-12-26,False
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Beauty & Personal Care,Sunscreen SPF 50,2024-05-26,2,583.04,1166.08,UPI,Online,Standard,Silver,0.0,13,2024-12-26,False
+C0093,Aarav Singh,22,Male,Bhubaneswar,East,Architect,Home & Kitchen,Ceramic Mug Set,2024-07-07,1,676.0,574.6,UPI,In-Store,Standard,Platinum,0.15,5,2024-09-05,False
+C0101,Divya Deshmukh,68,Male,Pune,West,Data Analyst,Clothing,Cotton T-Shirt,2024-12-30,1,770.63,770.63,Debit Card,Online,Standard,Silver,0.0,8,2024-12-30,False
+C0099,Arjun Mukherjee,40,Male,Bhubaneswar,East,Teacher,Electronics,Power Bank,2024-04-12,1,1427.01,1141.61,UPI,Online,Standard,Regular,0.2,10,2024-12-30,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Electronics,Bluetooth Speaker,2024-02-16,1,1824.31,1824.31,Debit Card,Online,Standard,Platinum,0.0,43,2024-12-29,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Sports & Fitness,Yoga Mat,2024-02-01,1,942.62,848.36,Credit Card,Mobile App,Standard,Regular,0.1,19,2024-12-20,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Clothing,Cotton T-Shirt,2024-02-05,4,689.37,2481.73,Credit Card,Online,Standard,Silver,0.1,27,2024-12-24,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Beauty & Personal Care,Moisturizing Cream,2024-04-05,3,909.75,2456.33,UPI,Online,Standard,Gold,0.1,21,2024-12-03,False
+C0140,Sneha Verma,44,Female,Delhi,North,Student,Sports & Fitness,Yoga Mat,2024-05-20,3,846.66,2539.98,UPI,Online,Standard,Gold,0.0,3,2024-07-24,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Electronics,Power Bank,2024-12-02,1,1605.27,1525.01,Debit Card,In-Store,Standard,Platinum,0.05,43,2024-12-29,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Clothing,Cotton T-Shirt,2024-09-11,3,420.15,1260.45,UPI,Online,Standard,Silver,0.0,19,2024-12-24,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Sports & Fitness,Resistance Bands Set,2024-07-11,1,894.34,849.62,UPI,Mobile App,Standard,Platinum,0.05,24,2024-12-16,False
+C0095,Aditi Singh,51,Female,Bhubaneswar,East,Marketing Specialist,Books,Psychology of Money,2024-03-29,1,683.36,580.86,UPI,Mobile App,Standard,Regular,0.15,3,2024-06-17,False
+C0018,Pooja Bose,40,Female,Bhubaneswar,East,Entrepreneur,Home & Kitchen,Coffee Maker,2024-04-23,1,3951.04,3555.94,UPI,In-Store,Standard,Silver,0.1,10,2024-11-27,False
+C0067,Shreya Kumar,29,Male,Bangalore,South,Architect,Beauty & Personal Care,Moisturizing Cream,2024-10-09,1,679.32,679.32,Credit Card,Mobile App,Standard,Silver,0.0,10,2024-11-27,False
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Sports & Fitness,Resistance Bands Set,2024-08-01,1,649.1,649.1,UPI,Mobile App,Standard,Regular,0.0,13,2024-12-08,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Beauty & Personal Care,Herbal Shampoo,2024-10-06,2,653.37,1045.39,Cash on Delivery,Online,Standard,Silver,0.2,12,2024-11-09,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Adjustable Dumbbells,2024-11-13,5,2038.09,10190.45,Credit Card,Online,Standard,Regular,0.0,36,2024-12-31,True
+C0084,Riya Mukherjee,26,Male,Mumbai,West,Entrepreneur,Electronics,Power Bank,2024-10-17,2,888.85,1688.82,Debit Card,Mobile App,Standard,Regular,0.05,11,2024-12-04,False
+C0017,Karan Mukherjee,59,Male,Jaipur,North,Consultant,Home & Kitchen,Non-Stick Frying Pan,2024-05-27,4,890.7,3562.8,Credit Card,Online,Standard,Silver,0.0,7,2024-12-08,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Sports & Fitness,Water Bottle 1L,2024-03-19,1,773.37,773.37,UPI,In-Store,Standard,Gold,0.0,13,2024-12-28,False
+C0016,Rohan Mehta,18,Female,Bangalore,South,Sales Executive,Beauty & Personal Care,Sunscreen SPF 50,2024-10-27,1,692.81,623.53,Credit Card,Mobile App,Standard,Silver,0.1,2,2024-12-28,False
+C0084,Riya Mukherjee,26,Male,Mumbai,West,Entrepreneur,Beauty & Personal Care,Herbal Shampoo,2024-05-11,3,337.94,861.75,UPI,Online,Standard,Regular,0.15,11,2024-12-04,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Electronics,Bluetooth Speaker,2024-06-16,1,2666.68,2400.01,UPI,Mobile App,Standard,Silver,0.1,16,2024-12-24,False
+C0101,Divya Deshmukh,68,Male,Pune,West,Data Analyst,Electronics,Wireless Headphones,2024-07-21,1,1547.44,1237.95,Credit Card,In-Store,Standard,Silver,0.2,8,2024-12-30,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Clothing,Slim Fit Jeans,2024-11-14,1,2792.94,2653.29,Credit Card,In-Store,Standard,Silver,0.05,19,2024-12-24,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Home & Kitchen,Non-Stick Frying Pan,2024-04-16,1,1724.89,1724.89,UPI,Mobile App,Standard,Silver,0.0,15,2024-12-20,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Electronics,Smartwatch,2024-12-28,1,6766.84,6090.16,Credit Card,Online,Standard,Gold,0.1,13,2024-12-28,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Home & Kitchen,Ceramic Mug Set,2024-05-18,1,870.39,826.87,Credit Card,Online,Standard,Silver,0.05,15,2024-10-29,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Home & Kitchen,Stainless Steel Knife Set,2024-08-29,1,852.04,766.84,UPI,Online,Standard,Regular,0.1,19,2024-12-20,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Electronics,Smartwatch,2024-10-29,2,7666.68,13800.02,UPI,Online,Standard,Platinum,0.1,43,2024-12-29,True
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Beauty & Personal Care,Herbal Shampoo,2024-11-14,1,531.75,531.75,Net Banking,Online,Standard,Gold,0.0,26,2024-12-26,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Sports & Fitness,Water Bottle 1L,2024-12-01,1,616.11,616.11,UPI,Online,Standard,Platinum,0.0,24,2024-12-16,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Home & Kitchen,Coffee Maker,2024-11-08,2,4118.81,7001.98,Credit Card,Online,Standard,Silver,0.15,20,2024-12-21,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Books,Python Programming,2024-04-13,1,676.28,676.28,Debit Card,Online,Standard,Platinum,0.0,43,2024-12-29,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Books,Data Analytics Handbook,2024-05-01,1,807.14,726.43,UPI,Online,Standard,Regular,0.1,14,2024-11-28,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Beauty & Personal Care,Herbal Shampoo,2024-05-26,1,410.41,410.41,Credit Card,Mobile App,Standard,Silver,0.0,20,2024-12-21,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Electronics,Smartwatch,2024-09-01,4,2328.42,8382.31,UPI,In-Store,Standard,Gold,0.1,13,2024-12-28,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Running Shoes,2024-04-12,2,4676.8,8418.24,Net Banking,In-Store,Standard,Gold,0.1,31,2024-12-30,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Home & Kitchen,Ceramic Mug Set,2024-01-25,2,777.06,1554.12,Debit Card,Online,Standard,Regular,0.0,36,2024-12-31,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Books,Data Analytics Handbook,2024-07-24,1,891.06,801.95,Credit Card,Online,Standard,Platinum,0.1,14,2024-12-30,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Home & Kitchen,Ceramic Mug Set,2024-02-17,2,645.84,1291.68,UPI,Online,Standard,Gold,0.0,21,2024-12-03,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Beauty & Personal Care,Perfume Spray,2024-11-28,5,2454.85,11660.54,Cash on Delivery,Online,Standard,Platinum,0.05,43,2024-12-29,True
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Sports & Fitness,Resistance Bands Set,2024-02-28,1,554.08,554.08,UPI,Online,Standard,Regular,0.0,19,2024-12-18,False
+C0127,Sneha Singh,24,Female,Kolkata,East,Product Manager,Home & Kitchen,Non-Stick Frying Pan,2024-12-13,3,1255.07,3200.43,UPI,Online,Standard,Regular,0.15,1,2024-12-13,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Beauty & Personal Care,Moisturizing Cream,2024-10-21,2,700.23,1260.41,UPI,Online,Standard,Silver,0.1,27,2024-12-24,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Beauty & Personal Care,Face Cleanser,2024-02-08,2,404.65,809.3,Debit Card,Mobile App,Standard,Regular,0.0,17,2024-11-02,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Adjustable Dumbbells,2024-01-16,1,2420.71,2178.64,UPI,Online,Standard,Regular,0.1,36,2024-12-31,False
+C0029,Amit Mukherjee,26,Male,Ahmedabad,West,Entrepreneur,Books,Python Programming,2024-05-08,2,948.39,1801.94,Net Banking,In-Store,Standard,Regular,0.05,6,2024-11-12,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Electronics,Wireless Headphones,2024-05-08,4,2292.19,8251.88,Credit Card,Online,Standard,Silver,0.1,19,2024-12-24,False
+C0128,Aarav Patel,53,Other,Chennai,South,Software Engineer,Home & Kitchen,Stainless Steel Knife Set,2024-07-25,1,1588.52,1429.67,UPI,Online,Standard,Regular,0.1,8,2024-11-18,False
+C0087,Divya Das,28,Female,Chennai,South,Teacher,Sports & Fitness,Water Bottle 1L,2024-03-03,1,484.17,484.17,Net Banking,In-Store,Standard,Regular,0.0,7,2024-11-22,False
+C0002,Manish Joshi,41,Male,Hyderabad,South,Financial Analyst,Beauty & Personal Care,Sunscreen SPF 50,2024-08-19,1,959.45,959.45,Debit Card,Online,Standard,Regular,0.0,8,2024-12-27,False
+C0047,Rahul Reddy,62,Male,Hyderabad,South,Sales Executive,Home & Kitchen,Coffee Maker,2024-10-02,1,3357.1,3357.1,Net Banking,In-Store,Standard,Regular,0.0,5,2024-12-17,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Ceramic Mug Set,2024-09-25,2,679.5,1359.0,Net Banking,Online,Standard,Gold,0.0,31,2024-12-30,False
+C0148,Divya Kumar,47,Male,Bangalore,South,Marketing Specialist,Books,Python Programming,2024-04-23,1,909.89,909.89,UPI,Online,Standard,Silver,0.0,9,2024-12-20,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Clothing,Casual Jacket,2024-12-04,1,4815.24,4574.48,Debit Card,Online,Standard,Gold,0.05,31,2024-12-30,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Clothing,Athletic Shorts,2024-05-18,1,772.46,733.84,Credit Card,Online,Standard,Silver,0.05,12,2024-11-09,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Ceramic Mug Set,2024-06-14,2,988.67,1680.74,Net Banking,Online,Standard,Gold,0.15,31,2024-12-30,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Books,Business Strategy Guide,2024-08-12,4,505.03,1818.11,Credit Card,Online,Standard,Regular,0.1,16,2024-12-05,False
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Home & Kitchen,Coffee Maker,2024-08-01,2,3517.04,7034.08,Cash on Delivery,Online,Standard,Regular,0.0,13,2024-12-21,False
+C0023,Vikram Sharma,59,Male,Bhubaneswar,East,Teacher,Clothing,Cotton T-Shirt,2024-04-27,2,887.76,1509.19,Credit Card,Mobile App,Standard,Silver,0.15,4,2024-06-30,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Running Shoes,2024-01-26,3,4045.75,10923.52,Credit Card,In-Store,Standard,Platinum,0.1,26,2024-12-25,True
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Sports & Fitness,Adjustable Dumbbells,2024-05-23,2,1753.7,2981.29,Credit Card,Mobile App,Standard,Regular,0.15,16,2024-12-05,False
+C0143,Karan Sharma,71,Female,Hyderabad,South,Software Engineer,Home & Kitchen,Ceramic Mug Set,2024-06-27,3,880.04,2640.12,Credit Card,Mobile App,Standard,Silver,0.0,10,2024-12-19,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Sports & Fitness,Water Bottle 1L,2024-09-29,1,473.75,473.75,UPI,Online,Standard,Silver,0.0,15,2024-12-20,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Clothing,Formal Shirt,2024-08-03,1,1118.55,1118.55,UPI,Mobile App,Standard,Gold,0.0,31,2024-12-30,False
+C0135,Meera Patel,54,Female,Kolkata,East,Software Engineer,Books,Data Analytics Handbook,2024-12-25,1,1180.66,1180.66,UPI,Online,Standard,Platinum,0.0,11,2024-12-30,False
+C0022,Tanvi Deshmukh,20,Male,Hyderabad,South,Student,Clothing,Formal Shirt,2024-04-10,2,1361.92,2723.84,Debit Card,Online,Standard,Silver,0.0,8,2024-12-15,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Books,Business Strategy Guide,2024-07-08,2,864.66,1556.39,Credit Card,Online,Standard,Regular,0.1,15,2024-12-26,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Clothing,Cotton T-Shirt,2024-04-15,1,552.58,524.95,Net Banking,Mobile App,Standard,Silver,0.05,19,2024-12-21,False
+C0050,Amit Chopra,50,Female,Pune,West,Consultant,Electronics,Power Bank,2024-07-19,1,818.99,778.04,Net Banking,Online,Standard,Gold,0.05,8,2024-12-04,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Home & Kitchen,Electric Blender,2024-08-11,2,1709.5,3248.05,Cash on Delivery,Online,Standard,Regular,0.05,14,2024-11-28,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Home & Kitchen,Ceramic Mug Set,2024-05-11,1,747.59,672.83,Debit Card,Online,Standard,Silver,0.1,19,2024-12-21,False
+C0099,Arjun Mukherjee,40,Male,Bhubaneswar,East,Teacher,Books,Python Programming,2024-09-02,3,640.92,1826.62,Cash on Delivery,Mobile App,Standard,Regular,0.05,10,2024-12-30,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Books,Data Analytics Handbook,2024-09-12,1,1071.39,857.11,Net Banking,In-Store,Standard,Silver,0.2,15,2024-12-20,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Books,Python Programming,2024-09-06,1,920.02,920.02,Debit Card,In-Store,Standard,Gold,0.0,31,2024-12-30,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Clothing,Slim Fit Jeans,2024-09-29,1,1296.33,1296.33,Cash on Delivery,Mobile App,Standard,Regular,0.0,15,2024-12-02,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Home & Kitchen,Electric Blender,2024-04-06,2,2835.88,5671.76,Credit Card,Online,Standard,Platinum,0.0,43,2024-12-29,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Electronics,USB-C Hub,2024-09-25,1,1292.5,1098.62,UPI,In-Store,Standard,Silver,0.15,13,2024-12-16,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Home & Kitchen,Stainless Steel Knife Set,2024-02-22,1,1404.04,1263.64,Net Banking,Mobile App,Standard,Silver,0.1,13,2024-12-16,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Electronics,Power Bank,2024-09-27,41,829.97,34028.77,Cash on Delivery,Online,Standard,Regular,0.0,36,2024-12-31,True
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Home & Kitchen,Stainless Steel Knife Set,2024-05-18,3,1055.7,3167.1,UPI,Online,Standard,Silver,0.0,27,2024-12-24,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Running Shoes,2024-04-11,35,4922.73,172295.55,Credit Card,In-Store,Standard,Platinum,0.0,26,2024-12-25,True
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Home & Kitchen,Non-Stick Frying Pan,2024-03-03,1,1214.1,971.28,Credit Card,In-Store,Standard,Regular,0.2,19,2024-12-18,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Books,Python Programming,2024-03-08,4,1016.46,3455.96,UPI,Online,Standard,Regular,0.15,19,2024-12-18,True
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Clothing,Cotton T-Shirt,2024-07-04,2,965.0,1544.0,UPI,In-Store,Standard,Regular,0.2,17,2024-11-02,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Clothing,Slim Fit Jeans,2024-07-26,1,2985.05,2388.04,UPI,Online,Standard,Silver,0.2,16,2024-12-24,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Beauty & Personal Care,Face Cleanser,2024-04-27,1,428.69,428.69,Debit Card,Online,Standard,Platinum,0.0,26,2024-12-25,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Home & Kitchen,Ceramic Mug Set,2024-06-11,4,468.88,1687.97,Credit Card,Online,Standard,Gold,0.1,13,2024-12-28,False
+C0076,Pooja Patel,47,Female,Ahmedabad,West,Consultant,Clothing,Formal Shirt,2024-05-08,1,1884.7,1884.7,Cash on Delivery,In-Store,Standard,Silver,0.0,5,2024-12-23,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Beauty & Personal Care,Moisturizing Cream,2024-10-20,1,843.5,801.32,UPI,In-Store,Standard,Regular,0.05,19,2024-12-20,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Electronics,USB-C Hub,2024-12-28,1,1125.24,1125.24,Debit Card,Mobile App,Standard,Platinum,0.0,17,2024-12-28,False
+C0072,Priya Nair,22,Female,Bhubaneswar,East,Student,Beauty & Personal Care,Herbal Shampoo,2024-08-29,2,554.97,943.45,UPI,Online,Standard,Gold,0.15,5,2024-08-29,False
+C0077,Arjun Kumar,62,Male,Kolkata,East,Product Manager,Sports & Fitness,Adjustable Dumbbells,2024-08-24,1,3230.57,3230.57,Net Banking,In-Store,Standard,Gold,0.0,11,2024-12-18,False
+C0029,Amit Mukherjee,26,Male,Ahmedabad,West,Entrepreneur,Beauty & Personal Care,Herbal Shampoo,2024-03-30,1,596.42,596.42,Credit Card,Online,Standard,Regular,0.0,6,2024-11-12,False
+C0114,Rohan Gupta,53,Other,Ahmedabad,West,Data Analyst,Sports & Fitness,Yoga Mat,2024-11-30,2,827.57,1655.14,UPI,Online,Standard,Platinum,0.0,11,2024-12-11,False
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Electronics,Wireless Headphones,2024-03-18,1,3171.93,2696.14,UPI,Online,Standard,Silver,0.15,13,2024-12-26,False
+C0018,Pooja Bose,40,Female,Bhubaneswar,East,Entrepreneur,Books,Atomic Habits,2024-06-11,1,553.84,553.84,UPI,Online,Standard,Silver,0.0,10,2024-11-27,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Clothing,Slim Fit Jeans,2024-02-28,1,2886.8,2886.8,Credit Card,In-Store,Standard,Gold,0.0,13,2024-12-28,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Sports & Fitness,Water Bottle 1L,2024-02-12,2,358.18,573.09,Debit Card,Mobile App,Standard,Platinum,0.2,24,2024-12-16,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Beauty & Personal Care,Face Cleanser,2024-12-20,3,425.27,1020.65,Debit Card,In-Store,Standard,Regular,0.2,19,2024-12-20,False
+C0139,Tanvi Reddy,43,Male,Mumbai,West,Architect,Books,Python Programming,2024-12-11,1,855.98,684.78,Credit Card,Online,Standard,Regular,0.2,4,2024-12-11,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Home & Kitchen,Coffee Maker,2024-12-29,3,2645.24,7935.72,Credit Card,Online,Standard,Platinum,0.0,14,2024-12-30,False
+C0074,Ananya Nair,67,Female,Noida,North,Doctor,Clothing,Slim Fit Jeans,2024-04-07,2,1277.49,2554.98,Net Banking,Online,Standard,Silver,0.0,11,2024-12-18,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Clothing,Athletic Shorts,2024-10-14,1,801.91,641.53,Credit Card,Online,Standard,Regular,0.2,15,2024-12-26,False
+C0069,Neha Deshmukh,36,Male,Bangalore,South,Accountant,Clothing,Formal Shirt,2024-04-15,3,1179.77,3362.34,Cash on Delivery,Online,Standard,Regular,0.05,8,2024-11-20,False
+C0107,Rohan Mukherjee,64,Male,Noida,North,Designer,Electronics,Bluetooth Speaker,2024-01-22,2,1995.35,3392.1,Credit Card,Online,Standard,Silver,0.15,5,2024-12-30,False
+C0064,Priya Nair,68,Male,Mumbai,West,Designer,Clothing,Casual Jacket,2024-01-18,1,4992.87,4743.23,UPI,In-Store,Standard,Regular,0.05,7,2024-12-09,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Sports & Fitness,Water Bottle 1L,2024-08-24,1,573.23,573.23,Debit Card,In-Store,Standard,Regular,0.0,19,2024-12-20,False
+C0148,Divya Kumar,25,Male,Bangalore,South,Marketing Specialist,Books,Business Strategy Guide,2024-12-20,3,620.27,1860.81,UPI,Online,Standard,Silver,0.0,9,2024-12-20,False
+C0067,Shreya Kumar,29,Male,Bangalore,South,Architect,Sports & Fitness,Running Shoes,2024-09-14,1,3066.11,3066.11,UPI,Online,Standard,Silver,0.0,10,2024-11-27,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Electronics,Bluetooth Speaker,2024-09-18,1,2103.66,1998.48,UPI,In-Store,Standard,Gold,0.05,21,2024-12-03,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Beauty & Personal Care,Face Cleanser,2024-10-09,1,476.49,476.49,UPI,Online,Standard,Gold,0.0,36,2024-12-27,False
+C0038,Aarav Das,68,Female,Ahmedabad,West,Sales Executive,Beauty & Personal Care,Perfume Spray,2024-10-18,1,2144.14,2144.14,UPI,Online,Standard,Platinum,0.0,2,2024-12-11,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Sports & Fitness,Water Bottle 1L,2024-03-11,1,443.66,443.66,Credit Card,Online,Standard,Regular,0.0,19,2024-12-18,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Beauty & Personal Care,Perfume Spray,2024-01-27,2,1571.14,2670.94,Debit Card,Online,Standard,Platinum,0.15,24,2024-12-16,False
+C0059,Riya Mehta,51,Male,Kolkata,East,Designer,Clothing,Slim Fit Jeans,2024-02-03,1,1302.02,1302.02,UPI,Mobile App,Standard,Regular,0.0,5,2024-10-24,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Beauty & Personal Care,Perfume Spray,2024-04-25,1,1480.86,1332.77,Debit Card,In-Store,Standard,Platinum,0.1,43,2024-12-29,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Clothing,Athletic Shorts,2024-11-19,2,609.42,1218.84,Cash on Delivery,Online,Standard,Regular,0.0,18,2024-12-01,False
+C0144,Varun Bose,36,Male,Delhi,North,Entrepreneur,Beauty & Personal Care,Herbal Shampoo,2024-12-06,1,376.08,338.47,Credit Card,In-Store,Standard,Silver,0.1,5,2024-12-06,False
+C0031,Aarav Iyer,57,Male,Chennai,South,Architect,Beauty & Personal Care,Sunscreen SPF 50,2024-05-23,1,727.87,691.48,Debit Card,In-Store,Standard,Silver,0.05,12,2024-10-25,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Sports & Fitness,Water Bottle 1L,2024-07-27,1,601.6,601.6,UPI,Online,Standard,Platinum,0.0,43,2024-12-29,False
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Clothing,Slim Fit Jeans,2024-10-22,1,2284.45,2284.45,UPI,Online,Standard,Regular,0.0,13,2024-12-21,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Coffee Maker,2024-06-30,2,4348.61,8697.22,Debit Card,Online,Standard,Platinum,0.0,26,2024-12-25,True
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Beauty & Personal Care,Sunscreen SPF 50,2024-02-11,2,601.67,1083.01,UPI,Online,Standard,Silver,0.1,20,2024-12-21,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Clothing,Casual Jacket,2024-03-29,5,2340.32,11701.6,Credit Card,Online,Standard,Platinum,0.0,26,2024-12-25,True
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Electronics,Smartwatch,2024-03-05,1,7083.69,6375.32,Credit Card,In-Store,Standard,Gold,0.1,31,2024-12-30,False
+C0025,Rahul Verma,47,Male,Hyderabad,South,Software Engineer,Clothing,Athletic Shorts,2024-12-24,2,1064.19,2128.38,Net Banking,Online,Standard,Silver,0.0,27,2024-12-24,False
+C0008,Siddharth Gupta,53,Male,Mumbai,West,Data Analyst,Clothing,Slim Fit Jeans,2024-01-22,1,1931.86,1738.67,Cash on Delivery,In-Store,Standard,Silver,0.1,3,2024-05-24,False
+C0135,Meera Patel,54,Female,Kolkata,East,Software Engineer,Electronics,USB-C Hub,2024-12-30,4,1211.67,4846.68,Debit Card,In-Store,Standard,Platinum,0.0,11,2024-12-30,False
+C0105,Ravi Gupta,69,Male,Hyderabad,South,Teacher,Books,Python Programming,2024-07-17,2,727.94,1383.09,Cash on Delivery,Online,Standard,Silver,0.05,2,2024-07-17,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Beauty & Personal Care,Sunscreen SPF 50,2024-12-09,3,656.87,1773.55,UPI,In-Store,Standard,Gold,0.1,26,2024-12-26,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Electronics,Power Bank,2024-09-07,1,1105.38,1050.11,Credit Card,In-Store,Standard,Silver,0.05,16,2024-12-24,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Books,Business Strategy Guide,2024-09-03,1,753.57,753.57,UPI,In-Store,Standard,Silver,0.0,27,2024-12-24,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Books,Psychology of Money,2024-02-15,3,536.16,1286.78,Credit Card,Online,Standard,Silver,0.2,27,2024-12-24,False
+C0113,Nikhil Singh,47,Male,Hyderabad,South,Consultant,Clothing,Athletic Shorts,2024-09-06,2,1101.69,1983.04,Credit Card,In-Store,Standard,Regular,0.1,8,2024-12-28,False
+C0073,Neha Reddy,61,Female,Ahmedabad,West,Consultant,Sports & Fitness,Water Bottle 1L,2024-04-11,3,676.74,1928.71,Debit Card,In-Store,Standard,Silver,0.05,3,2024-04-11,False
+C0035,Amit Sharma,55,Female,Jaipur,North,Sales Executive,Beauty & Personal Care,Perfume Spray,2024-07-18,2,2331.73,4663.46,Credit Card,Online,Standard,Regular,0.0,8,2024-12-03,True
+C0083,Ananya Nair,67,Male,Pune,West,Architect,Beauty & Personal Care,Moisturizing Cream,2024-09-24,1,401.62,401.62,Credit Card,In-Store,Standard,Silver,0.0,2,2024-09-24,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Books,Business Strategy Guide,2024-08-17,2,699.06,1398.12,Cash on Delivery,Online,Standard,Silver,0.0,19,2024-12-21,False
+C0099,Arjun Mukherjee,40,Male,Bhubaneswar,East,Teacher,Beauty & Personal Care,Herbal Shampoo,2024-12-23,5,708.48,3188.16,Cash on Delivery,Online,Standard,Regular,0.1,10,2024-12-30,False
+C0045,Priya Verma,47,Female,Chennai,South,Student,Electronics,USB-C Hub,2024-04-27,2,1289.87,2579.74,Debit Card,Online,Standard,Regular,0.0,19,2024-12-20,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Beauty & Personal Care,Moisturizing Cream,2024-11-08,1,500.53,475.5,UPI,Online,Standard,Gold,0.05,26,2024-12-26,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Home & Kitchen,Stainless Steel Knife Set,2024-04-02,1,1797.3,1797.3,Cash on Delivery,Online,Standard,Regular,0.0,15,2024-12-16,False
+C0078,Karan Kumar,20,Female,Chennai,South,Accountant,Home & Kitchen,Ceramic Mug Set,2024-03-27,2,665.22,1330.44,UPI,Online,Standard,Silver,0.0,11,2024-10-05,False
+C0003,Nikhil Verma,47,Male,Pune,West,Software Engineer,Clothing,Slim Fit Jeans,2024-11-03,1,1672.45,1672.45,Debit Card,Online,Standard,Silver,0.0,5,2024-11-20,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Beauty & Personal Care,Herbal Shampoo,2024-06-26,1,614.19,614.19,UPI,In-Store,Standard,Silver,0.0,19,2024-12-21,False
+C0062,Amit Mehta,20,Female,Hyderabad,South,Designer,Clothing,Formal Shirt,2024-05-25,2,1003.06,1604.9,Credit Card,Mobile App,Standard,Silver,0.2,4,2024-09-02,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Beauty & Personal Care,Face Cleanser,2024-02-08,4,282.25,1016.1,UPI,In-Store,Standard,Silver,0.1,16,2024-12-24,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Beauty & Personal Care,Perfume Spray,2024-09-13,1,3001.98,2401.58,UPI,Online,Standard,Regular,0.2,22,2024-12-24,False
+C0049,Riya Nair,39,Male,Kolkata,East,Teacher,Beauty & Personal Care,Herbal Shampoo,2024-09-05,2,532.33,851.73,Debit Card,In-Store,Standard,Silver,0.2,5,2024-09-05,False
+C0114,Rohan Gupta,53,Other,Ahmedabad,West,Data Analyst,Electronics,USB-C Hub,2024-04-26,1,611.62,581.04,UPI,Online,Standard,Platinum,0.05,11,2024-12-11,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Home & Kitchen,Non-Stick Frying Pan,2024-12-29,2,1351.2,2161.92,Net Banking,Online,Standard,Platinum,0.2,43,2024-12-29,False
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Electronics,Smartwatch,2024-05-13,2,6838.74,11625.86,UPI,Online,Standard,Regular,0.15,13,2024-12-21,True
+C0011,Ananya Mehta,35,Female,Hyderabad,South,Designer,Books,Python Programming,2024-05-29,1,778.32,739.4,Debit Card,Online,Standard,Regular,0.05,6,2024-11-11,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Clothing,Casual Jacket,2024-04-12,1,3999.57,3799.59,Credit Card,Online,Standard,Silver,0.05,16,2024-12-24,False
+C0022,Tanvi Deshmukh,20,Male,Hyderabad,South,Student,Books,Atomic Habits,2024-05-01,3,780.97,2342.91,UPI,Online,Standard,Silver,0.0,8,2024-12-15,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Sports & Fitness,Resistance Bands Set,2024-11-22,2,1014.62,1623.39,Cash on Delivery,Online,Standard,Gold,0.2,36,2024-12-27,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Beauty & Personal Care,Moisturizing Cream,2024-11-01,2,548.23,1041.64,UPI,Online,Standard,Platinum,0.05,17,2024-12-28,False
+C0026,Aditi Verma,47,Male,Delhi,North,Software Engineer,Electronics,Power Bank,2024-01-25,5,1229.77,5533.96,Credit Card,Online,Standard,Silver,0.1,9,2024-12-18,False
+C0084,Riya Mukherjee,26,Male,Mumbai,West,Entrepreneur,Beauty & Personal Care,Moisturizing Cream,2024-05-16,1,383.25,344.92,UPI,Mobile App,Standard,Regular,0.1,11,2024-12-04,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Electric Blender,2024-04-03,2,2518.91,5037.82,UPI,In-Store,Standard,Gold,0.0,31,2024-12-30,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Clothing,Slim Fit Jeans,2024-03-16,1,2257.85,2257.85,UPI,In-Store,Standard,Regular,0.0,14,2024-11-28,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Home & Kitchen,Ceramic Mug Set,2024-08-03,4,812.38,2924.57,Cash on Delivery,Online,Standard,Silver,0.1,15,2024-10-29,False
+C0002,Manish Joshi,41,Male,Hyderabad,South,Financial Analyst,Books,Psychology of Money,2024-07-05,2,466.97,887.24,UPI,Online,Standard,Regular,0.05,8,2024-12-27,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Sports & Fitness,Adjustable Dumbbells,2024-10-20,2,4170.41,7923.78,Cash on Delivery,Online,Standard,Regular,0.05,17,2024-11-02,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Home & Kitchen,Stainless Steel Knife Set,2024-08-01,1,1792.9,1613.61,Cash on Delivery,Online,Standard,Platinum,0.1,14,2024-11-14,False
+C0018,Pooja Bose,40,Female,Bhubaneswar,East,Entrepreneur,Home & Kitchen,Non-Stick Frying Pan,2024-05-25,2,1640.87,2625.39,Credit Card,Online,Standard,Silver,0.2,10,2024-11-27,False
+C0057,Vikram Mukherjee,47,Female,Mumbai,West,Doctor,Sports & Fitness,Water Bottle 1L,2024-06-18,2,405.05,810.1,UPI,In-Store,Standard,Silver,0.0,11,2024-12-15,False
+C0008,Siddharth Gupta,53,Male,Mumbai,West,Data Analyst,Sports & Fitness,Yoga Mat,2024-03-17,2,1316.62,2369.92,Cash on Delivery,Online,Standard,Silver,0.1,3,2024-05-24,False
+C0017,Karan Mukherjee,59,Male,Jaipur,North,Consultant,Beauty & Personal Care,Moisturizing Cream,2024-11-26,1,459.65,436.67,UPI,Online,Standard,Silver,0.05,7,2024-12-08,False
+C0064,Priya Nair,68,Male,Mumbai,West,Designer,Home & Kitchen,Ceramic Mug Set,2024-08-28,1,682.99,614.69,UPI,In-Store,Standard,Regular,0.1,7,2024-12-09,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Electronics,USB-C Hub,2024-08-13,1,1045.07,992.82,Credit Card,Online,Standard,Silver,0.05,27,2024-12-24,False
+C0098,Shreya Mehta,23,Female,Bhubaneswar,East,Student,Electronics,Wireless Headphones,2024-12-25,1,2482.26,2482.26,Credit Card,Online,Standard,Silver,0.0,5,2024-12-25,False
+C0113,Nikhil Singh,47,Male,Hyderabad,South,Consultant,Clothing,Cotton T-Shirt,2024-01-30,1,465.26,465.26,UPI,Online,Standard,Regular,0.0,8,2024-12-28,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Beauty & Personal Care,Moisturizing Cream,2024-05-22,1,535.28,535.28,Credit Card,Online,Standard,Gold,0.0,26,2024-12-26,False
+C0035,Amit Sharma,47,Female,Jaipur,North,Sales Executive,Clothing,Slim Fit Jeans,2024-07-07,1,2668.94,2402.05,UPI,Online,Standard,Regular,0.1,8,2024-12-03,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Electronics,USB-C Hub,2024-06-12,3,600.84,1802.52,UPI,In-Store,Standard,Gold,0.0,20,2024-12-13,False
+C0022,Tanvi Deshmukh,20,Male,Hyderabad,South,Student,Beauty & Personal Care,Sunscreen SPF 50,2024-11-15,4,892.31,3212.32,UPI,In-Store,Standard,Silver,0.1,8,2024-12-15,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Electronics,Smartwatch,2024-01-06,1,4105.64,4105.64,UPI,Online,Standard,Gold,0.0,31,2024-12-30,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Clothing,Casual Jacket,2024-08-01,2,3282.4,5908.32,UPI,In-Store,Standard,Regular,0.1,14,2024-11-28,False
+C0007,Karan Nair,19,Female,Bangalore,South,Accountant,Electronics,Power Bank,2024-09-26,1,1754.07,1578.66,UPI,Online,Standard,Silver,0.1,1,2024-09-26,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Electronics,Bluetooth Speaker,2024-02-11,1,1771.64,1505.89,Net Banking,In-Store,Standard,Regular,0.15,15,2024-12-26,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Beauty & Personal Care,Moisturizing Cream,2024-05-05,1,897.09,762.53,Credit Card,Online,Standard,Regular,0.15,15,2024-12-02,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Home & Kitchen,Electric Blender,2024-03-30,1,1608.26,1608.26,UPI,Mobile App,Standard,Regular,0.0,16,2024-12-05,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Home & Kitchen,Stainless Steel Knife Set,2024-04-18,2,947.33,1610.46,Debit Card,Online,Standard,Regular,0.15,14,2024-11-28,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Home & Kitchen,Non-Stick Frying Pan,2024-08-06,1,1002.63,902.37,UPI,In-Store,Standard,Platinum,0.1,43,2024-12-29,False
+C0116,Siddharth Joshi,68,Female,Pune,West,Teacher,Clothing,Athletic Shorts,2024-05-07,1,945.23,897.97,Net Banking,In-Store,Standard,Regular,0.05,2,2024-05-07,False
+C0124,Arjun Joshi,21,Male,Kolkata,East,Architect,Beauty & Personal Care,Herbal Shampoo,2024-04-04,2,677.48,1219.46,UPI,Online,Standard,Regular,0.1,2,2024-09-17,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Books,Business Strategy Guide,2024-10-18,4,473.6,1704.96,Credit Card,Mobile App,Standard,Silver,0.1,15,2024-12-20,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Clothing,Athletic Shorts,2024-01-01,1,597.48,567.61,Credit Card,Online,Standard,Silver,0.05,19,2024-12-24,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Books,Atomic Habits,2024-09-28,1,587.19,499.11,UPI,Online,Standard,Gold,0.15,21,2024-12-03,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Clothing,Formal Shirt,2024-11-20,1,1566.74,1488.4,UPI,Online,Standard,Regular,0.05,16,2024-12-05,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Sports & Fitness,Adjustable Dumbbells,2024-11-15,1,2158.9,1727.12,Debit Card,In-Store,Standard,Silver,0.2,19,2024-12-24,False
+C0077,Arjun Kumar,47,Male,Kolkata,East,Product Manager,Electronics,Smartwatch,2024-05-11,1,6392.15,5752.94,UPI,In-Store,Standard,Gold,0.1,11,2024-12-18,False
+C0108,Arjun Mukherjee,54,Male,Bangalore,South,Architect,Beauty & Personal Care,Sunscreen SPF 50,2024-10-16,1,521.89,417.51,UPI,Online,Standard,Regular,0.2,4,2024-10-16,False
+C0092,Aditi Chopra,51,Male,Jaipur,North,Student,Clothing,Athletic Shorts,2024-03-19,2,1017.36,1729.51,UPI,Online,Standard,Silver,0.15,9,2024-09-23,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Beauty & Personal Care,Herbal Shampoo,2024-03-10,1,663.63,630.45,Cash on Delivery,Mobile App,Standard,Regular,0.05,36,2024-12-31,False
+C0018,Pooja Bose,40,Female,Bhubaneswar,East,Entrepreneur,Home & Kitchen,Ceramic Mug Set,2024-11-27,1,823.82,823.82,UPI,Mobile App,Standard,Silver,0.0,10,2024-11-27,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Home & Kitchen,Coffee Maker,2024-03-23,1,4368.77,4150.33,Credit Card,Online,Standard,Regular,0.05,15,2024-12-02,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Books,Psychology of Money,2024-04-07,1,666.85,666.85,Debit Card,Mobile App,Standard,Gold,0.0,36,2024-12-27,False
+C0029,Amit Mukherjee,26,Male,Ahmedabad,West,Entrepreneur,Books,Data Analytics Handbook,2024-02-26,3,1106.59,2987.79,UPI,In-Store,Standard,Regular,0.1,6,2024-11-12,True
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Sports & Fitness,Running Shoes,2024-01-16,1,2601.57,2341.41,UPI,Online,Standard,Platinum,0.1,43,2024-12-29,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Sports & Fitness,Water Bottle 1L,2024-01-02,1,677.27,643.41,Credit Card,In-Store,Standard,Silver,0.05,13,2024-12-16,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Electronics,Power Bank,2024-07-29,1,1596.04,1516.24,UPI,Online,Standard,Silver,0.05,15,2024-12-20,False
+C0031,Aarav Iyer,57,Male,Chennai,South,Architect,Beauty & Personal Care,Herbal Shampoo,2024-07-10,1,458.55,458.55,Credit Card,In-Store,Standard,Silver,0.0,12,2024-10-25,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Books,Atomic Habits,2024-02-03,2,537.04,1074.08,Debit Card,In-Store,Standard,Gold,0.0,26,2024-12-26,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Clothing,Casual Jacket,2024-08-11,1,2207.11,2207.11,Net Banking,In-Store,Standard,Platinum,0.0,24,2024-12-16,False
+C0084,Riya Mukherjee,26,Male,Mumbai,West,Entrepreneur,Sports & Fitness,Water Bottle 1L,2024-06-18,1,366.13,366.13,Credit Card,Online,Standard,Regular,0.0,11,2024-12-04,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Books,Psychology of Money,2024-05-09,1,599.43,569.46,Credit Card,Online,Standard,Silver,0.05,15,2024-10-29,False
+C0117,Pooja Gupta,50,Female,Delhi,North,Designer,Beauty & Personal Care,Sunscreen SPF 50,2024-04-26,1,655.47,589.92,UPI,Online,Standard,Regular,0.1,6,2024-11-26,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Electronics,USB-C Hub,2024-05-16,1,1364.03,1364.03,Credit Card,Online,Standard,Gold,0.0,36,2024-12-27,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Clothing,Casual Jacket,2024-03-14,1,2720.66,2720.66,UPI,Mobile App,Standard,Platinum,0.0,17,2024-12-28,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Clothing,Cotton T-Shirt,2024-12-03,2,697.67,1395.34,Credit Card,Online,Standard,Silver,0.0,13,2024-12-16,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Sports & Fitness,Resistance Bands Set,2024-01-26,1,725.53,652.98,Cash on Delivery,Online,Standard,Platinum,0.1,24,2024-12-16,False
+C0035,Amit Sharma,55,Female,Jaipur,North,Sales Executive,Sports & Fitness,Resistance Bands Set,2024-03-16,3,646.15,1841.53,Credit Card,In-Store,Standard,Regular,0.05,8,2024-12-03,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Home & Kitchen,Stainless Steel Knife Set,2024-12-21,2,1549.54,3099.08,UPI,Online,Standard,Gold,0.0,13,2024-12-28,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Clothing,Slim Fit Jeans,2024-05-27,1,2250.16,2025.14,Credit Card,Online,Standard,Silver,0.1,19,2024-12-21,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Electronics,Smartwatch,2024-08-03,1,2355.83,2355.83,Credit Card,Online,Standard,Regular,0.0,19,2024-12-18,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Beauty & Personal Care,Sunscreen SPF 50,2024-07-04,2,791.28,1582.56,Credit Card,Online,Standard,Silver,0.0,12,2024-11-09,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Clothing,Cotton T-Shirt,2024-10-30,1,686.37,686.37,Debit Card,In-Store,Standard,Regular,0.0,18,2024-12-01,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Beauty & Personal Care,Sunscreen SPF 50,2024-02-13,1,1006.11,1006.11,UPI,In-Store,Standard,Platinum,0.0,43,2024-12-29,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Books,Atomic Habits,2024-09-18,1,557.45,473.83,UPI,Online,Standard,Regular,0.15,36,2024-12-31,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Resistance Bands Set,2024-06-29,3,591.88,1598.08,UPI,Online,Standard,Regular,0.1,36,2024-12-31,False
+C0072,Priya Nair,22,Female,Bhubaneswar,East,Student,Sports & Fitness,Running Shoes,2024-02-04,2,4927.86,7884.58,Debit Card,Online,Standard,Gold,0.2,5,2024-08-29,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Books,Business Strategy Guide,2024-08-10,2,476.41,952.82,Credit Card,Online,Standard,Silver,0.0,15,2024-12-20,False
+C0060,Aarav Iyer,62,Male,Hyderabad,South,Consultant,Clothing,Athletic Shorts,2024-05-09,4,932.04,3355.34,UPI,Online,Standard,Regular,0.1,1,2024-05-09,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Home & Kitchen,Coffee Maker,2024-05-18,1,3426.67,3255.34,Net Banking,Online,Standard,Platinum,0.05,17,2024-12-28,False
+C0011,Ananya Mehta,35,Female,Hyderabad,South,Designer,Beauty & Personal Care,Face Cleanser,2024-08-29,1,404.22,343.59,UPI,Mobile App,Standard,Regular,0.15,6,2024-11-11,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Electronics,Wireless Headphones,2024-03-26,3,3674.09,9368.93,UPI,Online,Standard,Platinum,0.15,43,2024-12-29,False
+C0099,Arjun Mukherjee,40,Male,Bhubaneswar,East,Teacher,Clothing,Casual Jacket,2024-12-06,5,2256.21,10717.0,Credit Card,In-Store,Standard,Regular,0.05,10,2024-12-30,True
+C0074,Ananya Nair,67,Female,Noida,North,Doctor,Beauty & Personal Care,Moisturizing Cream,2024-03-14,3,624.09,1872.27,UPI,Online,Standard,Silver,0.0,11,2024-12-18,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Home & Kitchen,Electric Blender,2024-10-13,1,2183.92,2183.92,Net Banking,Online,Standard,Regular,0.0,36,2024-12-31,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Electronics,USB-C Hub,2024-02-09,1,635.93,604.13,Credit Card,Mobile App,Standard,Silver,0.05,16,2024-12-24,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Sports & Fitness,Adjustable Dumbbells,2024-08-05,5,2712.72,11529.06,Debit Card,Online,Standard,Platinum,0.15,43,2024-12-29,True
+C0133,Priya Iyer,63,Female,Kolkata,East,Entrepreneur,Home & Kitchen,Electric Blender,2024-11-05,1,2274.6,2047.14,Credit Card,Online,Standard,Gold,0.1,3,2024-11-05,False
+C0070,Tanvi Gupta,64,Male,Pune,West,Marketing Specialist,Clothing,Cotton T-Shirt,2024-12-04,1,837.86,837.86,Credit Card,Online,Standard,Platinum,0.0,3,2024-12-30,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Beauty & Personal Care,Sunscreen SPF 50,2024-09-14,4,460.42,1841.68,Net Banking,Online,Standard,Regular,0.0,19,2024-12-20,False
+C0101,Divya Deshmukh,68,Male,Pune,West,Data Analyst,Books,Python Programming,2024-11-25,1,991.12,941.56,UPI,In-Store,Standard,Silver,0.05,8,2024-12-30,False
+C0134,Divya Reddy,64,Female,Bhubaneswar,East,Accountant,Beauty & Personal Care,Herbal Shampoo,2024-03-05,1,435.43,391.89,Cash on Delivery,Mobile App,Standard,Gold,0.1,11,2024-11-29,False
+C0037,Aarav Bose,65,Female,Hyderabad,South,Consultant,Sports & Fitness,Running Shoes,2024-05-30,5,2517.85,12589.25,Cash on Delivery,In-Store,Standard,Regular,0.0,2,2024-05-30,True
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Adjustable Dumbbells,2024-12-18,1,1603.29,1362.8,Cash on Delivery,Online,Standard,Gold,0.15,31,2024-12-30,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Ceramic Mug Set,2024-12-30,1,986.18,936.87,Cash on Delivery,Online,Standard,Gold,0.05,31,2024-12-30,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Electronics,Wireless Headphones,2024-05-22,4,3795.95,15183.8,UPI,Online,Standard,Regular,0.0,36,2024-12-31,True
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Books,Python Programming,2024-08-02,1,1055.19,1055.19,Credit Card,Mobile App,Standard,Silver,0.0,27,2024-12-24,False
+C0116,Siddharth Joshi,68,Female,Pune,West,Teacher,Clothing,Casual Jacket,2024-04-14,1,4843.06,4843.06,UPI,Online,Standard,Regular,0.0,2,2024-05-07,False
+C0134,Divya Reddy,64,Female,Bhubaneswar,East,Accountant,Beauty & Personal Care,Sunscreen SPF 50,2024-01-01,1,1050.8,1050.8,UPI,Online,Standard,Gold,0.0,11,2024-11-29,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Home & Kitchen,Electric Blender,2024-05-29,1,2645.86,2645.86,Credit Card,Online,Standard,Gold,0.0,20,2024-12-13,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Electronics,Bluetooth Speaker,2024-03-20,3,2383.33,6792.49,Credit Card,Mobile App,Standard,Gold,0.05,36,2024-12-27,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Books,Python Programming,2024-04-23,2,811.5,1460.7,UPI,Online,Standard,Silver,0.1,13,2024-12-16,False
+C0031,Aarav Iyer,47,Male,Chennai,South,Architect,Beauty & Personal Care,Perfume Spray,2024-07-25,3,1669.19,4757.19,Credit Card,Online,Standard,Silver,0.05,12,2024-10-25,True
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Sports & Fitness,Running Shoes,2024-12-21,2,4277.92,8555.84,UPI,Online,Standard,Silver,0.0,20,2024-12-21,False
+C0083,Ananya Nair,67,Male,Pune,West,Architect,Sports & Fitness,Water Bottle 1L,2024-02-11,3,487.93,1463.79,Credit Card,In-Store,Standard,Silver,0.0,2,2024-09-24,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Beauty & Personal Care,Herbal Shampoo,2024-03-18,1,534.7,427.76,UPI,Online,Standard,Gold,0.2,36,2024-12-27,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Books,Python Programming,2024-11-01,1,883.24,883.24,Net Banking,Online,Standard,Platinum,0.0,43,2024-12-29,False
+C0076,Pooja Patel,48,Female,Ahmedabad,West,Consultant,Electronics,Power Bank,2024-03-11,1,1372.38,1166.52,Cash on Delivery,Mobile App,Standard,Silver,0.15,5,2024-12-23,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Beauty & Personal Care,Perfume Spray,2024-10-03,3,2458.8,7376.4,UPI,Online,Standard,Platinum,0.0,14,2024-11-14,True
+C0058,Meera Mehta,50,Male,Pune,West,Consultant,Electronics,USB-C Hub,2024-11-18,2,649.47,1298.94,UPI,Online,Standard,Gold,0.0,4,2024-12-18,False
+C0101,Divya Deshmukh,68,Male,Pune,West,Data Analyst,Beauty & Personal Care,Face Cleanser,2024-07-16,1,597.87,538.08,Cash on Delivery,Online,Standard,Silver,0.1,8,2024-12-30,False
+C0029,Amit Mukherjee,26,Male,Ahmedabad,West,Entrepreneur,Clothing,Casual Jacket,2024-02-11,1,4845.11,4845.11,UPI,Online,Standard,Regular,0.0,6,2024-11-12,False
+C0062,Amit Mehta,20,Female,Hyderabad,South,Designer,Books,Python Programming,2024-09-02,1,961.78,817.51,Credit Card,Online,Standard,Silver,0.15,4,2024-09-02,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Books,Data Analytics Handbook,2024-07-14,1,1111.99,1000.79,Credit Card,Mobile App,Standard,Silver,0.1,13,2024-12-16,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Beauty & Personal Care,Sunscreen SPF 50,2024-07-27,2,691.13,1382.26,Debit Card,Online,Standard,Silver,0.0,12,2024-11-09,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Sports & Fitness,Resistance Bands Set,2024-11-16,1,803.54,683.01,UPI,Online,Standard,Platinum,0.15,24,2024-12-16,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Books,Python Programming,2024-08-07,3,832.07,2496.21,Credit Card,Mobile App,Standard,Regular,0.0,17,2024-11-02,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Books,Business Strategy Guide,2024-07-19,1,636.02,604.22,Cash on Delivery,Online,Standard,Platinum,0.05,26,2024-12-25,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Beauty & Personal Care,Perfume Spray,2024-07-12,1,3126.13,2657.21,UPI,In-Store,Standard,Silver,0.15,27,2024-12-24,False
+C0145,Meera Iyer,47,Male,Jaipur,North,Data Analyst,Books,Python Programming,2024-12-16,1,1001.96,901.76,UPI,Online,Standard,Silver,0.1,13,2024-12-16,False
+C0078,Karan Kumar,20,Female,Chennai,South,Accountant,Beauty & Personal Care,Sunscreen SPF 50,2024-01-17,1,956.59,860.93,Debit Card,In-Store,Standard,Silver,0.1,11,2024-10-05,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Clothing,Slim Fit Jeans,2024-02-13,2,2273.06,4546.12,Credit Card,Online,Standard,Gold,0.0,36,2024-12-27,False
+C0015,Aarav Das,52,Female,Ahmedabad,West,Student,Home & Kitchen,Electric Blender,2024-05-24,1,1702.34,1617.22,UPI,Online,Standard,Platinum,0.05,1,2024-05-24,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Electronics,Power Bank,2024-08-06,1,1056.25,950.62,Net Banking,Mobile App,Standard,Gold,0.1,20,2024-12-13,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Home & Kitchen,Non-Stick Frying Pan,2024-10-17,1,1333.27,1199.94,Debit Card,Mobile App,Standard,Platinum,0.1,14,2024-11-14,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Books,Atomic Habits,2024-12-20,2,543.87,1087.74,Debit Card,Online,Standard,Silver,0.0,15,2024-12-20,False
+C0128,Aarav Patel,53,Other,Chennai,South,Software Engineer,Beauty & Personal Care,Herbal Shampoo,2024-11-18,1,689.8,689.8,Debit Card,In-Store,Standard,Regular,0.0,8,2024-11-18,False
+C0074,Ananya Nair,67,Female,Noida,North,Doctor,Sports & Fitness,Yoga Mat,2024-12-18,2,693.97,1318.54,Credit Card,Online,Standard,Silver,0.05,11,2024-12-18,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Sports & Fitness,Adjustable Dumbbells,2024-12-27,3,3237.94,9228.13,UPI,Online,Standard,Gold,0.05,36,2024-12-27,True
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Adjustable Dumbbells,2024-08-13,1,4288.95,3860.06,UPI,Mobile App,Standard,Gold,0.1,31,2024-12-30,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Home & Kitchen,Ceramic Mug Set,2024-01-08,2,582.47,1164.94,UPI,Online,Standard,Regular,0.0,14,2024-11-28,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Electronics,Power Bank,2024-09-30,3,1118.67,3356.01,Credit Card,Online,Standard,Gold,0.0,20,2024-12-13,False
+C0030,Pooja Gupta,20,Male,Mumbai,West,Consultant,Clothing,Slim Fit Jeans,2024-01-16,39,1977.62,77127.18,Net Banking,Online,Standard,Gold,0.0,20,2024-12-13,True
+C0011,Ananya Mehta,35,Female,Hyderabad,South,Designer,Electronics,Bluetooth Speaker,2024-05-27,1,3294.53,3294.53,Credit Card,Online,Standard,Regular,0.0,6,2024-11-11,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Clothing,Athletic Shorts,2024-02-22,1,593.47,504.45,UPI,In-Store,Standard,Regular,0.15,36,2024-12-31,False
+C0111,Ananya Sharma,47,Male,Pune,West,Teacher,Sports & Fitness,Running Shoes,2024-04-03,1,2597.1,2467.24,Cash on Delivery,Online,Standard,Regular,0.05,14,2024-10-12,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Electronics,USB-C Hub,2024-06-12,1,967.11,967.11,Credit Card,Online,Standard,Regular,0.0,18,2024-12-01,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Beauty & Personal Care,Moisturizing Cream,2024-02-20,1,897.09,897.09,Credit Card,Online,Standard,Silver,0.0,20,2024-12-21,False
+C0125,Ananya Kumar,55,Female,Delhi,North,Architect,Clothing,Slim Fit Jeans,2024-03-16,4,2044.24,7359.26,UPI,Mobile App,Standard,Silver,0.1,9,2024-12-29,False
+C0099,Arjun Mukherjee,40,Male,Bhubaneswar,East,Teacher,Home & Kitchen,Electric Blender,2024-11-12,3,2625.08,7087.72,UPI,Online,Standard,Regular,0.1,10,2024-12-30,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Home & Kitchen,Coffee Maker,2024-01-13,1,1832.18,1648.96,UPI,In-Store,Standard,Platinum,0.1,43,2024-12-29,False
+C0036,Divya Das,19,Female,Chennai,South,Product Manager,Books,Business Strategy Guide,2024-09-20,1,572.33,486.48,UPI,Online,Standard,Regular,0.15,5,2024-09-20,False
+C0024,Shreya Reddy,66,Male,Kolkata,East,Product Manager,Books,Atomic Habits,2024-01-31,1,704.01,598.41,Credit Card,In-Store,Standard,Silver,0.15,5,2024-08-28,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Clothing,Athletic Shorts,2024-02-06,3,1009.22,3027.66,Net Banking,Online,Standard,Regular,0.0,19,2024-12-20,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Beauty & Personal Care,Face Cleanser,2024-08-03,1,380.7,361.66,UPI,In-Store,Standard,Regular,0.05,15,2024-12-02,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Clothing,Slim Fit Jeans,2024-05-04,1,1531.38,1301.67,UPI,In-Store,Standard,Regular,0.15,15,2024-12-26,False
+C0011,Ananya Mehta,35,Female,Hyderabad,South,Designer,Clothing,Formal Shirt,2024-07-30,1,1774.68,1419.74,Cash on Delivery,Online,Standard,Regular,0.2,6,2024-11-11,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Books,Data Analytics Handbook,2024-10-27,2,699.9,1399.8,UPI,In-Store,Standard,Silver,0.0,27,2024-12-24,False
+C0077,Arjun Kumar,62,Male,Kolkata,East,Product Manager,Beauty & Personal Care,Perfume Spray,2024-07-25,1,3297.11,2967.4,Credit Card,In-Store,Standard,Gold,0.1,11,2024-12-18,False
+C0136,Karan Singh,46,Male,Chennai,South,Teacher,Home & Kitchen,Stainless Steel Knife Set,2024-04-12,1,1137.57,910.06,UPI,Mobile App,Standard,Regular,0.2,3,2024-07-05,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Electronics,Smartwatch,2024-05-11,4,3340.67,13362.68,UPI,Online,Standard,Regular,0.0,15,2024-12-16,True
+C0087,Divya Das,28,Female,Chennai,South,Teacher,Beauty & Personal Care,Herbal Shampoo,2024-08-04,1,436.68,436.68,UPI,Online,Standard,Regular,0.0,7,2024-11-22,False
+C0012,Varun Reddy,32,Male,Chennai,South,Consultant,Home & Kitchen,Ceramic Mug Set,2024-10-18,1,518.31,518.31,UPI,Online,Standard,Silver,0.0,7,2024-10-18,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Clothing,Athletic Shorts,2024-10-11,1,652.81,652.81,Net Banking,Online,Standard,Platinum,0.0,14,2024-12-30,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Electronics,Wireless Headphones,2024-02-28,2,1990.85,3583.53,UPI,Mobile App,Standard,Platinum,0.1,17,2024-12-28,False
+C0143,Karan Sharma,71,Female,Hyderabad,South,Software Engineer,Clothing,Casual Jacket,2024-05-19,3,2670.84,6810.64,UPI,Online,Standard,Silver,0.15,10,2024-12-19,False
+C0002,Manish Joshi,41,Male,Hyderabad,South,Financial Analyst,Clothing,Slim Fit Jeans,2024-12-27,4,2008.69,6427.81,UPI,Online,Standard,Regular,0.2,8,2024-12-27,False
+C0139,Tanvi Reddy,43,Male,Mumbai,West,Architect,Electronics,USB-C Hub,2024-04-29,2,1169.86,2339.72,UPI,Online,Standard,Regular,0.0,4,2024-12-11,False
+C0107,Rohan Mukherjee,64,Male,Noida,North,Designer,Electronics,Power Bank,2024-04-23,4,1877.78,6008.9,UPI,Mobile App,Standard,Silver,0.2,5,2024-12-30,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Beauty & Personal Care,Sunscreen SPF 50,2024-12-18,3,454.58,1363.74,Credit Card,In-Store,Standard,Platinum,0.0,43,2024-12-29,False
+C0078,Karan Kumar,20,Female,Chennai,South,Accountant,Books,Atomic Habits,2024-05-05,4,790.98,3163.92,Debit Card,Online,Standard,Silver,0.0,11,2024-10-05,True
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Sports & Fitness,Yoga Mat,2024-01-25,5,908.0,4086.0,UPI,Online,Standard,Platinum,0.1,14,2024-11-14,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Clothing,Athletic Shorts,2024-02-16,2,600.53,1080.95,Net Banking,Online,Standard,Silver,0.1,16,2024-12-24,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Beauty & Personal Care,Sunscreen SPF 50,2024-10-12,1,925.72,925.72,Credit Card,Mobile App,Standard,Regular,0.0,14,2024-10-12,False
+C0026,Aditi Verma,71,Male,Delhi,North,Software Engineer,Clothing,Cotton T-Shirt,2024-07-04,1,1052.85,947.56,Debit Card,Online,Standard,Silver,0.1,9,2024-12-18,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Clothing,Slim Fit Jeans,2024-02-13,2,1477.95,2955.9,UPI,In-Store,Standard,Regular,0.0,19,2024-12-18,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Beauty & Personal Care,Sunscreen SPF 50,2024-07-10,4,555.63,1889.14,UPI,In-Store,Standard,Regular,0.15,15,2024-12-16,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Home & Kitchen,Electric Blender,2024-06-15,1,2240.0,2240.0,Net Banking,Online,Standard,Regular,0.0,14,2024-11-28,False
+C0035,Amit Sharma,55,Female,Jaipur,North,Sales Executive,Clothing,Formal Shirt,2024-06-25,1,1357.24,1357.24,Net Banking,In-Store,Standard,Regular,0.0,8,2024-12-03,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Electronics,Smartwatch,2024-12-03,2,4816.55,9151.44,UPI,Online,Standard,Silver,0.05,13,2024-12-16,False
+C0020,Nikhil Singh,45,Male,Mumbai,West,Sales Executive,Books,Business Strategy Guide,2024-05-30,2,716.53,1361.41,Cash on Delivery,Online,Standard,Regular,0.05,6,2024-12-30,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Clothing,Athletic Shorts,2024-09-25,1,711.68,676.1,UPI,Online,Standard,Regular,0.05,14,2024-10-12,False
+C0076,Pooja Patel,48,Female,Ahmedabad,West,Consultant,Clothing,Casual Jacket,2024-11-18,1,3999.22,3799.26,Cash on Delivery,Mobile App,Standard,Silver,0.05,5,2024-12-23,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Electronics,Power Bank,2024-07-28,2,1732.19,3117.94,UPI,Online,Standard,Platinum,0.1,43,2024-12-29,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Home & Kitchen,Stainless Steel Knife Set,2024-05-22,3,1795.19,4577.73,UPI,Mobile App,Standard,Gold,0.15,20,2024-12-13,False
+C0114,Rohan Gupta,53,Other,Ahmedabad,West,Data Analyst,Home & Kitchen,Electric Blender,2024-08-19,5,1957.06,8317.5,Debit Card,In-Store,Standard,Platinum,0.15,11,2024-12-11,True
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Electronics,USB-C Hub,2024-03-27,1,1160.29,1160.29,Net Banking,Online,Standard,Silver,0.0,20,2024-12-21,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Beauty & Personal Care,Perfume Spray,2024-08-31,2,1385.54,2493.97,UPI,Online,Standard,Regular,0.1,15,2024-12-26,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Books,Atomic Habits,2024-08-03,4,515.66,2062.64,UPI,Mobile App,Standard,Gold,0.0,13,2024-12-28,False
+C0084,Riya Mukherjee,26,Male,Mumbai,West,Entrepreneur,Beauty & Personal Care,Herbal Shampoo,2024-08-14,1,364.38,346.16,UPI,Mobile App,Standard,Regular,0.05,11,2024-12-04,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Running Shoes,2024-01-25,3,4497.97,12144.52,Credit Card,Online,Standard,Gold,0.1,31,2024-12-30,True
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Electronics,Wireless Headphones,2024-11-08,3,2017.16,5446.33,UPI,In-Store,Standard,Platinum,0.1,43,2024-12-29,False
+C0098,Shreya Mehta,23,Female,Bhubaneswar,East,Student,Sports & Fitness,Yoga Mat,2024-03-09,3,1323.32,3175.97,UPI,Online,Standard,Silver,0.2,5,2024-12-25,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Beauty & Personal Care,Sunscreen SPF 50,2024-03-29,1,619.44,619.44,UPI,Mobile App,Standard,Regular,0.0,19,2024-12-18,False
+C0135,Meera Patel,54,Female,Kolkata,East,Software Engineer,Electronics,Smartwatch,2024-01-15,2,2292.34,3667.74,UPI,In-Store,Standard,Platinum,0.2,11,2024-12-30,False
+C0113,Nikhil Singh,47,Male,Hyderabad,South,Consultant,Clothing,Cotton T-Shirt,2024-11-06,1,708.08,708.08,Debit Card,In-Store,Standard,Regular,0.0,8,2024-12-28,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Books,Data Analytics Handbook,2024-07-04,1,647.36,614.99,Net Banking,Online,Standard,Gold,0.05,13,2024-12-28,False
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Sports & Fitness,Adjustable Dumbbells,2024-01-18,3,2970.94,7575.9,Debit Card,Mobile App,Standard,Silver,0.15,13,2024-12-26,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Books,Psychology of Money,2024-11-25,1,561.6,533.52,UPI,Online,Standard,Platinum,0.05,24,2024-12-16,False
+C0063,Varun Chopra,68,Female,Bangalore,South,Software Engineer,Sports & Fitness,Yoga Mat,2024-01-12,1,631.64,600.06,UPI,Online,Standard,Regular,0.05,5,2024-11-10,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Electronics,Bluetooth Speaker,2024-11-12,1,2946.9,2652.21,UPI,In-Store,Standard,Platinum,0.1,24,2024-12-16,False
+C0023,Vikram Sharma,59,Male,Bhubaneswar,East,Teacher,Sports & Fitness,Running Shoes,2024-06-30,1,4596.98,3907.43,Credit Card,Online,Standard,Silver,0.15,4,2024-06-30,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Sports & Fitness,Adjustable Dumbbells,2024-01-24,1,2302.58,2302.58,UPI,Mobile App,Standard,Platinum,0.0,24,2024-12-16,False
+C0150,Ananya Verma,47,Other,Hyderabad,South,Sales Executive,Clothing,Slim Fit Jeans,2024-11-23,1,2846.45,2704.13,UPI,Online,Standard,Regular,0.05,3,2024-11-23,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Home & Kitchen,Non-Stick Frying Pan,2024-09-04,3,1999.35,5398.24,Credit Card,In-Store,Standard,Regular,0.1,15,2024-12-02,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Sports & Fitness,Running Shoes,2024-09-27,1,3888.82,3888.82,UPI,In-Store,Standard,Silver,0.0,13,2024-12-16,False
+C0067,Shreya Kumar,29,Male,Bangalore,South,Architect,Home & Kitchen,Non-Stick Frying Pan,2024-05-18,5,1365.59,6145.16,Credit Card,Online,Standard,Silver,0.1,10,2024-11-27,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Home & Kitchen,Coffee Maker,2024-06-29,2,4354.7,8273.93,Debit Card,Online,Standard,Platinum,0.05,43,2024-12-29,True
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Clothing,Casual Jacket,2024-01-11,2,4986.86,9475.03,UPI,Online,Standard,Regular,0.05,13,2024-12-21,True
+C0098,Shreya Mehta,23,Female,Bhubaneswar,East,Student,Electronics,Bluetooth Speaker,2024-08-30,2,2502.99,5005.98,UPI,Mobile App,Standard,Silver,0.0,5,2024-12-25,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Books,Psychology of Money,2024-12-02,2,658.84,1317.68,UPI,Online,Standard,Regular,0.0,36,2024-12-31,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Books,Psychology of Money,2024-10-06,1,381.44,381.44,UPI,In-Store,Standard,Platinum,0.0,43,2024-12-29,False
+C0067,Shreya Kumar,29,Male,Bangalore,South,Architect,Electronics,Smartwatch,2024-07-17,1,7084.72,7084.72,Debit Card,Online,Standard,Silver,0.0,10,2024-11-27,False
+C0055,Nikhil Sharma,47,Female,Pune,West,Teacher,Sports & Fitness,Adjustable Dumbbells,2024-06-10,1,2275.67,2161.89,Debit Card,Online,Standard,Regular,0.05,17,2024-11-02,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Beauty & Personal Care,Face Cleanser,2024-03-03,1,291.93,277.33,Debit Card,In-Store,Standard,Regular,0.05,14,2024-10-12,False
+C0125,Ananya Kumar,55,Female,Delhi,North,Architect,Beauty & Personal Care,Perfume Spray,2024-12-29,1,1308.62,1046.9,Cash on Delivery,Online,Standard,Silver,0.2,9,2024-12-29,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Clothing,Slim Fit Jeans,2024-11-18,2,2717.66,4891.79,UPI,Online,Standard,Platinum,0.1,26,2024-12-25,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Home & Kitchen,Electric Blender,2024-06-21,1,2350.49,2350.49,UPI,Online,Standard,Gold,0.0,26,2024-12-26,False
+C0074,Ananya Nair,67,Female,Noida,North,Doctor,Home & Kitchen,Electric Blender,2024-07-31,1,2180.56,1962.5,Net Banking,Online,Standard,Silver,0.1,11,2024-12-18,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Books,Business Strategy Guide,2024-08-13,1,914.19,868.48,Credit Card,In-Store,Standard,Silver,0.05,27,2024-12-24,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Books,Python Programming,2024-09-13,3,847.66,2415.83,Credit Card,Mobile App,Standard,Regular,0.05,16,2024-12-05,False
+C0002,Manish Joshi,41,Male,Hyderabad,South,Financial Analyst,Books,Data Analytics Handbook,2024-08-29,1,651.09,585.98,Net Banking,Mobile App,Standard,Regular,0.1,8,2024-12-27,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Beauty & Personal Care,Sunscreen SPF 50,2024-08-22,2,652.48,1239.71,Credit Card,Online,Standard,Regular,0.05,17,2024-11-02,False
+C0059,Riya Mehta,51,Male,Kolkata,East,Designer,Beauty & Personal Care,Sunscreen SPF 50,2024-06-23,3,791.87,2375.61,UPI,Online,Standard,Regular,0.0,5,2024-10-24,False
+C0063,Varun Chopra,68,Female,Bangalore,South,Software Engineer,Electronics,USB-C Hub,2024-09-18,37,1105.75,40912.75,Credit Card,Online,Standard,Regular,0.0,5,2024-11-10,True
+C0114,Rohan Gupta,53,Other,Ahmedabad,West,Data Analyst,Books,Business Strategy Guide,2024-06-25,1,784.34,705.91,Credit Card,Online,Standard,Platinum,0.1,11,2024-12-11,False
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Clothing,Cotton T-Shirt,2024-10-17,1,551.95,551.95,Net Banking,Online,Standard,Regular,0.0,13,2024-12-08,False
+C0077,Arjun Kumar,62,Male,Kolkata,East,Product Manager,Books,Atomic Habits,2024-04-12,2,792.0,1425.6,Debit Card,Online,Standard,Gold,0.1,11,2024-12-18,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Clothing,Cotton T-Shirt,2024-10-18,4,766.56,2759.62,Credit Card,In-Store,Standard,Gold,0.1,36,2024-12-27,False
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Clothing,Formal Shirt,2024-02-02,2,1941.04,3687.98,UPI,Mobile App,Standard,Regular,0.05,13,2024-12-08,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Books,Psychology of Money,2024-08-16,2,534.02,1014.64,Credit Card,Online,Standard,Gold,0.05,36,2024-12-27,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Electronics,Power Bank,2024-08-25,2,1700.19,2720.3,Credit Card,Mobile App,Standard,Regular,0.2,22,2024-12-24,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Electronics,Bluetooth Speaker,2024-07-26,2,3031.46,4850.34,UPI,Online,Standard,Regular,0.2,14,2024-10-12,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Electronics,Power Bank,2024-03-19,1,857.34,728.74,UPI,Mobile App,Standard,Gold,0.15,31,2024-12-30,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Clothing,Slim Fit Jeans,2024-06-30,42,2797.4,117490.8,UPI,In-Store,Standard,Regular,0.0,18,2024-12-01,True
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Books,Business Strategy Guide,2024-04-30,2,540.44,1080.88,Credit Card,Online,Standard,Regular,0.0,13,2024-12-08,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Electronics,Smartwatch,2024-07-10,1,2931.6,2931.6,UPI,Online,Standard,Platinum,0.0,43,2024-12-29,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Clothing,Casual Jacket,2024-02-03,1,3867.13,3867.13,UPI,Online,Standard,Platinum,0.0,14,2024-11-14,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Books,Data Analytics Handbook,2024-04-22,1,1032.73,929.46,Cash on Delivery,Online,Standard,Regular,0.1,18,2024-12-01,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Beauty & Personal Care,Sunscreen SPF 50,2024-06-25,1,1003.78,1003.78,Net Banking,In-Store,Standard,Regular,0.0,19,2024-12-18,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Home & Kitchen,Coffee Maker,2024-08-19,4,3727.69,14165.22,Debit Card,In-Store,Standard,Silver,0.05,15,2024-12-20,True
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Sports & Fitness,Resistance Bands Set,2024-08-27,5,684.07,3420.35,Credit Card,In-Store,Standard,Regular,0.0,13,2024-12-08,False
+C0064,Priya Nair,68,Male,Mumbai,West,Designer,Beauty & Personal Care,Face Cleanser,2024-06-12,1,369.57,369.57,Credit Card,Online,Standard,Regular,0.0,7,2024-12-09,False
+C0099,Arjun Mukherjee,40,Male,Bhubaneswar,East,Teacher,Clothing,Cotton T-Shirt,2024-10-06,2,1170.37,1872.59,Net Banking,In-Store,Standard,Regular,0.2,10,2024-12-30,False
+C0092,Aditi Chopra,51,Male,Jaipur,North,Student,Electronics,USB-C Hub,2024-03-20,2,1369.06,2738.12,Credit Card,Online,Standard,Silver,0.0,9,2024-09-23,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Sports & Fitness,Adjustable Dumbbells,2024-07-14,1,2128.25,1915.42,UPI,Online,Standard,Regular,0.1,22,2024-12-24,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Electronics,USB-C Hub,2024-03-17,3,622.34,1867.02,UPI,Online,Standard,Platinum,0.0,26,2024-12-25,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Clothing,Cotton T-Shirt,2024-12-24,2,600.29,1020.49,Cash on Delivery,Online,Standard,Silver,0.15,19,2024-12-24,False
+C0117,Pooja Gupta,50,Female,Delhi,North,Designer,Sports & Fitness,Water Bottle 1L,2024-07-11,5,559.51,2517.8,Credit Card,Online,Standard,Regular,0.1,6,2024-11-26,False
+C0140,Sneha Verma,44,Female,Delhi,North,Student,Sports & Fitness,Running Shoes,2024-07-24,1,4049.79,3644.81,UPI,Online,Standard,Gold,0.1,3,2024-07-24,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Clothing,Athletic Shorts,2024-12-07,2,915.55,1739.54,Debit Card,Online,Standard,Regular,0.05,19,2024-12-18,False
+C0034,Rohan Gupta,37,Female,Hyderabad,South,Software Engineer,Sports & Fitness,Yoga Mat,2024-02-25,1,1272.76,1209.12,Cash on Delivery,Online,Standard,Platinum,0.05,2,2024-06-24,False
+C0002,Manish Joshi,41,Male,Hyderabad,South,Financial Analyst,Beauty & Personal Care,Herbal Shampoo,2024-05-03,4,696.77,2508.37,UPI,In-Store,Standard,Regular,0.1,8,2024-12-27,False
+C0109,Riya Nair,42,Female,Mumbai,West,Architect,Sports & Fitness,Adjustable Dumbbells,2024-11-18,1,2249.66,2249.66,Debit Card,Online,Standard,Regular,0.0,3,2024-11-18,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Books,Python Programming,2024-06-25,4,688.6,2616.68,UPI,Online,Standard,Gold,0.05,21,2024-12-03,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Clothing,Slim Fit Jeans,2024-02-12,3,1665.11,4246.03,Credit Card,Online,Standard,Gold,0.15,36,2024-12-27,False
+C0135,Meera Patel,54,Female,Kolkata,East,Software Engineer,Electronics,Smartwatch,2024-12-11,1,6425.26,6425.26,Credit Card,In-Store,Standard,Platinum,0.0,11,2024-12-30,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Home & Kitchen,Electric Blender,2024-09-23,5,2804.19,14020.95,Credit Card,In-Store,Standard,Regular,0.0,15,2024-12-02,True
+C0136,Karan Singh,46,Male,Chennai,South,Teacher,Electronics,USB-C Hub,2024-07-05,2,1072.21,2144.42,Credit Card,In-Store,Standard,Regular,0.0,3,2024-07-05,False
+C0057,Vikram Mukherjee,47,Female,Mumbai,West,Doctor,Home & Kitchen,Non-Stick Frying Pan,2024-09-27,3,1393.52,4180.56,UPI,Mobile App,Standard,Silver,0.0,11,2024-12-15,False
+C0022,Tanvi Deshmukh,20,Male,Hyderabad,South,Student,Clothing,Slim Fit Jeans,2024-03-24,1,1988.44,1889.02,UPI,Online,Standard,Silver,0.05,8,2024-12-15,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Home & Kitchen,Coffee Maker,2024-05-27,1,3345.17,3345.17,UPI,Mobile App,Standard,Silver,0.0,16,2024-12-24,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Beauty & Personal Care,Sunscreen SPF 50,2024-10-18,1,965.25,868.72,Credit Card,In-Store,Standard,Silver,0.1,12,2024-11-09,False
+C0047,Rahul Reddy,62,Male,Hyderabad,South,Sales Executive,Sports & Fitness,Adjustable Dumbbells,2024-03-15,1,1630.3,1385.76,Debit Card,Online,Standard,Regular,0.15,5,2024-12-17,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Clothing,Formal Shirt,2024-07-22,1,1786.24,1607.62,Credit Card,In-Store,Standard,Regular,0.1,15,2024-12-16,False
+C0125,Ananya Kumar,55,Female,Delhi,North,Architect,Home & Kitchen,Coffee Maker,2024-06-06,3,2759.93,8279.79,UPI,Online,Standard,Silver,0.0,9,2024-12-29,True
+C0093,Aarav Singh,22,Male,Bhubaneswar,East,Architect,Electronics,Wireless Headphones,2024-06-16,1,4289.77,3860.79,Credit Card,Online,Standard,Platinum,0.1,5,2024-09-05,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Clothing,Casual Jacket,2024-08-26,1,2037.73,1833.96,Debit Card,Online,Standard,Regular,0.1,15,2024-12-16,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Home & Kitchen,Ceramic Mug Set,2024-11-23,2,421.09,757.96,Net Banking,Online,Standard,Regular,0.1,22,2024-12-24,False
+C0117,Pooja Gupta,50,Female,Delhi,North,Designer,Clothing,Casual Jacket,2024-11-05,1,4800.37,4800.37,Net Banking,Online,Standard,Regular,0.0,6,2024-11-26,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Electronics,Smartwatch,2024-04-05,2,2856.81,4856.58,Credit Card,In-Store,Standard,Regular,0.15,19,2024-12-20,False
+C0069,Neha Deshmukh,36,Male,Bangalore,South,Accountant,Home & Kitchen,Coffee Maker,2024-08-02,1,3757.31,3569.44,UPI,Online,Standard,Regular,0.05,8,2024-11-20,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Clothing,Cotton T-Shirt,2024-03-10,1,629.48,629.48,Credit Card,Online,Standard,Silver,0.0,27,2024-12-24,False
+C0031,Aarav Iyer,57,Male,Chennai,South,Architect,Beauty & Personal Care,Perfume Spray,2024-03-25,1,2604.68,2604.68,UPI,Online,Standard,Silver,0.0,12,2024-10-25,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Books,Business Strategy Guide,2024-06-15,1,457.51,434.63,Credit Card,Online,Standard,Gold,0.05,13,2024-12-28,False
+C0031,Aarav Iyer,57,Male,Chennai,South,Architect,Sports & Fitness,Water Bottle 1L,2024-02-02,4,737.37,2507.06,UPI,Online,Standard,Silver,0.15,12,2024-10-25,False
+C0090,Vikram Mehta,27,Female,Delhi,North,Doctor,Electronics,USB-C Hub,2024-04-18,1,1020.65,816.52,UPI,Online,Standard,Silver,0.2,1,2024-04-18,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Clothing,Casual Jacket,2024-01-10,2,3606.24,6130.61,UPI,Online,Standard,Regular,0.15,14,2024-11-28,False
+C0023,Vikram Sharma,59,Male,Bhubaneswar,East,Teacher,Electronics,Bluetooth Speaker,2024-05-11,1,3029.75,3029.75,Credit Card,In-Store,Standard,Silver,0.0,4,2024-06-30,False
+C0098,Shreya Mehta,23,Female,Bhubaneswar,East,Student,Beauty & Personal Care,Sunscreen SPF 50,2024-08-29,2,1055.88,1900.58,UPI,In-Store,Standard,Silver,0.1,5,2024-12-25,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Sports & Fitness,Adjustable Dumbbells,2024-02-15,1,1767.03,1413.62,UPI,In-Store,Standard,Silver,0.2,12,2024-11-09,False
+C0143,Karan Sharma,71,Female,Hyderabad,South,Software Engineer,Home & Kitchen,Stainless Steel Knife Set,2024-12-19,2,1302.73,2344.91,UPI,Online,Standard,Silver,0.1,10,2024-12-19,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Beauty & Personal Care,Face Cleanser,2024-12-24,1,489.6,489.6,UPI,Online,Standard,Silver,0.0,16,2024-12-24,False
+C0125,Ananya Kumar,55,Female,Delhi,North,Architect,Home & Kitchen,Coffee Maker,2024-10-04,2,4255.88,8511.76,UPI,Online,Standard,Silver,0.0,9,2024-12-29,True
+C0095,Aditi Singh,51,Female,Bhubaneswar,East,Marketing Specialist,Sports & Fitness,Yoga Mat,2024-06-17,2,761.69,1218.7,UPI,Mobile App,Standard,Regular,0.2,3,2024-06-17,False
+C0012,Varun Reddy,32,Male,Chennai,South,Consultant,Electronics,Smartwatch,2024-04-14,1,3247.69,2922.92,Credit Card,Mobile App,Standard,Silver,0.1,7,2024-10-18,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Stainless Steel Knife Set,2024-09-09,1,1029.86,978.37,Net Banking,In-Store,Standard,Gold,0.05,31,2024-12-30,False
+C0139,Tanvi Reddy,47,Male,Mumbai,West,Architect,Electronics,Smartwatch,2024-10-07,3,2869.34,8177.62,UPI,In-Store,Standard,Regular,0.05,4,2024-12-11,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Home & Kitchen,Stainless Steel Knife Set,2024-01-09,1,662.82,563.4,Cash on Delivery,Online,Standard,Regular,0.15,22,2024-12-24,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Home & Kitchen,Ceramic Mug Set,2024-06-03,1,575.12,575.12,Net Banking,Mobile App,Standard,Silver,0.0,19,2024-12-24,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Home & Kitchen,Ceramic Mug Set,2024-03-13,3,910.31,2594.38,Debit Card,Mobile App,Standard,Gold,0.05,21,2024-12-03,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Clothing,Athletic Shorts,2024-03-17,1,858.11,858.11,UPI,In-Store,Standard,Gold,0.0,36,2024-12-27,False
+C0037,Aarav Bose,47,Female,Hyderabad,South,Consultant,Sports & Fitness,Adjustable Dumbbells,2024-05-22,1,3278.95,3278.95,UPI,Online,Standard,Regular,0.0,2,2024-05-30,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Home & Kitchen,Electric Blender,2024-05-04,3,1913.01,5739.03,Credit Card,In-Store,Standard,Regular,0.0,22,2024-12-24,False
+C0067,Shreya Kumar,29,Male,Bangalore,South,Architect,Books,Psychology of Money,2024-11-27,1,528.13,422.5,UPI,In-Store,Standard,Silver,0.2,10,2024-11-27,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Electronics,USB-C Hub,2024-02-15,1,1194.42,1194.42,Net Banking,Online,Standard,Silver,0.0,20,2024-12-21,False
+C0057,Vikram Mukherjee,47,Female,Mumbai,West,Doctor,Sports & Fitness,Running Shoes,2024-04-25,1,3647.47,3647.47,Debit Card,Online,Standard,Silver,0.0,11,2024-12-15,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Beauty & Personal Care,Sunscreen SPF 50,2024-04-20,1,712.92,641.63,UPI,Online,Standard,Gold,0.1,36,2024-12-27,False
+C0122,Amit Reddy,47,Male,Delhi,North,Financial Analyst,Home & Kitchen,Coffee Maker,2024-03-16,1,2845.39,2418.58,UPI,Online,Standard,Regular,0.15,13,2024-12-21,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Clothing,Slim Fit Jeans,2024-01-13,1,2476.43,2476.43,Debit Card,Online,Standard,Regular,0.0,19,2024-12-20,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Electronics,Smartwatch,2024-04-18,2,7765.63,13978.13,Credit Card,Online,Standard,Silver,0.1,19,2024-12-24,True
+C0071,Tanvi Joshi,53,Female,Chennai,South,Consultant,Home & Kitchen,Coffee Maker,2024-12-29,2,2567.58,4878.4,Cash on Delivery,Online,Standard,Gold,0.05,2,2024-12-29,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Beauty & Personal Care,Moisturizing Cream,2024-05-05,1,820.38,738.34,Debit Card,Online,Standard,Regular,0.1,14,2024-10-12,False
+C0020,Nikhil Singh,45,Male,Mumbai,West,Sales Executive,Electronics,Wireless Headphones,2024-05-26,3,2961.25,8439.56,UPI,In-Store,Standard,Regular,0.05,6,2024-12-30,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Books,Data Analytics Handbook,2024-06-20,1,842.39,842.39,Credit Card,Online,Standard,Gold,0.0,31,2024-12-30,False
+C0077,Arjun Kumar,62,Male,Kolkata,East,Product Manager,Clothing,Slim Fit Jeans,2024-01-23,1,1478.72,1478.72,Net Banking,Online,Standard,Gold,0.0,11,2024-12-18,False
+C0100,Pooja Iyer,42,Female,Jaipur,North,Student,Electronics,Wireless Headphones,2024-07-25,1,3213.28,3213.28,UPI,Online,Standard,Regular,0.0,2,2024-07-25,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Home & Kitchen,Non-Stick Frying Pan,2024-03-13,1,1139.6,911.68,UPI,Online,Standard,Gold,0.2,20,2024-12-13,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Running Shoes,2024-04-13,1,2152.81,1829.89,Cash on Delivery,Online,Standard,Regular,0.15,36,2024-12-31,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Clothing,Cotton T-Shirt,2024-06-06,3,595.8,1698.03,Debit Card,Online,Standard,Platinum,0.05,43,2024-12-29,False
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Sports & Fitness,Water Bottle 1L,2024-04-01,1,702.19,631.97,Credit Card,In-Store,Standard,Silver,0.1,13,2024-12-26,False
+C0020,Nikhil Singh,45,Male,Mumbai,West,Sales Executive,Home & Kitchen,Electric Blender,2024-02-26,2,1640.14,3280.28,UPI,Online,Standard,Regular,0.0,6,2024-12-30,False
+C0107,Rohan Mukherjee,64,Male,Noida,North,Designer,Clothing,Cotton T-Shirt,2024-12-30,2,975.97,1951.94,Debit Card,Online,Standard,Silver,0.0,5,2024-12-30,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Sports & Fitness,Adjustable Dumbbells,2024-09-27,3,2311.05,6586.49,Debit Card,Online,Standard,Regular,0.05,22,2024-12-24,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Clothing,Formal Shirt,2024-11-04,1,1549.44,1394.5,UPI,Online,Standard,Regular,0.1,16,2024-12-05,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Sports & Fitness,Resistance Bands Set,2024-07-29,1,1020.78,918.7,Debit Card,Online,Standard,Gold,0.1,36,2024-12-27,False
+C0062,Amit Mehta,20,Female,Hyderabad,South,Designer,Beauty & Personal Care,Sunscreen SPF 50,2024-02-05,5,661.06,3305.3,Cash on Delivery,Online,Standard,Silver,0.0,4,2024-09-02,False
+C0102,Riya Mehta,22,Male,Kolkata,East,Sales Executive,Electronics,Wireless Headphones,2024-03-29,2,3005.81,5711.04,Net Banking,Mobile App,Standard,Silver,0.05,1,2024-03-29,False
+C0084,Riya Mukherjee,26,Male,Mumbai,West,Entrepreneur,Beauty & Personal Care,Moisturizing Cream,2024-12-04,1,484.74,484.74,Credit Card,Online,Standard,Regular,0.0,11,2024-12-04,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Electronics,Bluetooth Speaker,2024-10-13,1,1622.23,1541.12,Cash on Delivery,Mobile App,Standard,Platinum,0.05,17,2024-12-28,False
+C0026,Aditi Verma,71,Male,Delhi,North,Software Engineer,Sports & Fitness,Yoga Mat,2024-08-31,2,1150.49,2070.88,Cash on Delivery,Online,Standard,Silver,0.1,9,2024-12-18,False
+C0114,Rohan Gupta,53,Other,Ahmedabad,West,Data Analyst,Beauty & Personal Care,Face Cleanser,2024-08-21,1,637.19,541.61,Credit Card,Online,Standard,Platinum,0.15,11,2024-12-11,False
+C0067,Shreya Kumar,29,Male,Bangalore,South,Architect,Sports & Fitness,Water Bottle 1L,2024-05-09,3,442.34,1327.02,Debit Card,Online,Standard,Silver,0.0,10,2024-11-27,False
+C0073,Neha Reddy,61,Female,Ahmedabad,West,Consultant,Books,Python Programming,2024-03-31,1,842.56,842.56,UPI,Online,Standard,Silver,0.0,3,2024-04-11,False
+C0117,Pooja Gupta,50,Female,Delhi,North,Designer,Electronics,Wireless Headphones,2024-07-05,4,3999.63,14398.67,Cash on Delivery,Mobile App,Standard,Regular,0.1,6,2024-11-26,True
+C0114,Rohan Gupta,53,Other,Ahmedabad,West,Data Analyst,Electronics,Bluetooth Speaker,2024-08-01,3,1949.29,5555.48,UPI,Online,Standard,Platinum,0.05,11,2024-12-11,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Clothing,Athletic Shorts,2024-02-17,1,588.31,588.31,Credit Card,In-Store,Standard,Platinum,0.0,17,2024-12-28,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Electronics,Wireless Headphones,2024-12-22,1,3210.94,3210.94,Credit Card,Online,Standard,Silver,0.0,27,2024-12-24,False
+C0022,Tanvi Deshmukh,20,Male,Hyderabad,South,Student,Electronics,Power Bank,2024-07-10,1,1666.85,1666.85,Net Banking,In-Store,Standard,Silver,0.0,8,2024-12-15,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Home & Kitchen,Ceramic Mug Set,2024-12-31,3,979.74,2645.3,UPI,Mobile App,Standard,Regular,0.1,36,2024-12-31,False
+C0099,Arjun Mukherjee,40,Male,Bhubaneswar,East,Teacher,Home & Kitchen,Non-Stick Frying Pan,2024-02-15,2,1157.08,2314.16,UPI,Online,Standard,Regular,0.0,10,2024-12-30,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Sports & Fitness,Adjustable Dumbbells,2024-03-29,4,2828.21,11312.84,Net Banking,In-Store,Standard,Regular,0.0,19,2024-12-20,True
+C0017,Karan Mukherjee,59,Male,Jaipur,North,Consultant,Sports & Fitness,Adjustable Dumbbells,2024-06-08,1,2209.01,2098.56,Credit Card,Online,Standard,Silver,0.05,7,2024-12-08,False
+C0018,Pooja Bose,40,Female,Bhubaneswar,East,Entrepreneur,Clothing,Formal Shirt,2024-04-21,2,1249.05,2373.19,UPI,Online,Standard,Silver,0.05,10,2024-11-27,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Home & Kitchen,Non-Stick Frying Pan,2024-04-24,34,1345.94,41185.76,UPI,Online,Standard,Gold,0.1,21,2024-12-03,True
+C0032,Priya Gupta,33,Female,Chennai,South,Product Manager,Sports & Fitness,Adjustable Dumbbells,2024-06-02,2,1727.98,3455.96,Debit Card,Online,Standard,Silver,0.0,2,2024-06-02,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Beauty & Personal Care,Herbal Shampoo,2024-05-16,1,682.32,682.32,Cash on Delivery,In-Store,Standard,Regular,0.0,17,2024-11-02,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Beauty & Personal Care,Herbal Shampoo,2024-07-13,1,490.14,490.14,Debit Card,In-Store,Standard,Gold,0.0,36,2024-12-27,False
+C0057,Vikram Mukherjee,47,Female,Mumbai,West,Doctor,Books,Business Strategy Guide,2024-01-31,2,870.67,1567.21,UPI,Online,Standard,Silver,0.1,11,2024-12-15,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Sports & Fitness,Water Bottle 1L,2024-05-13,3,669.46,2008.38,Credit Card,Online,Standard,Silver,0.0,19,2024-12-21,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Books,Atomic Habits,2024-08-03,1,634.03,602.33,Credit Card,Online,Standard,Platinum,0.05,14,2024-11-14,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Beauty & Personal Care,Moisturizing Cream,2024-03-07,1,845.08,802.83,Debit Card,Online,Standard,Silver,0.05,19,2024-12-21,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Sports & Fitness,Water Bottle 1L,2024-09-16,1,495.19,470.43,UPI,Mobile App,Standard,Gold,0.05,26,2024-12-26,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Clothing,Cotton T-Shirt,2024-01-01,1,768.08,768.08,UPI,Online,Standard,Gold,0.0,36,2024-12-27,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Sports & Fitness,Running Shoes,2024-08-06,1,4237.42,4237.42,Net Banking,In-Store,Standard,Regular,0.0,16,2024-12-05,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Beauty & Personal Care,Face Cleanser,2024-05-01,1,583.43,495.92,Net Banking,Mobile App,Standard,Gold,0.15,21,2024-12-03,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Beauty & Personal Care,Herbal Shampoo,2024-10-04,1,482.12,482.12,UPI,Online,Standard,Platinum,0.0,24,2024-12-16,False
+C0092,Aditi Chopra,51,Male,Jaipur,North,Student,Sports & Fitness,Yoga Mat,2024-06-09,3,1350.99,3647.67,Credit Card,Online,Standard,Silver,0.1,9,2024-09-23,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Sports & Fitness,Water Bottle 1L,2024-07-05,1,633.71,538.65,Credit Card,Online,Standard,Regular,0.15,17,2024-11-02,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Sports & Fitness,Yoga Mat,2024-03-01,3,1389.94,3335.86,UPI,Online,Standard,Regular,0.2,17,2024-11-02,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Books,Python Programming,2024-04-22,1,1023.61,1023.61,Credit Card,In-Store,Standard,Regular,0.0,14,2024-10-12,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Electronics,Wireless Headphones,2024-09-16,2,1889.35,3022.96,Credit Card,Online,Standard,Platinum,0.2,17,2024-12-28,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Sports & Fitness,Running Shoes,2024-03-02,1,2078.99,1871.09,Debit Card,In-Store,Standard,Platinum,0.1,24,2024-12-16,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Beauty & Personal Care,Herbal Shampoo,2024-08-29,2,624.52,999.23,Credit Card,Online,Standard,Silver,0.2,15,2024-10-29,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Adjustable Dumbbells,2024-10-29,1,2278.35,2278.35,Credit Card,Online,Standard,Regular,0.0,36,2024-12-31,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Beauty & Personal Care,Sunscreen SPF 50,2024-10-01,1,990.0,841.5,UPI,Online,Standard,Regular,0.15,18,2024-12-01,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Beauty & Personal Care,Moisturizing Cream,2024-11-02,3,501.55,1354.19,Net Banking,Online,Standard,Regular,0.1,15,2024-12-02,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Sports & Fitness,Running Shoes,2024-05-07,1,4364.75,4364.75,Debit Card,Online,Standard,Silver,0.0,15,2024-10-29,False
+C0143,Karan Sharma,71,Female,Hyderabad,South,Software Engineer,Electronics,USB-C Hub,2024-06-14,3,1404.69,4214.07,Cash on Delivery,In-Store,Standard,Silver,0.0,10,2024-12-19,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Electronics,Smartwatch,2024-12-13,1,3928.63,3928.63,Debit Card,In-Store,Standard,Gold,0.0,20,2024-12-13,False
+C0113,Nikhil Singh,47,Male,Hyderabad,South,Consultant,Sports & Fitness,Yoga Mat,2024-10-27,2,1208.39,2295.94,Credit Card,Online,Standard,Regular,0.05,8,2024-12-28,False
+C0035,Amit Sharma,55,Female,Jaipur,North,Sales Executive,Books,Data Analytics Handbook,2024-12-03,2,1104.0,1876.8,UPI,Online,Standard,Regular,0.15,8,2024-12-03,False
+C0093,Aarav Singh,22,Male,Bhubaneswar,East,Architect,Clothing,Athletic Shorts,2024-04-04,1,713.2,641.88,Debit Card,Online,Standard,Platinum,0.1,5,2024-09-05,False
+C0020,Nikhil Singh,45,Male,Mumbai,West,Sales Executive,Books,Data Analytics Handbook,2024-12-10,1,726.72,726.72,UPI,In-Store,Standard,Regular,0.0,6,2024-12-30,False
+C0077,Arjun Kumar,62,Male,Kolkata,East,Product Manager,Beauty & Personal Care,Moisturizing Cream,2024-07-02,4,905.77,3623.08,Debit Card,Online,Standard,Gold,0.0,11,2024-12-18,True
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Clothing,Formal Shirt,2024-12-12,1,1089.24,1089.24,UPI,Mobile App,Standard,Platinum,0.0,26,2024-12-25,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Books,Psychology of Money,2024-02-23,1,365.35,328.82,UPI,Online,Standard,Silver,0.1,15,2024-12-20,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Sports & Fitness,Running Shoes,2024-02-18,2,4645.88,9291.76,UPI,Online,Standard,Regular,0.0,14,2024-10-12,True
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Books,Psychology of Money,2024-09-16,2,634.31,1141.76,UPI,In-Store,Standard,Gold,0.1,26,2024-12-26,False
+C0135,Meera Patel,54,Female,Kolkata,East,Software Engineer,Sports & Fitness,Running Shoes,2024-07-26,1,3751.25,3751.25,Credit Card,In-Store,Standard,Platinum,0.0,11,2024-12-30,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Sports & Fitness,Resistance Bands Set,2024-12-18,1,1090.43,872.34,Cash on Delivery,Online,Standard,Gold,0.2,36,2024-12-27,False
+C0064,Priya Nair,68,Male,Mumbai,West,Designer,Beauty & Personal Care,Herbal Shampoo,2024-03-12,2,549.99,1044.98,UPI,In-Store,Standard,Regular,0.05,7,2024-12-09,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Clothing,Formal Shirt,2024-05-22,1,2045.44,1943.17,Net Banking,Mobile App,Standard,Platinum,0.05,14,2024-12-30,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Electronics,Power Bank,2024-03-27,1,1653.52,1653.52,UPI,Online,Standard,Platinum,0.0,17,2024-12-28,False
+C0135,Meera Patel,54,Female,Kolkata,East,Software Engineer,Books,Psychology of Money,2024-11-11,1,355.55,355.55,UPI,Online,Standard,Platinum,0.0,11,2024-12-30,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Books,Business Strategy Guide,2024-05-03,2,521.07,1042.14,Credit Card,Mobile App,Standard,Regular,0.0,16,2024-12-05,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Books,Psychology of Money,2024-03-26,1,597.64,507.99,UPI,Mobile App,Standard,Silver,0.15,20,2024-12-21,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Sports & Fitness,Running Shoes,2024-01-24,2,3807.56,7234.36,Debit Card,Online,Standard,Platinum,0.05,14,2024-11-14,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Clothing,Cotton T-Shirt,2024-10-24,1,755.8,755.8,Debit Card,Online,Standard,Gold,0.0,31,2024-12-30,False
+C0019,Rahul Joshi,39,Female,Kolkata,East,Entrepreneur,Beauty & Personal Care,Moisturizing Cream,2024-01-18,2,689.02,1102.43,Credit Card,Online,Standard,Silver,0.2,3,2024-02-18,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Stainless Steel Knife Set,2024-02-24,5,1640.03,7790.14,UPI,Online,Standard,Platinum,0.05,26,2024-12-25,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Books,Data Analytics Handbook,2024-07-20,4,779.13,3116.52,Net Banking,Online,Standard,Silver,0.0,27,2024-12-24,True
+C0128,Aarav Patel,53,Other,Chennai,South,Software Engineer,Clothing,Formal Shirt,2024-06-22,1,2042.97,1634.38,Credit Card,In-Store,Standard,Regular,0.2,8,2024-11-18,False
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Home & Kitchen,Non-Stick Frying Pan,2024-12-12,4,1116.33,4018.79,Net Banking,In-Store,Standard,Regular,0.1,13,2024-12-21,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Books,Data Analytics Handbook,2024-11-28,1,622.69,498.15,Cash on Delivery,Online,Standard,Regular,0.2,14,2024-11-28,False
+C0011,Ananya Mehta,35,Female,Hyderabad,South,Designer,Clothing,Formal Shirt,2024-11-11,1,1997.72,1897.83,UPI,Online,Standard,Regular,0.05,6,2024-11-11,False
+C0043,Nikhil Das,20,Male,Chennai,South,Designer,Books,Python Programming,2024-01-25,1,1069.25,1015.79,Net Banking,Online,Standard,Regular,0.05,1,2024-01-25,False
+C0058,Meera Mehta,50,Male,Pune,West,Consultant,Sports & Fitness,Yoga Mat,2024-07-24,3,786.72,2006.14,Debit Card,Online,Standard,Gold,0.15,4,2024-12-18,False
+C0018,Pooja Bose,40,Female,Bhubaneswar,East,Entrepreneur,Sports & Fitness,Resistance Bands Set,2024-06-17,1,1006.5,805.2,Debit Card,Online,Standard,Silver,0.2,10,2024-11-27,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Home & Kitchen,Ceramic Mug Set,2024-12-26,1,652.67,652.67,UPI,Online,Standard,Regular,0.0,15,2024-12-26,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Electronics,Bluetooth Speaker,2024-01-04,3,2604.98,7814.94,Debit Card,Online,Standard,Regular,0.0,15,2024-12-16,False
+C0064,Priya Nair,68,Male,Mumbai,West,Designer,Beauty & Personal Care,Herbal Shampoo,2024-04-16,3,347.1,1041.3,Credit Card,In-Store,Standard,Regular,0.0,7,2024-12-09,False
+C0076,Pooja Patel,48,Female,Ahmedabad,West,Consultant,Home & Kitchen,Non-Stick Frying Pan,2024-12-23,1,1329.84,1130.36,Net Banking,Online,Standard,Silver,0.15,5,2024-12-23,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Home & Kitchen,Non-Stick Frying Pan,2024-08-30,3,1122.94,3368.82,Net Banking,Online,Standard,Regular,0.0,22,2024-12-24,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Home & Kitchen,Non-Stick Frying Pan,2024-05-04,1,1444.99,1444.99,Credit Card,In-Store,Standard,Platinum,0.0,14,2024-11-14,False
+C0135,Meera Patel,54,Female,Kolkata,East,Software Engineer,Books,Data Analytics Handbook,2024-02-20,5,861.75,4308.75,UPI,In-Store,Standard,Platinum,0.0,11,2024-12-30,True
+C0084,Riya Mukherjee,26,Male,Mumbai,West,Entrepreneur,Electronics,Power Bank,2024-03-19,2,1786.16,3393.7,Credit Card,Online,Standard,Regular,0.05,11,2024-12-04,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Books,Business Strategy Guide,2024-08-23,1,773.91,773.91,Debit Card,In-Store,Standard,Platinum,0.0,17,2024-12-28,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Clothing,Formal Shirt,2024-02-07,1,1122.82,1010.54,Debit Card,In-Store,Standard,Silver,0.1,20,2024-12-21,False
+C0135,Meera Patel,54,Female,Kolkata,East,Software Engineer,Books,Atomic Habits,2024-04-24,3,568.13,1363.51,Credit Card,Online,Standard,Platinum,0.2,11,2024-12-30,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Electronics,Wireless Headphones,2024-06-05,2,3772.41,6790.34,Credit Card,Online,Standard,Silver,0.1,27,2024-12-24,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Clothing,Athletic Shorts,2024-10-11,1,1048.77,943.89,Cash on Delivery,In-Store,Standard,Silver,0.1,19,2024-12-24,False
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Clothing,Cotton T-Shirt,2024-12-08,2,1168.89,2337.78,Debit Card,In-Store,Standard,Regular,0.0,13,2024-12-08,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Books,Python Programming,2024-07-05,1,1013.67,962.99,Credit Card,Online,Standard,Platinum,0.05,43,2024-12-29,False
+C0125,Ananya Kumar,55,Female,Delhi,North,Architect,Sports & Fitness,Adjustable Dumbbells,2024-01-29,3,2993.61,7633.71,UPI,Online,Standard,Silver,0.15,9,2024-12-29,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Sports & Fitness,Resistance Bands Set,2024-08-08,2,647.43,1294.86,Debit Card,Online,Standard,Gold,0.0,26,2024-12-26,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Books,Business Strategy Guide,2024-09-06,1,716.74,680.9,Credit Card,Online,Standard,Regular,0.05,15,2024-12-16,False
+C0017,Karan Mukherjee,59,Male,Jaipur,North,Consultant,Home & Kitchen,Coffee Maker,2024-01-25,1,4149.53,4149.53,Debit Card,In-Store,Standard,Silver,0.0,7,2024-12-08,False
+C0066,Karan Iyer,66,Male,Mumbai,West,Data Analyst,Home & Kitchen,Stainless Steel Knife Set,2024-11-19,1,1371.33,1165.63,UPI,Mobile App,Standard,Silver,0.15,1,2024-11-19,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Electronics,Smartwatch,2024-09-06,1,4990.53,4741.0,Debit Card,Online,Standard,Gold,0.05,20,2024-12-13,False
+C0114,Rohan Gupta,53,Other,Ahmedabad,West,Data Analyst,Electronics,Smartwatch,2024-04-02,2,5735.27,11470.54,Debit Card,In-Store,Standard,Platinum,0.0,11,2024-12-11,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Electronics,Power Bank,2024-03-14,4,1592.87,5734.33,UPI,Online,Standard,Silver,0.1,15,2024-12-20,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Sports & Fitness,Adjustable Dumbbells,2024-04-05,3,3096.91,9290.73,UPI,In-Store,Standard,Silver,0.0,13,2024-12-16,True
+C0107,Rohan Mukherjee,64,Male,Noida,North,Designer,Beauty & Personal Care,Moisturizing Cream,2024-04-24,3,378.45,1021.82,Credit Card,In-Store,Standard,Silver,0.1,5,2024-12-30,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Clothing,Casual Jacket,2024-06-03,1,2054.18,2054.18,UPI,Online,Standard,Silver,0.0,19,2024-12-24,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Clothing,Athletic Shorts,2024-05-02,5,975.41,4877.05,UPI,In-Store,Standard,Silver,0.0,27,2024-12-24,False
+C0131,Ananya Mehta,47,Male,Noida,North,Student,Clothing,Athletic Shorts,2024-11-19,2,832.71,1665.42,Credit Card,Mobile App,Standard,Platinum,0.0,43,2024-12-29,False
+C0135,Meera Patel,54,Female,Kolkata,East,Software Engineer,Sports & Fitness,Adjustable Dumbbells,2024-07-09,1,2708.33,2572.91,UPI,Online,Standard,Platinum,0.05,11,2024-12-30,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Clothing,Athletic Shorts,2024-06-27,3,637.73,1913.19,UPI,Online,Standard,Silver,0.0,16,2024-12-24,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Home & Kitchen,Ceramic Mug Set,2024-03-21,1,688.05,619.24,UPI,In-Store,Standard,Regular,0.1,22,2024-12-24,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Ceramic Mug Set,2024-12-25,3,516.88,1318.04,Cash on Delivery,Mobile App,Standard,Platinum,0.15,26,2024-12-25,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Electronics,Bluetooth Speaker,2024-07-10,1,1508.48,1282.21,UPI,Mobile App,Standard,Gold,0.15,20,2024-12-13,False
+C0086,Shreya Bose,62,Male,Hyderabad,South,Software Engineer,Electronics,USB-C Hub,2024-11-21,1,901.34,901.34,UPI,Online,Standard,Regular,0.0,1,2024-11-21,False
+C0064,Priya Nair,68,Male,Mumbai,West,Designer,Sports & Fitness,Running Shoes,2024-02-04,2,4411.5,7940.7,Credit Card,In-Store,Standard,Regular,0.1,7,2024-12-09,False
+C0059,Riya Mehta,51,Male,Kolkata,East,Designer,Beauty & Personal Care,Sunscreen SPF 50,2024-10-24,1,815.84,815.84,UPI,Online,Standard,Regular,0.0,5,2024-10-24,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Electronics,Smartwatch,2024-03-26,1,5397.64,5397.64,Credit Card,In-Store,Standard,Silver,0.0,19,2024-12-21,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Sports & Fitness,Running Shoes,2024-09-30,2,4459.58,8027.24,Debit Card,In-Store,Standard,Regular,0.1,19,2024-12-18,False
+C0143,Karan Sharma,71,Female,Hyderabad,South,Software Engineer,Beauty & Personal Care,Perfume Spray,2024-05-14,3,2149.53,6448.59,UPI,Online,Standard,Silver,0.0,10,2024-12-19,True
+C0095,Aditi Singh,51,Female,Bhubaneswar,East,Marketing Specialist,Clothing,Formal Shirt,2024-06-15,3,928.58,2785.74,Net Banking,Online,Standard,Regular,0.0,3,2024-06-17,False
+C0144,Varun Bose,36,Male,Delhi,North,Entrepreneur,Clothing,Casual Jacket,2024-06-24,2,2208.94,4196.99,UPI,Online,Standard,Silver,0.05,5,2024-12-06,False
+C0074,Ananya Nair,47,Female,Noida,North,Doctor,Sports & Fitness,Yoga Mat,2024-05-18,2,622.63,1058.47,Debit Card,Mobile App,Standard,Silver,0.15,11,2024-12-18,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Sports & Fitness,Adjustable Dumbbells,2024-06-02,2,2810.86,5621.72,Credit Card,In-Store,Standard,Regular,0.0,15,2024-12-16,False
+C0087,Divya Das,28,Female,Chennai,South,Teacher,Clothing,Slim Fit Jeans,2024-05-07,2,2691.35,5382.7,Credit Card,In-Store,Standard,Regular,0.0,7,2024-11-22,False
+C0074,Ananya Nair,67,Female,Noida,North,Doctor,Home & Kitchen,Non-Stick Frying Pan,2024-03-22,2,1709.96,3077.93,Cash on Delivery,Mobile App,Standard,Silver,0.1,11,2024-12-18,False
+C0022,Tanvi Deshmukh,20,Male,Hyderabad,South,Student,Home & Kitchen,Coffee Maker,2024-10-06,3,3816.21,10876.2,UPI,In-Store,Standard,Silver,0.05,8,2024-12-15,True
+C0107,Rohan Mukherjee,64,Male,Noida,North,Designer,Beauty & Personal Care,Face Cleanser,2024-03-09,1,595.69,536.12,Debit Card,Online,Standard,Silver,0.1,5,2024-12-30,False
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Home & Kitchen,Coffee Maker,2024-06-21,2,3049.07,5183.42,Cash on Delivery,In-Store,Standard,Silver,0.15,13,2024-12-26,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Books,Python Programming,2024-09-28,1,1029.59,978.11,Credit Card,Online,Standard,Gold,0.05,31,2024-12-30,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Sports & Fitness,Running Shoes,2024-02-12,2,4463.7,7141.92,UPI,Online,Standard,Platinum,0.2,14,2024-12-30,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Books,Data Analytics Handbook,2024-02-11,2,1046.13,2092.26,UPI,Online,Standard,Silver,0.0,19,2024-12-21,False
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Sports & Fitness,Running Shoes,2024-01-04,1,4054.96,3446.72,UPI,Online,Standard,Regular,0.15,13,2024-12-21,False
+C0078,Karan Kumar,20,Female,Chennai,South,Accountant,Books,Atomic Habits,2024-09-21,4,435.85,1569.06,UPI,Online,Standard,Silver,0.1,11,2024-10-05,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Sports & Fitness,Running Shoes,2024-01-14,3,3109.5,7929.22,UPI,Online,Standard,Regular,0.15,15,2024-12-02,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Beauty & Personal Care,Herbal Shampoo,2024-02-08,5,501.82,2509.1,Net Banking,Online,Standard,Platinum,0.0,17,2024-12-28,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Home & Kitchen,Coffee Maker,2024-04-05,2,2204.63,4409.26,Debit Card,Online,Standard,Regular,0.0,15,2024-12-02,False
+C0114,Rohan Gupta,53,Other,Ahmedabad,West,Data Analyst,Home & Kitchen,Ceramic Mug Set,2024-01-11,3,400.95,1202.85,Credit Card,Online,Standard,Platinum,0.0,11,2024-12-11,False
+C0148,Divya Kumar,25,Male,Bangalore,South,Marketing Specialist,Sports & Fitness,Resistance Bands Set,2024-07-25,2,633.67,1140.61,Debit Card,Online,Standard,Silver,0.1,9,2024-12-20,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Sports & Fitness,Water Bottle 1L,2024-05-21,2,644.55,1095.73,Net Banking,In-Store,Standard,Gold,0.15,36,2024-12-27,False
+C0026,Aditi Verma,71,Male,Delhi,North,Software Engineer,Home & Kitchen,Ceramic Mug Set,2024-03-28,1,966.99,870.29,Cash on Delivery,Mobile App,Standard,Silver,0.1,9,2024-12-18,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Electronics,Bluetooth Speaker,2024-06-23,1,3392.64,3392.64,UPI,Online,Standard,Silver,0.0,27,2024-12-24,False
+C0050,Amit Chopra,50,Female,Pune,West,Consultant,Beauty & Personal Care,Face Cleanser,2024-04-10,2,613.13,1103.63,Cash on Delivery,Online,Standard,Gold,0.1,8,2024-12-04,False
+C0022,Tanvi Deshmukh,20,Male,Hyderabad,South,Student,Sports & Fitness,Water Bottle 1L,2024-06-20,4,763.9,2750.04,UPI,Mobile App,Standard,Silver,0.1,8,2024-12-15,False
+C0113,Nikhil Singh,47,Male,Hyderabad,South,Consultant,Beauty & Personal Care,Perfume Spray,2024-06-03,3,3038.25,7291.8,Credit Card,Online,Standard,Regular,0.2,8,2024-12-28,True
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Electronics,Wireless Headphones,2024-09-02,2,4107.36,7393.25,UPI,Online,Standard,Silver,0.1,19,2024-12-21,False
+C0087,Divya Das,28,Female,Chennai,South,Teacher,Books,Atomic Habits,2024-11-22,3,769.17,2192.13,UPI,Mobile App,Standard,Regular,0.05,7,2024-11-22,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Clothing,Casual Jacket,2024-02-03,3,3371.95,9610.06,UPI,Online,Standard,Platinum,0.05,17,2024-12-28,True
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Electronics,Bluetooth Speaker,2024-05-22,2,2997.12,5394.82,Debit Card,Online,Standard,Silver,0.1,19,2024-12-24,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Beauty & Personal Care,Face Cleanser,2024-12-18,4,364.14,1310.9,Net Banking,In-Store,Standard,Regular,0.1,22,2024-12-24,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Beauty & Personal Care,Perfume Spray,2024-08-27,3,3045.9,9137.7,Credit Card,Online,Standard,Regular,0.0,15,2024-12-16,True
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Books,Business Strategy Guide,2024-01-27,1,789.78,750.29,Credit Card,Mobile App,Standard,Gold,0.05,31,2024-12-30,False
+C0092,Aditi Chopra,51,Male,Jaipur,North,Student,Electronics,Power Bank,2024-07-15,1,1382.34,1105.87,Cash on Delivery,Online,Standard,Silver,0.2,9,2024-09-23,False
+C0072,Priya Nair,22,Female,Bhubaneswar,East,Student,Books,Python Programming,2024-07-16,1,659.26,527.41,UPI,Online,Standard,Gold,0.2,5,2024-08-29,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Clothing,Slim Fit Jeans,2024-02-18,3,2583.16,7749.48,Debit Card,In-Store,Standard,Silver,0.0,27,2024-12-24,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Home & Kitchen,Non-Stick Frying Pan,2024-02-14,2,974.04,1753.27,Credit Card,Online,Standard,Gold,0.1,21,2024-12-03,False
+C0077,Arjun Kumar,62,Male,Kolkata,East,Product Manager,Books,Data Analytics Handbook,2024-10-05,1,993.23,893.91,Credit Card,In-Store,Standard,Gold,0.1,11,2024-12-18,False
+C0032,Priya Gupta,33,Female,Chennai,South,Product Manager,Home & Kitchen,Coffee Maker,2024-03-27,1,3117.7,3117.7,UPI,Online,Standard,Silver,0.0,2,2024-06-02,False
+C0069,Neha Deshmukh,36,Male,Bangalore,South,Accountant,Beauty & Personal Care,Perfume Spray,2024-08-18,1,2590.32,2201.77,UPI,Mobile App,Standard,Regular,0.15,8,2024-11-20,False
+C0128,Aarav Patel,53,Other,Chennai,South,Software Engineer,Books,Atomic Habits,2024-05-22,3,515.68,1314.98,UPI,Online,Standard,Regular,0.15,8,2024-11-18,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Beauty & Personal Care,Face Cleanser,2024-10-30,1,471.4,471.4,UPI,Online,Standard,Regular,0.0,36,2024-12-31,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Electric Blender,2024-09-09,2,1887.22,3774.44,UPI,Mobile App,Standard,Platinum,0.0,26,2024-12-25,False
+C0002,Manish Joshi,41,Male,Hyderabad,South,Financial Analyst,Clothing,Casual Jacket,2024-08-30,1,4921.34,4183.14,Debit Card,Online,Standard,Regular,0.15,8,2024-12-27,False
+C0069,Neha Deshmukh,36,Male,Bangalore,South,Accountant,Clothing,Casual Jacket,2024-11-17,1,4841.51,4599.43,Credit Card,Online,Standard,Regular,0.05,8,2024-11-20,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Electronics,Power Bank,2024-02-12,3,1278.61,3068.66,UPI,Online,Standard,Silver,0.2,16,2024-12-24,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Beauty & Personal Care,Face Cleanser,2024-12-18,1,492.48,492.48,UPI,Online,Standard,Regular,0.0,19,2024-12-18,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Beauty & Personal Care,Perfume Spray,2024-03-26,1,2156.06,2156.06,UPI,Online,Standard,Silver,0.0,12,2024-11-09,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Non-Stick Frying Pan,2024-09-06,3,1668.3,5004.9,Net Banking,Online,Standard,Platinum,0.0,26,2024-12-25,False
+C0026,Aditi Verma,71,Male,Delhi,North,Software Engineer,Beauty & Personal Care,Face Cleanser,2024-09-12,3,353.4,901.17,UPI,Mobile App,Standard,Silver,0.15,9,2024-12-18,False
+C0093,Aarav Singh,22,Male,Bhubaneswar,East,Architect,Beauty & Personal Care,Herbal Shampoo,2024-07-06,1,481.71,481.71,Net Banking,Online,Standard,Platinum,0.0,5,2024-09-05,False
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Beauty & Personal Care,Moisturizing Cream,2024-01-08,1,939.25,939.25,UPI,Online,Standard,Silver,0.0,13,2024-12-26,False
+C0003,Nikhil Verma,47,Male,Pune,West,Software Engineer,Clothing,Athletic Shorts,2024-11-20,1,861.58,861.58,Credit Card,Online,Standard,Silver,0.0,5,2024-11-20,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Books,Data Analytics Handbook,2024-04-11,4,704.14,2394.08,Credit Card,Online,Standard,Gold,0.15,36,2024-12-27,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Sports & Fitness,Water Bottle 1L,2024-09-13,1,426.6,405.27,Credit Card,Mobile App,Standard,Silver,0.05,13,2024-12-16,False
+C0124,Arjun Joshi,21,Male,Kolkata,East,Architect,Home & Kitchen,Stainless Steel Knife Set,2024-09-17,2,1242.3,2484.6,UPI,Online,Standard,Regular,0.0,2,2024-09-17,False
+C0143,Karan Sharma,71,Female,Hyderabad,South,Software Engineer,Beauty & Personal Care,Perfume Spray,2024-10-05,2,1910.38,3629.72,UPI,In-Store,Standard,Silver,0.05,10,2024-12-19,True
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Sports & Fitness,Yoga Mat,2024-01-20,2,1058.3,2116.6,Credit Card,Online,Standard,Silver,0.0,16,2024-12-24,False
+C0023,Vikram Sharma,59,Male,Bhubaneswar,East,Teacher,Sports & Fitness,Running Shoes,2024-02-19,1,4672.65,4439.02,UPI,Online,Standard,Silver,0.05,4,2024-06-30,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Electronics,Smartwatch,2024-06-03,1,2912.88,2767.24,UPI,Online,Standard,Regular,0.05,16,2024-12-05,False
+C0078,Karan Kumar,20,Female,Chennai,South,Accountant,Beauty & Personal Care,Herbal Shampoo,2024-08-03,2,406.57,813.14,UPI,In-Store,Standard,Silver,0.0,11,2024-10-05,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Sports & Fitness,Running Shoes,2024-11-27,1,3370.09,3370.09,Cash on Delivery,Online,Standard,Silver,0.0,20,2024-12-21,False
+C0021,Manish Chopra,56,Female,Delhi,North,Architect,Sports & Fitness,Running Shoes,2024-05-20,2,4793.96,9587.92,Net Banking,Online,Standard,Platinum,0.0,4,2024-11-29,True
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Clothing,Athletic Shorts,2024-05-28,2,1153.18,2191.04,Credit Card,Online,Standard,Silver,0.05,16,2024-12-24,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Beauty & Personal Care,Face Cleanser,2024-09-07,2,275.8,496.44,Credit Card,Online,Standard,Platinum,0.1,14,2024-12-30,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Books,Atomic Habits,2024-08-12,2,567.2,1020.96,UPI,Online,Standard,Regular,0.1,17,2024-11-02,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Home & Kitchen,Electric Blender,2024-04-04,1,1691.26,1691.26,Cash on Delivery,Mobile App,Standard,Regular,0.0,36,2024-12-31,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Electronics,Power Bank,2024-09-16,2,1627.64,2929.75,Net Banking,Mobile App,Standard,Regular,0.1,18,2024-12-01,False
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Beauty & Personal Care,Perfume Spray,2024-03-27,1,1522.09,1445.99,UPI,Online,Standard,Regular,0.05,13,2024-12-08,False
+C0063,Varun Chopra,68,Female,Bangalore,South,Software Engineer,Beauty & Personal Care,Perfume Spray,2024-11-10,1,2036.18,1730.75,Cash on Delivery,In-Store,Standard,Regular,0.15,5,2024-11-10,False
+C0078,Karan Kumar,20,Female,Chennai,South,Accountant,Books,Business Strategy Guide,2024-03-01,3,459.76,1379.28,Credit Card,Online,Standard,Silver,0.0,11,2024-10-05,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Home & Kitchen,Ceramic Mug Set,2024-09-06,1,791.8,712.62,UPI,Mobile App,Standard,Gold,0.1,26,2024-12-26,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Beauty & Personal Care,Face Cleanser,2024-01-11,1,340.97,306.87,Net Banking,Online,Standard,Gold,0.1,21,2024-12-03,False
+C0140,Sneha Verma,44,Female,Delhi,North,Student,Clothing,Formal Shirt,2024-01-22,1,1501.07,1275.91,UPI,In-Store,Standard,Gold,0.15,3,2024-07-24,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Sports & Fitness,Water Bottle 1L,2024-12-08,1,578.44,578.44,UPI,Online,Standard,Gold,0.0,26,2024-12-26,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Clothing,Athletic Shorts,2024-01-15,1,649.98,584.98,UPI,Online,Standard,Regular,0.1,15,2024-12-16,False
+C0113,Nikhil Singh,47,Male,Hyderabad,South,Consultant,Sports & Fitness,Yoga Mat,2024-12-28,2,1132.72,2152.17,Credit Card,Online,Standard,Regular,0.05,8,2024-12-28,False
+C0074,Ananya Nair,67,Female,Noida,North,Doctor,Sports & Fitness,Water Bottle 1L,2024-03-17,2,384.12,691.42,Debit Card,In-Store,Standard,Silver,0.1,11,2024-12-18,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Clothing,Casual Jacket,2024-06-20,1,3835.71,3452.14,Credit Card,In-Store,Standard,Gold,0.1,36,2024-12-27,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Sports & Fitness,Water Bottle 1L,2024-06-12,1,538.28,511.37,Credit Card,Online,Standard,Silver,0.05,20,2024-12-21,False
+C0011,Ananya Mehta,35,Female,Hyderabad,South,Designer,Clothing,Formal Shirt,2024-01-17,1,1842.38,1658.14,UPI,Online,Standard,Regular,0.1,6,2024-11-11,False
+C0133,Priya Iyer,63,Female,Kolkata,East,Entrepreneur,Electronics,Wireless Headphones,2024-05-07,1,1751.69,1751.69,UPI,In-Store,Standard,Gold,0.0,3,2024-11-05,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Home & Kitchen,Non-Stick Frying Pan,2024-08-06,1,935.43,935.43,UPI,Mobile App,Standard,Regular,0.0,18,2024-12-01,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Adjustable Dumbbells,2024-11-12,1,2344.53,2227.3,UPI,In-Store,Standard,Gold,0.05,31,2024-12-30,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Sports & Fitness,Water Bottle 1L,2024-10-04,1,405.86,405.86,Debit Card,Online,Standard,Platinum,0.0,24,2024-12-16,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Sports & Fitness,Water Bottle 1L,2024-07-01,1,776.56,660.08,Cash on Delivery,Online,Standard,Gold,0.15,21,2024-12-03,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Adjustable Dumbbells,2024-04-08,2,4324.9,8649.8,Debit Card,Online,Standard,Gold,0.0,31,2024-12-30,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Books,Business Strategy Guide,2024-10-16,4,588.06,2352.24,UPI,In-Store,Standard,Regular,0.0,22,2024-12-24,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Clothing,Formal Shirt,2024-08-12,2,1892.27,3784.54,Debit Card,Online,Standard,Silver,0.0,19,2024-12-21,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Sports & Fitness,Running Shoes,2024-08-30,3,4187.59,10678.35,UPI,Online,Standard,Platinum,0.15,14,2024-11-14,True
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Sports & Fitness,Yoga Mat,2024-05-29,3,1005.98,2565.25,Debit Card,Online,Standard,Platinum,0.15,14,2024-12-30,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Clothing,Slim Fit Jeans,2024-04-30,2,2874.95,5462.4,Credit Card,Online,Standard,Regular,0.05,36,2024-12-31,False
+C0088,Ravi Deshmukh,51,Male,Delhi,North,Doctor,Home & Kitchen,Coffee Maker,2024-05-15,2,3484.5,6620.55,UPI,Online,Standard,Gold,0.05,4,2024-10-12,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Sports & Fitness,Yoga Mat,2024-11-12,2,1403.7,2667.03,UPI,In-Store,Standard,Gold,0.05,13,2024-12-28,False
+C0012,Varun Reddy,32,Male,Chennai,South,Consultant,Books,Python Programming,2024-07-01,2,688.75,1239.75,Credit Card,Online,Standard,Silver,0.1,7,2024-10-18,False
+C0018,Pooja Bose,40,Female,Bhubaneswar,East,Entrepreneur,Clothing,Slim Fit Jeans,2024-04-04,1,2930.95,2637.86,Credit Card,Online,Standard,Silver,0.1,10,2024-11-27,False
+C0117,Pooja Gupta,50,Female,Delhi,North,Designer,Beauty & Personal Care,Sunscreen SPF 50,2024-11-26,1,537.61,537.61,UPI,Online,Standard,Regular,0.0,6,2024-11-26,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Clothing,Cotton T-Shirt,2024-09-29,4,486.58,1946.32,Net Banking,Online,Standard,Silver,0.0,19,2024-12-21,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Electronics,USB-C Hub,2024-01-28,1,857.06,728.5,Credit Card,Online,Standard,Silver,0.15,19,2024-12-21,False
+C0003,Nikhil Verma,47,Male,Pune,West,Software Engineer,Home & Kitchen,Ceramic Mug Set,2024-04-27,1,403.46,383.29,Credit Card,Mobile App,Standard,Silver,0.05,5,2024-11-20,False
+C0141,Arjun Singh,24,Male,Pune,West,Financial Analyst,Sports & Fitness,Running Shoes,2024-09-16,5,3087.91,13123.62,Net Banking,In-Store,Standard,Silver,0.15,2,2024-09-16,True
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Home & Kitchen,Stainless Steel Knife Set,2024-03-14,1,1245.33,1183.06,Credit Card,Online,Standard,Regular,0.05,36,2024-12-31,False
+C0057,Vikram Mukherjee,47,Female,Mumbai,West,Doctor,Home & Kitchen,Coffee Maker,2024-10-01,1,2005.43,1804.89,Credit Card,In-Store,Standard,Silver,0.1,11,2024-12-15,False
+C0050,Amit Chopra,50,Female,Pune,West,Consultant,Home & Kitchen,Non-Stick Frying Pan,2024-12-04,1,828.15,786.74,Credit Card,Online,Standard,Gold,0.05,8,2024-12-04,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Beauty & Personal Care,Moisturizing Cream,2024-09-24,3,524.83,1495.77,UPI,Online,Standard,Silver,0.05,15,2024-12-20,False
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Home & Kitchen,Non-Stick Frying Pan,2024-04-16,1,1708.96,1708.96,UPI,Online,Standard,Regular,0.0,13,2024-12-21,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Beauty & Personal Care,Sunscreen SPF 50,2024-05-25,2,902.07,1623.73,UPI,Online,Standard,Platinum,0.1,24,2024-12-16,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Books,Python Programming,2024-04-29,1,799.56,719.6,Credit Card,Mobile App,Standard,Gold,0.1,20,2024-12-13,False
+C0021,Manish Chopra,56,Female,Delhi,North,Architect,Clothing,Slim Fit Jeans,2024-11-29,1,1757.58,1581.82,UPI,Online,Standard,Platinum,0.1,4,2024-11-29,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Beauty & Personal Care,Face Cleanser,2024-02-17,3,455.35,1161.14,Credit Card,In-Store,Standard,Platinum,0.15,24,2024-12-16,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Clothing,Formal Shirt,2024-10-03,4,1933.78,7348.36,Credit Card,Online,Standard,Platinum,0.05,26,2024-12-25,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Home & Kitchen,Stainless Steel Knife Set,2024-01-27,1,718.19,682.28,UPI,Online,Standard,Regular,0.05,19,2024-12-20,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Beauty & Personal Care,Moisturizing Cream,2024-05-04,1,588.35,588.35,Credit Card,Online,Standard,Regular,0.0,19,2024-12-18,False
+C0018,Pooja Bose,40,Female,Bhubaneswar,East,Entrepreneur,Electronics,Bluetooth Speaker,2024-09-28,1,2018.45,1816.6,UPI,Mobile App,Standard,Silver,0.1,10,2024-11-27,False
+C0144,Varun Bose,36,Male,Delhi,North,Entrepreneur,Books,Psychology of Money,2024-04-20,1,422.81,359.39,Credit Card,Online,Standard,Silver,0.15,5,2024-12-06,False
+C0049,Riya Nair,39,Male,Kolkata,East,Teacher,Sports & Fitness,Running Shoes,2024-03-10,1,4527.34,4300.97,Credit Card,In-Store,Standard,Silver,0.05,5,2024-09-05,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Electric Blender,2024-02-26,2,1926.97,3275.85,UPI,Online,Standard,Platinum,0.15,26,2024-12-25,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Electronics,Smartwatch,2024-12-29,2,2653.8,4511.46,UPI,Online,Standard,Gold,0.15,31,2024-12-30,False
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Electronics,USB-C Hub,2024-03-06,1,774.59,735.86,Credit Card,In-Store,Standard,Regular,0.05,13,2024-12-08,False
+C0036,Divya Das,19,Female,Chennai,South,Product Manager,Clothing,Athletic Shorts,2024-04-19,1,1044.59,992.36,UPI,Online,Standard,Regular,0.05,5,2024-09-20,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Electronics,Smartwatch,2024-05-17,3,2472.83,6305.72,Cash on Delivery,Online,Standard,Silver,0.15,27,2024-12-24,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Home & Kitchen,Coffee Maker,2024-05-30,1,3863.46,3863.46,UPI,Online,Standard,Regular,0.0,22,2024-12-24,False
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Electronics,Smartwatch,2024-12-21,1,2273.05,2273.05,UPI,In-Store,Standard,Regular,0.0,13,2024-12-21,False
+C0109,Riya Nair,42,Female,Mumbai,West,Architect,Electronics,Wireless Headphones,2024-03-01,1,1831.18,1831.18,Net Banking,Online,Standard,Regular,0.0,3,2024-11-18,False
+C0092,Aditi Chopra,51,Male,Jaipur,North,Student,Clothing,Cotton T-Shirt,2024-07-31,1,1187.35,949.88,Net Banking,In-Store,Standard,Silver,0.2,9,2024-09-23,False
+C0012,Varun Reddy,32,Male,Chennai,South,Consultant,Home & Kitchen,Coffee Maker,2024-07-12,5,3586.46,17932.3,UPI,In-Store,Standard,Silver,0.0,7,2024-10-18,True
+C0144,Varun Bose,36,Male,Delhi,North,Entrepreneur,Books,Business Strategy Guide,2024-01-13,1,807.11,645.69,Debit Card,Online,Standard,Silver,0.2,5,2024-12-06,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Beauty & Personal Care,Moisturizing Cream,2024-03-31,2,619.13,1238.26,UPI,Mobile App,Standard,Gold,0.0,26,2024-12-26,False
+C0049,Riya Nair,39,Male,Kolkata,East,Teacher,Electronics,Wireless Headphones,2024-05-11,2,2525.14,5050.28,Cash on Delivery,Mobile App,Standard,Silver,0.0,5,2024-09-05,False
+C0147,Priya Nair,63,Female,Delhi,North,Consultant,Beauty & Personal Care,Face Cleanser,2024-03-12,1,454.87,432.13,UPI,Online,Standard,Regular,0.05,2,2024-08-28,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Sports & Fitness,Resistance Bands Set,2024-05-31,1,454.49,409.04,UPI,Online,Standard,Regular,0.1,22,2024-12-24,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Books,Business Strategy Guide,2024-07-09,1,487.05,438.34,Cash on Delivery,Online,Standard,Regular,0.1,36,2024-12-31,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Books,Business Strategy Guide,2024-06-19,2,469.7,939.4,Net Banking,Online,Standard,Silver,0.0,19,2024-12-24,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Beauty & Personal Care,Sunscreen SPF 50,2024-04-25,1,867.5,867.5,Cash on Delivery,In-Store,Standard,Platinum,0.0,24,2024-12-16,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Sports & Fitness,Adjustable Dumbbells,2024-12-22,3,2882.05,8646.15,Cash on Delivery,Online,Standard,Silver,0.0,27,2024-12-24,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Sports & Fitness,Resistance Bands Set,2024-03-18,1,557.99,502.19,UPI,Online,Standard,Silver,0.1,15,2024-12-20,False
+C0135,Meera Patel,54,Female,Kolkata,East,Software Engineer,Beauty & Personal Care,Perfume Spray,2024-03-26,1,1566.6,1566.6,UPI,In-Store,Standard,Platinum,0.0,11,2024-12-30,False
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Home & Kitchen,Electric Blender,2024-12-18,4,2026.97,8107.88,Debit Card,Online,Standard,Silver,0.0,13,2024-12-26,True
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Beauty & Personal Care,Moisturizing Cream,2024-08-23,1,764.42,764.42,Net Banking,Online,Standard,Regular,0.0,13,2024-12-08,False
+C0074,Ananya Nair,67,Female,Noida,North,Doctor,Clothing,Cotton T-Shirt,2024-09-28,1,481.92,481.92,UPI,Online,Standard,Silver,0.0,11,2024-12-18,False
+C0074,Ananya Nair,67,Female,Noida,North,Doctor,Home & Kitchen,Electric Blender,2024-06-19,1,3119.95,3119.95,Net Banking,Online,Standard,Silver,0.0,11,2024-12-18,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Books,Python Programming,2024-06-16,2,745.59,1416.62,Debit Card,Online,Standard,Regular,0.05,22,2024-12-24,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Books,Business Strategy Guide,2024-03-16,1,482.2,482.2,UPI,Online,Standard,Regular,0.0,15,2024-12-26,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Sports & Fitness,Yoga Mat,2024-05-01,3,1296.54,3695.14,Credit Card,Online,Standard,Gold,0.05,36,2024-12-27,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Home & Kitchen,Non-Stick Frying Pan,2024-08-10,3,1979.23,5343.92,Credit Card,Online,Standard,Silver,0.1,27,2024-12-24,False
+C0034,Rohan Gupta,47,Female,Hyderabad,South,Software Engineer,Electronics,USB-C Hub,2024-06-24,2,948.36,1612.21,Cash on Delivery,In-Store,Standard,Platinum,0.15,2,2024-06-24,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Clothing,Slim Fit Jeans,2024-09-15,1,2396.65,2396.65,Net Banking,In-Store,Standard,Gold,0.0,21,2024-12-03,False
+C0109,Riya Nair,42,Female,Mumbai,West,Architect,Electronics,Smartwatch,2024-02-04,1,2742.11,2742.11,UPI,Online,Standard,Regular,0.0,3,2024-11-18,False
+C0047,Rahul Reddy,62,Male,Hyderabad,South,Sales Executive,Beauty & Personal Care,Sunscreen SPF 50,2024-09-08,4,904.42,3617.68,UPI,Online,Standard,Regular,0.0,5,2024-12-17,True
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Beauty & Personal Care,Herbal Shampoo,2024-02-13,2,461.62,923.24,Debit Card,Online,Standard,Silver,0.0,19,2024-12-24,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Sports & Fitness,Resistance Bands Set,2024-05-09,1,671.57,671.57,Credit Card,Online,Standard,Platinum,0.0,43,2024-12-29,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Sports & Fitness,Yoga Mat,2024-01-03,3,667.2,2001.6,UPI,Online,Standard,Silver,0.0,20,2024-12-21,False
+C0134,Divya Reddy,64,Female,Bhubaneswar,East,Accountant,Clothing,Cotton T-Shirt,2024-11-29,2,487.52,975.04,UPI,In-Store,Standard,Gold,0.0,11,2024-11-29,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Home & Kitchen,Coffee Maker,2024-02-21,37,3500.0,129500.0,Credit Card,Mobile App,Standard,Gold,0.0,36,2024-12-27,True
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Beauty & Personal Care,Moisturizing Cream,2024-03-26,1,869.04,869.04,UPI,Online,Standard,Platinum,0.0,26,2024-12-25,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Sports & Fitness,Running Shoes,2024-10-26,1,4568.63,4111.77,Debit Card,In-Store,Standard,Regular,0.1,18,2024-12-01,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Books,Atomic Habits,2024-09-18,3,786.47,2359.41,UPI,In-Store,Standard,Silver,0.0,20,2024-12-21,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Books,Atomic Habits,2024-11-24,2,698.5,1257.3,UPI,Online,Standard,Regular,0.1,36,2024-12-31,False
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Beauty & Personal Care,Moisturizing Cream,2024-11-29,2,849.09,1698.18,Net Banking,In-Store,Standard,Regular,0.0,13,2024-12-21,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Electronics,Power Bank,2024-08-01,2,1588.48,3176.96,Cash on Delivery,Online,Standard,Gold,0.0,20,2024-12-13,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Clothing,Cotton T-Shirt,2024-05-26,1,671.04,637.49,UPI,Online,Standard,Regular,0.05,16,2024-12-05,False
+C0148,Divya Kumar,25,Male,Bangalore,South,Marketing Specialist,Beauty & Personal Care,Herbal Shampoo,2024-04-18,3,347.95,1043.85,Debit Card,In-Store,Standard,Silver,0.0,9,2024-12-20,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Electronics,Wireless Headphones,2024-02-01,2,1736.45,3299.26,Credit Card,Mobile App,Standard,Regular,0.05,15,2024-12-26,False
+C0012,Varun Reddy,32,Male,Chennai,South,Consultant,Electronics,USB-C Hub,2024-08-09,4,973.26,3503.74,UPI,Online,Standard,Silver,0.1,7,2024-10-18,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Home & Kitchen,Electric Blender,2024-05-21,1,2509.38,2509.38,UPI,Mobile App,Standard,Gold,0.0,20,2024-12-13,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Beauty & Personal Care,Moisturizing Cream,2024-05-04,1,626.23,626.23,Credit Card,Mobile App,Standard,Silver,0.0,27,2024-12-24,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Water Bottle 1L,2024-08-27,2,741.08,1482.16,Debit Card,In-Store,Standard,Regular,0.0,36,2024-12-31,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Books,Atomic Habits,2024-03-26,1,420.01,378.01,Debit Card,Online,Standard,Silver,0.1,19,2024-12-24,False
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Clothing,Athletic Shorts,2024-12-26,2,976.42,1659.91,Credit Card,In-Store,Standard,Silver,0.15,13,2024-12-26,False
+C0087,Divya Das,28,Female,Chennai,South,Teacher,Books,Business Strategy Guide,2024-05-28,2,477.87,812.38,UPI,Online,Standard,Regular,0.15,7,2024-11-22,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Sports & Fitness,Yoga Mat,2024-04-12,4,1069.44,3636.1,UPI,Mobile App,Standard,Silver,0.15,20,2024-12-21,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Home & Kitchen,Stainless Steel Knife Set,2024-07-12,2,846.33,1608.03,Credit Card,In-Store,Standard,Regular,0.05,36,2024-12-31,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Clothing,Cotton T-Shirt,2024-10-22,2,1057.82,1692.51,UPI,Online,Standard,Regular,0.2,16,2024-12-05,False
+C0101,Divya Deshmukh,68,Male,Pune,West,Data Analyst,Sports & Fitness,Water Bottle 1L,2024-03-20,3,342.14,923.78,Credit Card,Online,Standard,Silver,0.1,8,2024-12-30,False
+C0087,Divya Das,28,Female,Chennai,South,Teacher,Electronics,USB-C Hub,2024-03-16,1,1268.46,1205.04,UPI,In-Store,Standard,Regular,0.05,7,2024-11-22,False
+C0050,Amit Chopra,50,Female,Pune,West,Consultant,Books,Python Programming,2024-09-29,1,642.68,642.68,Credit Card,Online,Standard,Gold,0.0,8,2024-12-04,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Books,Python Programming,2024-06-08,1,666.62,633.29,Credit Card,Online,Standard,Silver,0.05,15,2024-10-29,False
+C0113,Nikhil Singh,47,Male,Hyderabad,South,Consultant,Home & Kitchen,Stainless Steel Knife Set,2024-04-17,2,1376.6,2477.88,Net Banking,Mobile App,Standard,Regular,0.1,8,2024-12-28,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Clothing,Cotton T-Shirt,2024-12-02,3,941.7,2542.59,Debit Card,Online,Standard,Platinum,0.1,43,2024-12-29,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Water Bottle 1L,2024-04-20,1,434.9,413.16,UPI,In-Store,Standard,Gold,0.05,31,2024-12-30,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Beauty & Personal Care,Herbal Shampoo,2024-11-03,2,633.81,1140.86,Debit Card,Mobile App,Standard,Platinum,0.1,26,2024-12-25,False
+C0029,Amit Mukherjee,26,Male,Ahmedabad,West,Entrepreneur,Books,Python Programming,2024-11-12,2,861.0,1722.0,Credit Card,In-Store,Standard,Regular,0.0,6,2024-11-12,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Electronics,USB-C Hub,2024-10-13,1,1358.66,1358.66,Credit Card,In-Store,Standard,Regular,0.0,18,2024-12-01,False
+C0002,Manish Joshi,41,Male,Hyderabad,South,Financial Analyst,Books,Data Analytics Handbook,2024-02-16,2,1122.24,2244.48,Credit Card,Online,Standard,Regular,0.0,8,2024-12-27,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Clothing,Athletic Shorts,2024-11-01,3,1134.28,3402.84,Debit Card,In-Store,Standard,Gold,0.0,36,2024-12-27,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Clothing,Athletic Shorts,2024-11-24,2,1140.11,1824.18,UPI,In-Store,Standard,Regular,0.2,36,2024-12-31,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Books,Python Programming,2024-10-13,1,878.85,878.85,Credit Card,Mobile App,Standard,Platinum,0.0,17,2024-12-28,False
+C0021,Manish Chopra,56,Female,Delhi,North,Architect,Clothing,Slim Fit Jeans,2024-10-16,4,2548.63,9684.79,UPI,Online,Standard,Platinum,0.05,4,2024-11-29,True
+C0064,Priya Nair,68,Male,Mumbai,West,Designer,Books,Data Analytics Handbook,2024-12-09,5,902.78,4062.51,Net Banking,Online,Standard,Regular,0.1,7,2024-12-09,True
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Books,Atomic Habits,2024-03-07,4,439.89,1759.56,Credit Card,Online,Standard,Gold,0.0,26,2024-12-26,False
+C0036,Divya Das,47,Female,Chennai,South,Product Manager,Sports & Fitness,Resistance Bands Set,2024-03-17,2,417.81,710.28,Credit Card,Online,Standard,Regular,0.15,5,2024-09-20,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Clothing,Slim Fit Jeans,2024-10-12,2,2005.72,3810.87,Credit Card,In-Store,Standard,Silver,0.05,15,2024-10-29,False
+C0105,Ravi Gupta,69,Male,Hyderabad,South,Teacher,Beauty & Personal Care,Herbal Shampoo,2024-05-10,1,423.36,402.19,UPI,Online,Standard,Silver,0.05,2,2024-07-17,False
+C0031,Aarav Iyer,57,Male,Chennai,South,Architect,Books,Data Analytics Handbook,2024-10-22,2,850.05,1700.1,Credit Card,Mobile App,Standard,Silver,0.0,12,2024-10-25,False
+C0057,Vikram Mukherjee,47,Female,Mumbai,West,Doctor,Beauty & Personal Care,Moisturizing Cream,2024-12-02,1,599.76,599.76,Credit Card,Online,Standard,Silver,0.0,11,2024-12-15,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Books,Python Programming,2024-07-03,1,672.43,638.81,Credit Card,Online,Standard,Gold,0.05,26,2024-12-26,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Home & Kitchen,Coffee Maker,2024-03-10,1,2054.46,2054.46,Debit Card,In-Store,Standard,Silver,0.0,15,2024-10-29,False
+C0002,Manish Joshi,41,Male,Hyderabad,South,Financial Analyst,Home & Kitchen,Ceramic Mug Set,2024-01-28,3,487.29,1461.87,UPI,Online,Standard,Regular,0.0,8,2024-12-27,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Electronics,Power Bank,2024-02-15,2,1383.74,2352.36,UPI,Online,Standard,Platinum,0.15,26,2024-12-25,False
+C0010,Priya Bose,31,Female,Hyderabad,South,Sales Executive,Sports & Fitness,Water Bottle 1L,2024-06-26,1,485.07,412.31,UPI,Mobile App,Standard,Gold,0.15,2,2024-06-26,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Water Bottle 1L,2024-02-04,1,544.97,544.97,Credit Card,In-Store,Standard,Regular,0.0,36,2024-12-31,False
+C0143,Karan Sharma,71,Female,Hyderabad,South,Software Engineer,Home & Kitchen,Coffee Maker,2024-01-15,1,3185.48,3185.48,Credit Card,In-Store,Standard,Silver,0.0,10,2024-12-19,False
+C0059,Riya Mehta,51,Male,Kolkata,East,Designer,Home & Kitchen,Electric Blender,2024-10-17,1,2159.43,1943.49,UPI,Online,Standard,Regular,0.1,5,2024-10-24,False
+C0055,Nikhil Sharma,47,Female,Pune,West,Teacher,Clothing,Athletic Shorts,2024-10-30,1,710.86,604.23,Cash on Delivery,In-Store,Standard,Regular,0.15,17,2024-11-02,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Home & Kitchen,Electric Blender,2024-12-27,1,2386.16,2386.16,Debit Card,In-Store,Standard,Platinum,0.0,14,2024-12-30,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Sports & Fitness,Running Shoes,2024-09-19,3,3768.29,10174.38,Debit Card,In-Store,Standard,Regular,0.1,15,2024-12-16,True
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Sports & Fitness,Water Bottle 1L,2024-05-10,1,570.94,513.85,Net Banking,In-Store,Standard,Platinum,0.1,43,2024-12-29,False
+C0149,Ananya Singh,64,Female,Jaipur,North,Software Engineer,Clothing,Cotton T-Shirt,2024-10-02,2,937.69,1781.61,Net Banking,Online,Standard,Platinum,0.05,17,2024-12-28,False
+C0059,Riya Mehta,51,Male,Kolkata,East,Designer,Books,Python Programming,2024-03-05,2,869.34,1738.68,UPI,Online,Standard,Regular,0.0,5,2024-10-24,False
+C0077,Arjun Kumar,62,Male,Kolkata,East,Product Manager,Home & Kitchen,Stainless Steel Knife Set,2024-07-20,1,1471.42,1471.42,UPI,In-Store,Standard,Gold,0.0,11,2024-12-18,False
+C0118,Sneha Mehta,53,Male,Jaipur,North,Software Engineer,Electronics,USB-C Hub,2024-09-03,4,1313.71,4729.36,Net Banking,Online,Standard,Silver,0.1,1,2024-09-03,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Beauty & Personal Care,Face Cleanser,2024-11-21,2,522.04,835.26,Cash on Delivery,Online,Standard,Gold,0.2,21,2024-12-03,False
+C0101,Divya Deshmukh,68,Male,Pune,West,Data Analyst,Beauty & Personal Care,Perfume Spray,2024-12-26,2,2606.63,4691.93,Credit Card,In-Store,Standard,Silver,0.1,8,2024-12-30,True
+C0062,Amit Mehta,20,Female,Hyderabad,South,Designer,Electronics,Power Bank,2024-01-26,5,1501.99,7134.45,UPI,Online,Standard,Silver,0.05,4,2024-09-02,False
+C0067,Shreya Kumar,29,Male,Bangalore,South,Architect,Beauty & Personal Care,Herbal Shampoo,2024-02-22,3,595.91,1698.34,UPI,Online,Standard,Silver,0.05,10,2024-11-27,False
+C0114,Rohan Gupta,53,Other,Ahmedabad,West,Data Analyst,Home & Kitchen,Non-Stick Frying Pan,2024-10-23,1,1241.58,1117.42,Cash on Delivery,Online,Standard,Platinum,0.1,11,2024-12-11,False
+C0001,Rahul Patel,32,Male,Pune,West,Consultant,Beauty & Personal Care,Sunscreen SPF 50,2024-02-09,4,632.82,2531.28,UPI,In-Store,Standard,Silver,0.0,1,2024-02-09,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Running Shoes,2024-05-01,4,2886.36,11545.44,UPI,Online,Standard,Gold,0.0,31,2024-12-30,True
+C0057,Vikram Mukherjee,47,Female,Mumbai,West,Doctor,Sports & Fitness,Adjustable Dumbbells,2024-12-04,2,3636.19,7272.38,UPI,Online,Standard,Silver,0.0,11,2024-12-15,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Beauty & Personal Care,Sunscreen SPF 50,2024-11-15,1,817.67,735.9,UPI,Online,Standard,Gold,0.1,26,2024-12-26,False
+C0020,Nikhil Singh,45,Male,Mumbai,West,Sales Executive,Clothing,Formal Shirt,2024-01-25,1,1161.63,1045.47,UPI,Online,Standard,Regular,0.1,6,2024-12-30,False
+C0101,Divya Deshmukh,68,Male,Pune,West,Data Analyst,Beauty & Personal Care,Herbal Shampoo,2024-02-07,3,730.95,2192.85,UPI,In-Store,Standard,Silver,0.0,8,2024-12-30,False
+C0108,Arjun Mukherjee,54,Male,Bangalore,South,Architect,Clothing,Casual Jacket,2024-08-01,2,4330.58,7795.04,UPI,Online,Standard,Regular,0.1,4,2024-10-16,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Sports & Fitness,Running Shoes,2024-07-19,3,5039.13,12849.78,Cash on Delivery,In-Store,Standard,Silver,0.15,19,2024-12-21,True
+C0099,Arjun Mukherjee,40,Male,Bhubaneswar,East,Teacher,Home & Kitchen,Coffee Maker,2024-08-12,1,2879.9,2591.91,UPI,In-Store,Standard,Regular,0.1,10,2024-12-30,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Home & Kitchen,Electric Blender,2024-10-29,2,1957.76,3523.97,Cash on Delivery,Online,Standard,Silver,0.1,15,2024-10-29,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Beauty & Personal Care,Perfume Spray,2024-07-25,2,3099.04,6198.08,UPI,Online,Standard,Silver,0.0,15,2024-10-29,True
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Clothing,Athletic Shorts,2024-02-12,3,1046.66,3139.98,UPI,Mobile App,Standard,Regular,0.0,22,2024-12-24,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Electronics,Bluetooth Speaker,2024-01-26,2,3476.96,6258.53,Debit Card,In-Store,Standard,Gold,0.1,13,2024-12-28,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Sports & Fitness,Yoga Mat,2024-11-05,1,894.53,894.53,Credit Card,Online,Standard,Regular,0.0,19,2024-12-20,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Sports & Fitness,Yoga Mat,2024-04-20,1,615.13,553.62,UPI,Online,Standard,Silver,0.1,19,2024-12-24,False
+C0084,Riya Mukherjee,26,Male,Mumbai,West,Entrepreneur,Books,Data Analytics Handbook,2024-03-21,2,679.33,1290.73,Cash on Delivery,In-Store,Standard,Regular,0.05,11,2024-12-04,False
+C0016,Rohan Mehta,18,Female,Bangalore,South,Sales Executive,Electronics,Bluetooth Speaker,2024-12-28,34,1780.37,60532.58,Net Banking,Online,Standard,Silver,0.0,2,2024-12-28,True
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Clothing,Slim Fit Jeans,2024-03-01,2,1246.04,2242.87,Credit Card,Online,Standard,Regular,0.1,15,2024-12-02,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Home & Kitchen,Coffee Maker,2024-02-29,1,2381.1,2262.04,Net Banking,In-Store,Standard,Regular,0.05,17,2024-11-02,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Electronics,Smartwatch,2024-08-12,2,3169.37,5704.87,Credit Card,In-Store,Standard,Gold,0.1,26,2024-12-26,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Clothing,Formal Shirt,2024-07-21,2,1594.45,2710.56,Net Banking,Online,Standard,Regular,0.15,14,2024-11-28,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Home & Kitchen,Ceramic Mug Set,2024-12-25,1,920.53,874.5,Debit Card,Online,Standard,Gold,0.05,26,2024-12-26,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Electronics,Bluetooth Speaker,2024-05-19,2,3407.02,5791.93,Debit Card,Mobile App,Standard,Platinum,0.15,14,2024-11-14,False
+C0075,Sneha Gupta,18,Female,Delhi,North,Consultant,Home & Kitchen,Ceramic Mug Set,2024-12-31,1,919.26,919.26,Credit Card,In-Store,Standard,Regular,0.0,2,2024-12-31,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Beauty & Personal Care,Herbal Shampoo,2024-06-26,1,619.51,588.53,UPI,Online,Standard,Platinum,0.05,14,2024-12-30,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Sports & Fitness,Yoga Mat,2024-10-04,3,1234.6,3518.61,Net Banking,Online,Standard,Regular,0.05,17,2024-11-02,False
+C0074,Ananya Nair,67,Female,Noida,North,Doctor,Beauty & Personal Care,Face Cleanser,2024-08-23,1,358.62,322.76,Credit Card,Mobile App,Standard,Silver,0.1,11,2024-12-18,False
+C0019,Rahul Joshi,39,Female,Kolkata,East,Entrepreneur,Electronics,Smartwatch,2024-02-07,1,5412.25,5412.25,Credit Card,Online,Standard,Silver,0.0,3,2024-02-18,False
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Sports & Fitness,Resistance Bands Set,2024-08-01,1,847.73,847.73,UPI,Online,Standard,Silver,0.0,13,2024-12-26,False
+C0103,Kavya Nair,44,Male,Chennai,South,Architect,Sports & Fitness,Adjustable Dumbbells,2024-02-01,2,2125.15,3400.24,Net Banking,In-Store,Standard,Regular,0.2,1,2024-02-01,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Resistance Bands Set,2024-11-03,1,498.05,498.05,Cash on Delivery,Mobile App,Standard,Regular,0.0,36,2024-12-31,False
+C0150,Ananya Verma,49,Other,Hyderabad,South,Sales Executive,Home & Kitchen,Stainless Steel Knife Set,2024-07-30,1,607.79,577.4,Net Banking,Online,Standard,Regular,0.05,3,2024-11-23,False
+C0136,Karan Singh,46,Male,Chennai,South,Teacher,Beauty & Personal Care,Sunscreen SPF 50,2024-01-16,2,826.42,1570.2,Cash on Delivery,Online,Standard,Regular,0.05,3,2024-07-05,False
+C0108,Arjun Mukherjee,54,Male,Bangalore,South,Architect,Home & Kitchen,Coffee Maker,2024-01-01,1,3864.47,3671.25,UPI,Online,Standard,Regular,0.05,4,2024-10-16,False
+C0070,Tanvi Gupta,64,Male,Pune,West,Marketing Specialist,Electronics,Power Bank,2024-06-15,5,1817.22,8177.49,Credit Card,Online,Standard,Platinum,0.1,3,2024-12-30,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Beauty & Personal Care,Perfume Spray,2024-08-05,1,2193.87,2084.18,Debit Card,Online,Standard,Gold,0.05,31,2024-12-30,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Sports & Fitness,Resistance Bands Set,2024-01-09,1,497.43,497.43,UPI,In-Store,Standard,Gold,0.0,26,2024-12-26,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Electronics,Power Bank,2024-03-24,2,1067.3,2027.87,Credit Card,Online,Standard,Silver,0.05,27,2024-12-24,False
+C0067,Shreya Kumar,29,Male,Bangalore,South,Architect,Sports & Fitness,Yoga Mat,2024-04-22,1,995.5,945.72,Cash on Delivery,Online,Standard,Silver,0.05,10,2024-11-27,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Clothing,Slim Fit Jeans,2024-11-07,3,1604.35,4091.09,Debit Card,Online,Standard,Silver,0.15,20,2024-12-21,False
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Clothing,Formal Shirt,2024-02-17,1,1476.0,1180.8,UPI,In-Store,Standard,Regular,0.2,13,2024-12-08,False
+C0098,Shreya Mehta,23,Female,Bhubaneswar,East,Student,Clothing,Casual Jacket,2024-02-25,1,4249.26,3611.87,UPI,Online,Standard,Silver,0.15,5,2024-12-25,False
+C0100,Pooja Iyer,42,Female,Jaipur,North,Student,Clothing,Slim Fit Jeans,2024-05-02,1,1615.96,1373.57,Debit Card,Online,Standard,Regular,0.15,2,2024-07-25,False
+C0031,Aarav Iyer,57,Male,Chennai,South,Architect,Electronics,Power Bank,2024-10-25,1,1463.4,1317.06,Credit Card,In-Store,Standard,Silver,0.1,12,2024-10-25,False
+C0058,Meera Mehta,50,Male,Pune,West,Consultant,Beauty & Personal Care,Herbal Shampoo,2024-12-18,1,521.44,469.3,Credit Card,Online,Standard,Gold,0.1,4,2024-12-18,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Beauty & Personal Care,Perfume Spray,2024-11-02,1,3195.82,3195.82,Debit Card,Online,Standard,Regular,0.0,17,2024-11-02,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Books,Business Strategy Guide,2024-09-29,2,541.33,1082.66,Cash on Delivery,In-Store,Standard,Regular,0.0,19,2024-12-18,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Electronics,Bluetooth Speaker,2024-11-21,2,1799.19,3598.38,Credit Card,In-Store,Standard,Regular,0.0,19,2024-12-18,False
+C0128,Aarav Patel,53,Other,Chennai,South,Software Engineer,Sports & Fitness,Water Bottle 1L,2024-07-07,1,744.37,669.93,UPI,Mobile App,Standard,Regular,0.1,8,2024-11-18,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Sports & Fitness,Resistance Bands Set,2024-06-22,1,622.28,560.05,Net Banking,Online,Standard,Regular,0.1,19,2024-12-20,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Electronics,USB-C Hub,2024-04-15,2,939.17,1690.51,UPI,In-Store,Standard,Platinum,0.1,14,2024-11-14,False
+C0050,Amit Chopra,50,Female,Pune,West,Consultant,Electronics,Smartwatch,2024-06-15,1,4582.69,3666.15,UPI,In-Store,Standard,Gold,0.2,8,2024-12-04,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Clothing,Formal Shirt,2024-10-04,2,1737.68,3475.36,Credit Card,Online,Standard,Regular,0.0,15,2024-12-26,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Sports & Fitness,Water Bottle 1L,2024-01-20,1,633.24,601.58,Credit Card,Online,Standard,Silver,0.05,12,2024-11-09,False
+C0073,Neha Reddy,61,Female,Ahmedabad,West,Consultant,Home & Kitchen,Ceramic Mug Set,2024-01-03,1,911.1,911.1,Debit Card,Online,Standard,Silver,0.0,3,2024-04-11,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Books,Atomic Habits,2024-12-17,1,708.79,673.35,UPI,Mobile App,Standard,Platinum,0.05,43,2024-12-29,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Clothing,Slim Fit Jeans,2024-10-23,1,2888.09,2743.69,Credit Card,Online,Standard,Silver,0.05,20,2024-12-21,False
+C0031,Aarav Iyer,57,Male,Chennai,South,Architect,Sports & Fitness,Yoga Mat,2024-10-04,1,1287.15,1222.79,UPI,Online,Standard,Silver,0.05,12,2024-10-25,False
+C0125,Ananya Kumar,55,Female,Delhi,North,Architect,Beauty & Personal Care,Moisturizing Cream,2024-02-25,1,467.77,420.99,Credit Card,Online,Standard,Silver,0.1,9,2024-12-29,False
+C0078,Karan Kumar,20,Female,Chennai,South,Accountant,Clothing,Athletic Shorts,2024-05-11,1,712.88,677.24,Credit Card,Online,Standard,Silver,0.05,11,2024-10-05,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Beauty & Personal Care,Herbal Shampoo,2024-06-03,1,612.54,612.54,UPI,In-Store,Standard,Silver,0.0,16,2024-12-24,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Home & Kitchen,Stainless Steel Knife Set,2024-10-01,1,783.46,783.46,Debit Card,Online,Standard,Silver,0.0,27,2024-12-24,False
+C0017,Karan Mukherjee,59,Male,Jaipur,North,Consultant,Beauty & Personal Care,Perfume Spray,2024-12-08,1,2337.94,2337.94,UPI,Online,Standard,Silver,0.0,7,2024-12-08,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Books,Python Programming,2024-08-23,3,661.35,1686.44,Credit Card,Online,Standard,Regular,0.15,36,2024-12-31,False
+C0084,Riya Mukherjee,26,Male,Mumbai,West,Entrepreneur,Clothing,Slim Fit Jeans,2024-02-04,1,1218.13,1157.22,UPI,Online,Standard,Regular,0.05,11,2024-12-04,False
+C0074,Ananya Nair,67,Female,Noida,North,Doctor,Beauty & Personal Care,Herbal Shampoo,2024-01-07,2,394.0,748.6,Net Banking,Online,Standard,Silver,0.05,11,2024-12-18,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Adjustable Dumbbells,2024-11-26,1,2228.4,1782.72,UPI,Mobile App,Standard,Regular,0.2,36,2024-12-31,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Non-Stick Frying Pan,2024-07-30,1,1220.09,1159.09,Net Banking,Online,Standard,Platinum,0.05,26,2024-12-25,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Clothing,Slim Fit Jeans,2024-08-30,3,2202.72,6608.16,Cash on Delivery,Online,Standard,Platinum,0.0,14,2024-12-30,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Clothing,Slim Fit Jeans,2024-09-03,2,2238.44,4476.88,UPI,Mobile App,Standard,Regular,0.0,22,2024-12-24,False
+C0026,Aditi Verma,71,Male,Delhi,North,Software Engineer,Clothing,Slim Fit Jeans,2024-11-21,2,2887.55,5486.34,UPI,Online,Standard,Silver,0.05,9,2024-12-18,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Beauty & Personal Care,Herbal Shampoo,2024-04-24,1,557.11,473.54,Credit Card,Mobile App,Standard,Regular,0.15,36,2024-12-31,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Home & Kitchen,Ceramic Mug Set,2024-04-01,2,554.31,1053.19,UPI,Online,Standard,Platinum,0.05,24,2024-12-16,False
+C0141,Arjun Singh,24,Male,Pune,West,Financial Analyst,Clothing,Casual Jacket,2024-04-16,2,4609.07,7374.51,Cash on Delivery,Online,Standard,Silver,0.2,2,2024-09-16,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Clothing,Athletic Shorts,2024-09-22,2,1146.85,1834.96,UPI,In-Store,Standard,Silver,0.2,19,2024-12-21,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Electronics,Power Bank,2024-03-19,1,1647.46,1400.34,UPI,Online,Standard,Regular,0.15,15,2024-12-02,False
+C0042,Karan Mehta,66,Female,Jaipur,North,Accountant,Clothing,Formal Shirt,2024-10-21,1,1236.99,989.59,Debit Card,Online,Standard,Regular,0.2,1,2024-10-21,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Electronics,Smartwatch,2024-11-25,1,6546.79,5564.77,UPI,Online,Standard,Gold,0.15,36,2024-12-27,False
+C0134,Divya Reddy,64,Female,Bhubaneswar,East,Accountant,Electronics,Wireless Headphones,2024-01-15,2,2315.9,4631.8,UPI,Online,Standard,Gold,0.0,11,2024-11-29,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Electronics,USB-C Hub,2024-09-26,1,1420.44,1420.44,UPI,Online,Standard,Gold,0.0,36,2024-12-27,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Home & Kitchen,Stainless Steel Knife Set,2024-09-02,1,787.1,747.74,Credit Card,Online,Standard,Regular,0.05,19,2024-12-20,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Electronics,USB-C Hub,2024-05-22,2,1267.49,2408.23,Debit Card,In-Store,Standard,Platinum,0.05,26,2024-12-25,False
+C0077,Arjun Kumar,62,Male,Kolkata,East,Product Manager,Books,Psychology of Money,2024-01-06,1,696.27,591.83,UPI,Online,Standard,Gold,0.15,11,2024-12-18,False
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Home & Kitchen,Non-Stick Frying Pan,2024-10-15,3,828.93,2362.45,Credit Card,Mobile App,Standard,Regular,0.05,13,2024-12-21,False
+C0014,Vikram Nair,58,Male,Chennai,South,Financial Analyst,Beauty & Personal Care,Moisturizing Cream,2024-12-21,2,667.28,1267.83,Credit Card,Online,Standard,Silver,0.05,19,2024-12-21,False
+C0080,Vikram Patel,36,Male,Noida,North,Architect,Home & Kitchen,Ceramic Mug Set,2024-05-03,1,901.32,856.25,UPI,In-Store,Standard,Silver,0.05,16,2024-12-24,False
+C0134,Divya Reddy,64,Female,Bhubaneswar,East,Accountant,Clothing,Casual Jacket,2024-08-29,1,4496.12,3596.9,UPI,Online,Standard,Gold,0.2,11,2024-11-29,False
+C0026,Aditi Verma,71,Male,Delhi,North,Software Engineer,Beauty & Personal Care,Herbal Shampoo,2024-12-02,1,642.81,610.67,UPI,In-Store,Standard,Silver,0.05,9,2024-12-18,False
+C0092,Aditi Chopra,51,Male,Jaipur,North,Student,Beauty & Personal Care,Sunscreen SPF 50,2024-09-23,2,815.09,1630.18,UPI,In-Store,Standard,Silver,0.0,9,2024-09-23,False
+C0067,Shreya Kumar,29,Male,Bangalore,South,Architect,Electronics,Power Bank,2024-07-29,2,1754.7,3158.46,UPI,In-Store,Standard,Silver,0.1,10,2024-11-27,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Clothing,Formal Shirt,2024-07-16,1,1357.13,1221.42,Debit Card,Online,Standard,Silver,0.1,15,2024-12-20,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Clothing,Formal Shirt,2024-12-03,3,1707.25,4609.58,Debit Card,Online,Standard,Gold,0.1,21,2024-12-03,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Beauty & Personal Care,Face Cleanser,2024-07-10,1,322.24,322.24,Credit Card,In-Store,Standard,Regular,0.0,19,2024-12-18,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Books,Psychology of Money,2024-09-18,1,372.97,335.67,UPI,In-Store,Standard,Regular,0.1,14,2024-10-12,False
+C0143,Karan Sharma,71,Female,Hyderabad,South,Software Engineer,Books,Atomic Habits,2024-08-18,1,654.59,654.59,UPI,Online,Standard,Silver,0.0,10,2024-12-19,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Home & Kitchen,Electric Blender,2024-05-16,1,2640.63,2508.6,UPI,In-Store,Standard,Silver,0.05,15,2024-10-29,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Home & Kitchen,Ceramic Mug Set,2024-10-31,1,610.69,519.09,Credit Card,Online,Standard,Regular,0.15,15,2024-12-26,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Books,Atomic Habits,2024-03-09,1,409.95,348.46,Credit Card,Online,Standard,Regular,0.15,15,2024-12-02,False
+C0069,Neha Deshmukh,36,Male,Bangalore,South,Accountant,Books,Python Programming,2024-01-30,2,1042.2,2084.4,Debit Card,In-Store,Standard,Regular,0.0,8,2024-11-20,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Home & Kitchen,Ceramic Mug Set,2024-07-01,1,661.77,661.77,UPI,Mobile App,Standard,Silver,0.0,12,2024-11-09,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Books,Atomic Habits,2024-12-03,1,751.89,601.51,UPI,Mobile App,Standard,Regular,0.2,36,2024-12-31,False
+C0148,Divya Kumar,25,Male,Bangalore,South,Marketing Specialist,Clothing,Athletic Shorts,2024-05-16,1,1011.49,1011.49,UPI,Online,Standard,Silver,0.0,9,2024-12-20,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Beauty & Personal Care,Sunscreen SPF 50,2024-03-29,2,920.95,1841.9,Debit Card,Online,Standard,Silver,0.0,12,2024-11-09,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Sports & Fitness,Adjustable Dumbbells,2024-11-03,3,1927.67,5204.71,Cash on Delivery,In-Store,Standard,Platinum,0.1,24,2024-12-16,False
+C0035,Amit Sharma,55,Female,Jaipur,North,Sales Executive,Clothing,Athletic Shorts,2024-08-30,1,979.13,881.22,Net Banking,Online,Standard,Regular,0.1,8,2024-12-03,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Home & Kitchen,Coffee Maker,2024-05-24,3,2178.77,5882.68,UPI,Online,Standard,Silver,0.1,15,2024-10-29,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Home & Kitchen,Non-Stick Frying Pan,2024-01-16,3,1900.25,5415.71,Cash on Delivery,Mobile App,Standard,Regular,0.05,18,2024-12-01,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Books,Data Analytics Handbook,2024-10-31,3,706.39,2119.17,Debit Card,Online,Standard,Silver,0.0,13,2024-12-16,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Home & Kitchen,Electric Blender,2024-04-10,1,2807.62,2526.86,UPI,Online,Standard,Regular,0.1,22,2024-12-24,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Electronics,USB-C Hub,2024-10-24,1,725.15,688.89,UPI,Online,Standard,Silver,0.05,15,2024-12-20,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Home & Kitchen,Ceramic Mug Set,2024-09-29,3,824.81,2474.43,UPI,Online,Standard,Silver,0.0,27,2024-12-24,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Beauty & Personal Care,Moisturizing Cream,2024-11-04,5,840.52,3992.47,Credit Card,In-Store,Standard,Platinum,0.05,14,2024-12-30,True
+C0039,Sneha Deshmukh,71,Female,Bhubaneswar,East,Data Analyst,Beauty & Personal Care,Sunscreen SPF 50,2024-04-30,1,897.19,852.33,Net Banking,Online,Standard,Silver,0.05,13,2024-12-26,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Sports & Fitness,Adjustable Dumbbells,2024-01-10,2,2075.63,3943.7,UPI,Online,Standard,Gold,0.05,36,2024-12-27,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Electronics,USB-C Hub,2024-09-24,4,874.84,3499.36,UPI,Mobile App,Standard,Silver,0.0,20,2024-12-21,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Beauty & Personal Care,Sunscreen SPF 50,2024-09-07,2,501.75,953.32,UPI,In-Store,Standard,Silver,0.05,15,2024-10-29,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Sports & Fitness,Adjustable Dumbbells,2024-11-14,2,4388.86,7461.06,Debit Card,Online,Standard,Platinum,0.15,14,2024-11-14,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Home & Kitchen,Ceramic Mug Set,2024-05-31,1,534.34,507.62,Debit Card,Online,Standard,Silver,0.05,27,2024-12-24,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Clothing,Athletic Shorts,2024-03-29,1,1108.54,1108.54,Cash on Delivery,In-Store,Standard,Regular,0.0,36,2024-12-31,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Sports & Fitness,Yoga Mat,2024-09-27,1,1253.5,1065.47,UPI,Online,Standard,Regular,0.15,14,2024-11-28,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Beauty & Personal Care,Herbal Shampoo,2024-12-05,1,604.02,573.82,UPI,Online,Standard,Regular,0.05,16,2024-12-05,False
+C0018,Pooja Bose,40,Female,Bhubaneswar,East,Entrepreneur,Home & Kitchen,Electric Blender,2024-03-18,4,2090.98,7945.72,Cash on Delivery,Online,Standard,Silver,0.05,10,2024-11-27,False
+C0078,Karan Kumar,20,Female,Chennai,South,Accountant,Beauty & Personal Care,Sunscreen SPF 50,2024-10-05,1,1024.19,1024.19,Net Banking,Online,Standard,Silver,0.0,11,2024-10-05,False
+C0080,Vikram Patel,36,Other,Noida,North,Architect,Beauty & Personal Care,Perfume Spray,2024-04-22,3,2069.75,5588.32,Credit Card,In-Store,Standard,Silver,0.1,16,2024-12-24,True
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Clothing,Cotton T-Shirt,2024-01-15,1,694.32,694.32,UPI,Online,Standard,Gold,0.0,20,2024-12-13,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Sports & Fitness,Adjustable Dumbbells,2024-04-17,1,2550.31,2550.31,Debit Card,In-Store,Standard,Regular,0.0,15,2024-12-26,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Beauty & Personal Care,Sunscreen SPF 50,2024-07-26,1,497.49,497.49,Net Banking,Online,Standard,Silver,0.0,20,2024-12-21,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Electronics,USB-C Hub,2024-02-06,2,1017.45,1933.16,UPI,In-Store,Standard,Regular,0.05,14,2024-10-12,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Electronics,Wireless Headphones,2024-09-16,3,2261.09,6444.11,Credit Card,Online,Standard,Regular,0.05,18,2024-12-01,False
+C0067,Shreya Kumar,29,Male,Bangalore,South,Architect,Sports & Fitness,Adjustable Dumbbells,2024-08-09,2,3061.58,6123.16,Credit Card,Mobile App,Standard,Silver,0.0,10,2024-11-27,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Beauty & Personal Care,Herbal Shampoo,2024-12-16,1,349.04,296.68,UPI,Online,Standard,Platinum,0.15,24,2024-12-16,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Sports & Fitness,Water Bottle 1L,2024-05-29,1,562.77,450.22,Net Banking,In-Store,Standard,Regular,0.2,16,2024-12-05,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Clothing,Slim Fit Jeans,2024-01-16,1,1435.32,1291.79,UPI,In-Store,Standard,Silver,0.1,19,2024-12-21,False
+C0088,Ravi Deshmukh,51,Male,Delhi,North,Doctor,Beauty & Personal Care,Herbal Shampoo,2024-10-12,4,586.14,2344.56,UPI,Online,Standard,Gold,0.0,4,2024-10-12,False
+C0125,Ananya Kumar,55,Female,Delhi,North,Architect,Electronics,Bluetooth Speaker,2024-03-27,4,1700.16,6800.64,UPI,Online,Standard,Silver,0.0,9,2024-12-29,False
+C0078,Karan Kumar,20,Female,Chennai,South,Accountant,Books,Atomic Habits,2024-01-16,1,583.35,554.18,Debit Card,Mobile App,Standard,Silver,0.05,11,2024-10-05,False
+C0013,Aarav Chopra,68,Female,Jaipur,North,Marketing Specialist,Electronics,USB-C Hub,2024-12-02,2,1370.8,2467.44,Credit Card,Mobile App,Standard,Regular,0.1,15,2024-12-02,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Books,Business Strategy Guide,2024-09-08,1,500.08,475.08,UPI,Online,Standard,Gold,0.05,26,2024-12-26,False
+C0035,Amit Sharma,55,Female,Jaipur,North,Sales Executive,Clothing,Athletic Shorts,2024-09-22,2,1122.79,1796.46,UPI,Online,Standard,Regular,0.2,8,2024-12-03,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Beauty & Personal Care,Herbal Shampoo,2024-04-11,1,711.21,711.21,Debit Card,Online,Standard,Silver,0.0,12,2024-11-09,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Electronics,USB-C Hub,2024-06-26,1,730.02,584.02,UPI,Online,Standard,Gold,0.2,20,2024-12-13,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Electronics,USB-C Hub,2024-03-24,1,747.82,710.43,UPI,In-Store,Standard,Regular,0.05,17,2024-11-02,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Electronics,Power Bank,2024-05-31,1,1680.81,1680.81,UPI,Online,Standard,Platinum,0.0,26,2024-12-25,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Beauty & Personal Care,Herbal Shampoo,2024-05-29,2,736.58,1399.5,UPI,Online,Standard,Platinum,0.05,14,2024-11-14,False
+C0036,Divya Das,19,Female,Chennai,South,Product Manager,Beauty & Personal Care,Sunscreen SPF 50,2024-08-14,1,495.36,495.36,Credit Card,Online,Standard,Regular,0.0,5,2024-09-20,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Electronics,Wireless Headphones,2024-07-22,2,1727.88,3455.76,Credit Card,Online,Standard,Platinum,0.0,43,2024-12-29,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Clothing,Athletic Shorts,2024-04-15,1,787.35,708.62,Credit Card,Online,Standard,Platinum,0.1,43,2024-12-29,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Sports & Fitness,Running Shoes,2024-04-25,3,5164.59,15493.77,UPI,Online,Standard,Platinum,0.0,43,2024-12-29,True
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Home & Kitchen,Coffee Maker,2024-12-02,5,2630.15,11178.14,UPI,Mobile App,Standard,Gold,0.15,36,2024-12-27,True
+C0077,Arjun Kumar,62,Male,Kolkata,East,Product Manager,Electronics,Power Bank,2024-12-18,1,844.02,759.62,Net Banking,In-Store,Standard,Gold,0.1,11,2024-12-18,False
+C0148,Divya Kumar,25,Male,Bangalore,South,Marketing Specialist,Books,Business Strategy Guide,2024-08-24,2,704.62,1409.24,Credit Card,In-Store,Standard,Silver,0.0,9,2024-12-20,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Clothing,Formal Shirt,2024-12-01,4,2060.94,7831.57,UPI,Mobile App,Standard,Platinum,0.05,26,2024-12-25,False
+C0005,Meera Mukherjee,61,Female,Chennai,South,Marketing Specialist,Clothing,Athletic Shorts,2024-01-23,1,529.74,529.74,Debit Card,In-Store,Standard,Regular,0.0,19,2024-12-18,False
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Electronics,USB-C Hub,2024-11-15,3,1383.73,3943.63,Net Banking,In-Store,Standard,Silver,0.05,19,2024-12-21,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Home & Kitchen,Non-Stick Frying Pan,2024-04-15,3,1364.3,4092.9,Debit Card,Online,Standard,Regular,0.0,18,2024-12-01,False
+C0134,Divya Reddy,64,Female,Bhubaneswar,East,Accountant,Books,Atomic Habits,2024-11-10,1,797.93,718.14,Cash on Delivery,Online,Standard,Gold,0.1,11,2024-11-29,False
+C0093,Aarav Singh,22,Male,Bhubaneswar,East,Architect,Books,Python Programming,2024-09-05,1,638.92,606.97,UPI,Mobile App,Standard,Platinum,0.05,5,2024-09-05,False
+C0084,Riya Mukherjee,26,Male,Mumbai,West,Entrepreneur,Books,Psychology of Money,2024-06-13,2,502.72,854.62,UPI,Mobile App,Standard,Regular,0.15,11,2024-12-04,False
+C0022,Tanvi Deshmukh,20,Male,Hyderabad,South,Student,Clothing,Slim Fit Jeans,2024-12-15,5,2031.25,8632.81,Debit Card,Online,Standard,Silver,0.15,8,2024-12-15,True
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Electronics,Smartwatch,2024-06-24,3,5643.18,15236.59,UPI,Mobile App,Standard,Platinum,0.1,24,2024-12-16,True
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Electronics,USB-C Hub,2024-06-16,2,1281.89,2563.78,UPI,In-Store,Standard,Silver,0.0,19,2024-12-24,False
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Electronics,Wireless Headphones,2024-11-07,1,3622.36,3441.24,UPI,In-Store,Standard,Regular,0.05,13,2024-12-08,False
+C0122,Amit Reddy,29,Male,Delhi,North,Financial Analyst,Books,Business Strategy Guide,2024-10-07,1,943.46,943.46,Net Banking,Online,Standard,Regular,0.0,13,2024-12-21,False
+C0143,Karan Sharma,71,Female,Hyderabad,South,Software Engineer,Clothing,Cotton T-Shirt,2024-05-14,2,495.81,991.62,Cash on Delivery,Mobile App,Standard,Silver,0.0,10,2024-12-19,False
+C0036,Divya Das,19,Female,Chennai,South,Product Manager,Electronics,Smartwatch,2024-07-10,2,4508.15,9016.3,UPI,Online,Standard,Regular,0.0,5,2024-09-20,False
+C0089,Sneha Chopra,22,Other,Ahmedabad,West,Marketing Specialist,Beauty & Personal Care,Perfume Spray,2024-09-22,3,2489.64,6722.03,Credit Card,Mobile App,Standard,Platinum,0.1,14,2024-11-14,True
+C0047,Rahul Reddy,62,Male,Hyderabad,South,Sales Executive,Home & Kitchen,Stainless Steel Knife Set,2024-10-28,1,1476.6,1476.6,UPI,Mobile App,Standard,Regular,0.0,5,2024-12-17,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Clothing,Slim Fit Jeans,2024-09-24,3,2980.53,7153.27,Debit Card,Online,Standard,Gold,0.2,26,2024-12-26,False
+C0099,Arjun Mukherjee,40,Male,Bhubaneswar,East,Teacher,Books,Python Programming,2024-11-29,22,606.32,12672.09,UPI,In-Store,Standard,Regular,0.05,10,2024-12-30,True
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Electronics,USB-C Hub,2024-11-02,1,949.24,854.32,Cash on Delivery,Online,Standard,Gold,0.1,31,2024-12-30,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Home & Kitchen,Coffee Maker,2024-12-26,2,2505.48,5010.96,Credit Card,In-Store,Standard,Gold,0.0,26,2024-12-26,False
+C0063,Varun Chopra,68,Female,Bangalore,South,Software Engineer,Clothing,Athletic Shorts,2024-01-03,1,513.81,436.74,Cash on Delivery,Online,Standard,Regular,0.15,5,2024-11-10,False
+C0134,Divya Reddy,64,Female,Bhubaneswar,East,Accountant,Clothing,Formal Shirt,2024-03-08,3,2158.16,6474.48,Credit Card,Online,Standard,Gold,0.0,11,2024-11-29,False
+C0092,Aditi Chopra,51,Male,Jaipur,North,Student,Electronics,USB-C Hub,2024-01-25,1,1276.62,1276.62,Net Banking,Online,Standard,Silver,0.0,9,2024-09-23,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Sports & Fitness,Water Bottle 1L,2024-03-12,1,533.93,533.93,Credit Card,Online,Standard,Platinum,0.0,14,2024-12-30,False
+C0114,Rohan Gupta,53,Other,Ahmedabad,West,Data Analyst,Books,Psychology of Money,2024-12-05,2,411.33,658.13,Debit Card,Online,Standard,Platinum,0.2,11,2024-12-11,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Books,Business Strategy Guide,2024-11-07,1,919.29,827.36,Cash on Delivery,Online,Standard,Gold,0.1,26,2024-12-26,False
+C0052,Varun Verma,59,Male,Delhi,North,Financial Analyst,Clothing,Formal Shirt,2024-03-02,5,1483.64,5934.56,UPI,In-Store,Standard,Silver,0.2,1,2024-03-02,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Home & Kitchen,Ceramic Mug Set,2024-03-12,1,504.73,479.49,UPI,Online,Standard,Platinum,0.05,43,2024-12-29,False
+C0134,Divya Reddy,64,Female,Bhubaneswar,East,Accountant,Books,Python Programming,2024-04-23,1,564.44,508.0,Debit Card,Online,Standard,Gold,0.1,11,2024-11-29,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Home & Kitchen,Non-Stick Frying Pan,2024-07-12,3,1085.91,3094.84,Credit Card,In-Store,Standard,Regular,0.05,19,2024-12-20,False
+C0148,Divya Kumar,25,Male,Bangalore,South,Marketing Specialist,Books,Psychology of Money,2024-09-15,2,563.64,901.82,UPI,Online,Standard,Silver,0.2,9,2024-12-20,False
+C0026,Aditi Verma,71,Male,Delhi,North,Software Engineer,Books,Business Strategy Guide,2024-12-18,1,813.3,772.63,Cash on Delivery,In-Store,Standard,Silver,0.05,9,2024-12-18,False
+C0035,Amit Sharma,55,Female,Jaipur,North,Sales Executive,Clothing,Casual Jacket,2024-09-24,4,3940.42,14973.6,Credit Card,Mobile App,Standard,Regular,0.05,8,2024-12-03,True
+C0031,Aarav Iyer,57,Male,Chennai,South,Architect,Sports & Fitness,Resistance Bands Set,2024-04-25,1,572.13,457.7,UPI,In-Store,Standard,Silver,0.2,12,2024-10-25,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Clothing,Cotton T-Shirt,2024-09-14,1,900.47,900.47,Credit Card,In-Store,Standard,Gold,0.0,21,2024-12-03,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Books,Atomic Habits,2024-04-02,1,509.21,509.21,UPI,Mobile App,Standard,Platinum,0.0,24,2024-12-16,False
+C0028,Shreya Joshi,55,Male,Mumbai,West,Data Analyst,Beauty & Personal Care,Sunscreen SPF 50,2024-09-13,1,878.61,878.61,Debit Card,Online,Standard,Platinum,0.0,14,2024-12-30,False
+C0075,Sneha Gupta,18,Female,Delhi,North,Consultant,Books,Data Analytics Handbook,2024-02-23,4,862.57,2760.22,Net Banking,Mobile App,Standard,Regular,0.2,2,2024-12-31,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Sports & Fitness,Adjustable Dumbbells,2024-05-02,3,2919.11,7881.6,Net Banking,Online,Standard,Regular,0.1,22,2024-12-24,False
+C0018,Pooja Bose,40,Female,Bhubaneswar,East,Entrepreneur,Clothing,Casual Jacket,2024-05-31,2,2679.33,5090.73,UPI,Online,Standard,Silver,0.05,10,2024-11-27,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Electronics,Bluetooth Speaker,2024-10-27,1,3122.21,3122.21,Credit Card,Mobile App,Standard,Gold,0.0,21,2024-12-03,False
+C0125,Ananya Kumar,55,Female,Delhi,North,Architect,Clothing,Slim Fit Jeans,2024-09-06,1,1515.31,1363.78,Debit Card,In-Store,Standard,Silver,0.1,9,2024-12-29,False
+C0087,Divya Das,28,Female,Chennai,South,Teacher,Sports & Fitness,Resistance Bands Set,2024-02-16,1,550.66,523.13,UPI,In-Store,Standard,Regular,0.05,7,2024-11-22,False
+C0144,Varun Bose,36,Male,Delhi,North,Entrepreneur,Home & Kitchen,Stainless Steel Knife Set,2024-02-09,2,1563.71,3127.42,UPI,Online,Standard,Silver,0.0,5,2024-12-06,False
+C0069,Neha Deshmukh,36,Male,Bangalore,South,Accountant,Books,Data Analytics Handbook,2024-02-24,2,998.63,1997.26,UPI,Mobile App,Standard,Regular,0.0,8,2024-11-20,False
+C0148,Divya Kumar,25,Male,Bangalore,South,Marketing Specialist,Home & Kitchen,Ceramic Mug Set,2024-01-29,1,648.05,583.24,UPI,Mobile App,Standard,Silver,0.1,9,2024-12-20,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Electronics,Smartwatch,2024-01-04,1,3687.82,2950.26,UPI,Online,Standard,Regular,0.2,14,2024-10-12,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Clothing,Casual Jacket,2024-06-04,2,2946.47,5892.94,Net Banking,Mobile App,Standard,Gold,0.0,31,2024-12-30,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Clothing,Cotton T-Shirt,2024-12-03,1,839.93,839.93,UPI,Online,Standard,Gold,0.0,21,2024-12-03,False
+C0072,Priya Nair,22,Female,Bhubaneswar,East,Student,Beauty & Personal Care,Moisturizing Cream,2024-04-24,3,504.2,1512.6,Credit Card,Mobile App,Standard,Gold,0.0,5,2024-08-29,False
+C0029,Amit Mukherjee,26,Male,Ahmedabad,West,Entrepreneur,Books,Atomic Habits,2024-01-16,5,533.49,2667.45,UPI,Online,Standard,Regular,0.0,6,2024-11-12,False
+C0003,Nikhil Verma,47,Male,Pune,West,Software Engineer,Books,Data Analytics Handbook,2024-08-11,1,662.7,530.16,UPI,Online,Standard,Silver,0.2,5,2024-11-20,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Electronics,Power Bank,2024-03-14,3,1440.21,3456.5,Credit Card,Online,Standard,Silver,0.2,15,2024-10-29,False
+C0092,Aditi Chopra,51,Male,Jaipur,North,Student,Clothing,Slim Fit Jeans,2024-01-26,2,2624.34,4986.25,Debit Card,Online,Standard,Silver,0.05,9,2024-09-23,False
+C0117,Pooja Gupta,50,Female,Delhi,North,Designer,Books,Data Analytics Handbook,2024-02-20,2,1089.33,1742.93,Credit Card,Mobile App,Standard,Regular,0.2,6,2024-11-26,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Beauty & Personal Care,Perfume Spray,2024-04-19,2,2575.14,5150.28,Credit Card,Mobile App,Standard,Gold,0.0,21,2024-12-03,True
+C0017,Karan Mukherjee,59,Male,Jaipur,North,Consultant,Clothing,Slim Fit Jeans,2024-09-30,3,1661.55,4735.42,UPI,Online,Standard,Silver,0.05,7,2024-12-08,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Books,Psychology of Money,2024-07-10,5,513.99,2184.46,Debit Card,In-Store,Standard,Regular,0.15,36,2024-12-31,False
+C0031,Aarav Iyer,57,Male,Chennai,South,Architect,Clothing,Athletic Shorts,2024-03-14,1,823.4,823.4,Credit Card,Mobile App,Standard,Silver,0.0,12,2024-10-25,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Clothing,Formal Shirt,2024-09-10,2,1254.37,2257.87,Cash on Delivery,Mobile App,Standard,Platinum,0.1,43,2024-12-29,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Beauty & Personal Care,Moisturizing Cream,2024-08-18,1,555.56,555.56,Cash on Delivery,Online,Standard,Silver,0.0,19,2024-12-24,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Home & Kitchen,Coffee Maker,2024-06-08,1,3587.18,3049.1,UPI,In-Store,Standard,Regular,0.15,16,2024-12-05,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Electronics,Bluetooth Speaker,2024-06-28,1,1781.16,1692.1,Debit Card,Online,Standard,Regular,0.05,14,2024-11-28,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Clothing,Casual Jacket,2024-07-18,2,3011.99,6023.98,Net Banking,Online,Standard,Regular,0.0,15,2024-12-16,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Home & Kitchen,Ceramic Mug Set,2024-12-01,4,909.69,3456.82,Net Banking,In-Store,Standard,Regular,0.05,18,2024-12-01,False
+C0126,Siddharth Kumar,31,Male,Hyderabad,South,Marketing Specialist,Sports & Fitness,Adjustable Dumbbells,2024-08-03,1,3222.49,3061.37,Credit Card,Mobile App,Standard,Silver,0.05,19,2024-12-24,False
+C0078,Karan Kumar,20,Female,Chennai,South,Accountant,Electronics,Smartwatch,2024-07-17,1,7772.28,6995.05,Debit Card,Online,Standard,Silver,0.1,11,2024-10-05,False
+C0058,Meera Mehta,50,Male,Pune,West,Consultant,Books,Business Strategy Guide,2024-11-10,1,719.1,647.19,UPI,Online,Standard,Gold,0.1,4,2024-12-18,False
+C0084,Riya Mukherjee,26,Male,Mumbai,West,Entrepreneur,Sports & Fitness,Resistance Bands Set,2024-07-22,5,1079.75,4858.88,UPI,Online,Standard,Regular,0.1,11,2024-12-04,False
+C0128,Aarav Patel,53,Other,Chennai,South,Software Engineer,Home & Kitchen,Electric Blender,2024-02-26,2,2474.32,4948.64,Debit Card,Online,Standard,Regular,0.0,8,2024-11-18,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Books,Data Analytics Handbook,2024-05-05,2,865.39,1644.24,UPI,Mobile App,Standard,Regular,0.05,17,2024-11-02,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Clothing,Cotton T-Shirt,2024-08-19,4,601.68,2286.38,UPI,Online,Standard,Gold,0.05,20,2024-12-13,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Beauty & Personal Care,Face Cleanser,2024-09-13,1,342.79,342.79,Credit Card,In-Store,Standard,Regular,0.0,14,2024-11-28,False
+C0128,Aarav Patel,53,Other,Chennai,South,Software Engineer,Books,Python Programming,2024-04-06,1,999.27,999.27,UPI,Online,Standard,Regular,0.0,8,2024-11-18,False
+C0021,Manish Chopra,56,Female,Delhi,North,Architect,Sports & Fitness,Resistance Bands Set,2024-07-16,2,1093.08,2186.16,UPI,In-Store,Standard,Platinum,0.0,4,2024-11-29,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Electronics,Bluetooth Speaker,2024-09-02,3,1664.46,4494.04,UPI,Online,Standard,Gold,0.1,36,2024-12-27,False
+C0026,Aditi Verma,71,Male,Delhi,North,Software Engineer,Clothing,Slim Fit Jeans,2024-02-24,1,1595.55,1436.0,Credit Card,Online,Standard,Silver,0.1,9,2024-12-18,False
+C0056,Rohan Chopra,33,Male,Ahmedabad,West,Architect,Beauty & Personal Care,Sunscreen SPF 50,2024-05-12,2,511.08,817.73,Credit Card,In-Store,Standard,Silver,0.2,15,2024-12-20,False
+C0077,Arjun Kumar,62,Male,Kolkata,East,Product Manager,Books,Python Programming,2024-12-15,2,652.74,1305.48,UPI,Mobile App,Standard,Gold,0.0,11,2024-12-18,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Home & Kitchen,Ceramic Mug Set,2024-03-18,1,494.61,445.15,Credit Card,In-Store,Standard,Regular,0.1,36,2024-12-31,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Books,Atomic Habits,2024-06-20,2,736.88,1400.07,UPI,Online,Standard,Platinum,0.05,24,2024-12-16,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Sports & Fitness,Yoga Mat,2024-08-15,2,899.77,1709.56,Debit Card,Online,Standard,Gold,0.05,31,2024-12-30,False
+C0057,Vikram Mukherjee,47,Female,Mumbai,West,Doctor,Beauty & Personal Care,Face Cleanser,2024-10-14,1,281.47,225.18,Debit Card,Online,Standard,Silver,0.2,11,2024-12-15,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Sports & Fitness,Resistance Bands Set,2024-03-27,2,605.69,1211.38,UPI,In-Store,Standard,Regular,0.0,18,2024-12-01,False
+C0147,Priya Nair,63,Female,Delhi,North,Consultant,Clothing,Athletic Shorts,2024-08-28,1,1130.43,1017.39,Credit Card,Online,Standard,Regular,0.1,2,2024-08-28,False
+C0106,Manish Bose,62,Male,Bhubaneswar,East,Financial Analyst,Home & Kitchen,Ceramic Mug Set,2024-06-27,2,459.21,918.42,Debit Card,In-Store,Standard,Gold,0.0,31,2024-12-30,False
+C0025,Rahul Verma,66,Male,Hyderabad,South,Software Engineer,Home & Kitchen,Non-Stick Frying Pan,2024-09-25,1,1116.29,1004.66,Credit Card,Online,Standard,Silver,0.1,27,2024-12-24,False
+C0112,Aditi Joshi,62,Male,Chennai,South,Software Engineer,Clothing,Slim Fit Jeans,2024-02-17,1,1335.58,1202.02,Credit Card,Online,Standard,Gold,0.1,13,2024-12-28,False
+C0055,Nikhil Sharma,56,Female,Pune,West,Teacher,Home & Kitchen,Stainless Steel Knife Set,2024-05-24,3,1066.11,3038.41,Debit Card,Online,Standard,Regular,0.05,17,2024-11-02,False
+C0113,Nikhil Singh,47,Male,Hyderabad,South,Consultant,Home & Kitchen,Coffee Maker,2024-01-21,5,3706.53,17606.02,Debit Card,Mobile App,Standard,Regular,0.05,8,2024-12-28,True
+C0014,Vikram Nair,58,Female,Chennai,South,Financial Analyst,Beauty & Personal Care,Herbal Shampoo,2024-05-29,1,488.84,488.84,Debit Card,Online,Standard,Silver,0.0,19,2024-12-21,False
+C0030,Pooja Gupta,20,Female,Mumbai,West,Consultant,Home & Kitchen,Ceramic Mug Set,2024-08-10,1,567.09,567.09,Debit Card,Online,Standard,Gold,0.0,20,2024-12-13,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Clothing,Slim Fit Jeans,2024-03-17,1,1691.08,1691.08,UPI,In-Store,Standard,Platinum,0.0,43,2024-12-29,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Clothing,Formal Shirt,2024-12-16,1,1133.8,1077.11,Cash on Delivery,Online,Standard,Gold,0.05,36,2024-12-27,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Beauty & Personal Care,Sunscreen SPF 50,2024-08-11,2,623.05,1121.49,UPI,Mobile App,Standard,Silver,0.1,20,2024-12-21,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Sports & Fitness,Adjustable Dumbbells,2024-09-11,1,2951.58,2656.42,Debit Card,In-Store,Standard,Regular,0.1,19,2024-12-20,False
+C0108,Arjun Mukherjee,54,Male,Bangalore,South,Architect,Books,Atomic Habits,2024-03-11,1,466.82,466.82,UPI,In-Store,Standard,Regular,0.0,4,2024-10-16,False
+C0088,Ravi Deshmukh,51,Male,Delhi,North,Doctor,Books,Atomic Habits,2024-09-05,4,734.38,2937.52,UPI,Online,Standard,Gold,0.0,4,2024-10-12,True
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Home & Kitchen,Non-Stick Frying Pan,2024-10-28,2,1017.17,1932.62,Credit Card,Online,Standard,Regular,0.05,15,2024-12-16,False
+C0038,Aarav Das,68,Female,Ahmedabad,West,Sales Executive,Sports & Fitness,Adjustable Dumbbells,2024-12-11,2,4247.85,8495.7,UPI,Online,Standard,Platinum,0.0,2,2024-12-11,False
+C0008,Siddharth Gupta,53,Male,Mumbai,West,Data Analyst,Electronics,Wireless Headphones,2024-05-24,2,3022.1,6044.2,UPI,Online,Standard,Silver,0.0,3,2024-05-24,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Clothing,Cotton T-Shirt,2024-03-25,1,606.91,606.91,Debit Card,Online,Standard,Regular,0.0,15,2024-12-16,False
+C0110,Rohan Reddy,35,Male,Ahmedabad,West,Data Analyst,Sports & Fitness,Yoga Mat,2024-07-18,3,767.91,2303.73,UPI,Online,Standard,Platinum,0.0,24,2024-12-16,False
+C0137,Aarav Bose,38,Male,Mumbai,West,Teacher,Electronics,Wireless Headphones,2024-05-24,1,2019.61,1817.65,Debit Card,Online,Standard,Regular,0.1,15,2024-12-26,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Electronics,USB-C Hub,2024-11-08,1,1257.18,1194.32,Credit Card,Mobile App,Standard,Platinum,0.05,43,2024-12-29,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Electronics,Smartwatch,2024-01-22,2,6973.29,12551.92,Credit Card,Online,Standard,Platinum,0.1,26,2024-12-25,True
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Sports & Fitness,Running Shoes,2024-05-30,1,2507.73,2256.96,Debit Card,Online,Standard,Gold,0.1,26,2024-12-26,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Books,Psychology of Money,2024-02-18,1,509.22,509.22,Credit Card,Online,Standard,Regular,0.0,14,2024-10-12,False
+C0041,Ravi Das,61,Female,Pune,West,Teacher,Books,Data Analytics Handbook,2024-11-09,1,765.3,765.3,Debit Card,In-Store,Standard,Silver,0.0,12,2024-11-09,False
+C0134,Divya Reddy,64,Female,Bhubaneswar,East,Accountant,Books,Psychology of Money,2024-11-04,1,432.98,411.33,UPI,Online,Standard,Gold,0.05,11,2024-11-29,False
+C0111,Ananya Sharma,36,Male,Pune,West,Teacher,Sports & Fitness,Running Shoes,2024-02-21,1,5485.46,4388.37,UPI,Online,Standard,Regular,0.2,14,2024-10-12,False
+C0097,Vikram Deshmukh,27,Female,Kolkata,East,Software Engineer,Electronics,Power Bank,2024-08-01,5,1825.46,9127.3,UPI,Online,Standard,Silver,0.0,15,2024-10-29,False
+C0024,Shreya Reddy,66,Male,Kolkata,East,Product Manager,Sports & Fitness,Resistance Bands Set,2024-03-07,1,661.31,661.31,Cash on Delivery,Online,Standard,Silver,0.0,5,2024-08-28,False
+C0076,Pooja Patel,48,Female,Ahmedabad,West,Consultant,Books,Business Strategy Guide,2024-06-27,3,569.91,1367.78,Cash on Delivery,Mobile App,Standard,Silver,0.2,5,2024-12-23,False
+C0078,Karan Kumar,20,Female,Chennai,South,Accountant,Clothing,Formal Shirt,2024-04-01,1,1571.65,1493.07,UPI,Online,Standard,Silver,0.05,11,2024-10-05,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Home & Kitchen,Non-Stick Frying Pan,2024-03-01,3,1584.42,3802.61,Credit Card,In-Store,Standard,Platinum,0.2,43,2024-12-29,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Sports & Fitness,Running Shoes,2024-01-27,2,2625.47,4725.85,UPI,Mobile App,Standard,Regular,0.1,16,2024-12-05,False
+C0061,Tanvi Iyer,67,Female,Delhi,North,Software Engineer,Sports & Fitness,Yoga Mat,2024-01-12,2,1416.54,2833.08,Credit Card,Online,Standard,Regular,0.0,13,2024-12-08,False
+C0145,Meera Iyer,35,Male,Jaipur,North,Data Analyst,Clothing,Cotton T-Shirt,2024-03-28,1,467.16,467.16,Credit Card,Online,Standard,Silver,0.0,13,2024-12-16,False
+C0024,Shreya Reddy,66,Male,Kolkata,East,Product Manager,Beauty & Personal Care,Perfume Spray,2024-01-03,1,2178.27,1851.53,UPI,Mobile App,Standard,Silver,0.15,5,2024-08-28,False
+C0071,Tanvi Joshi,53,Female,Chennai,South,Consultant,Clothing,Cotton T-Shirt,2024-04-30,2,1091.09,2073.07,UPI,Online,Standard,Gold,0.05,2,2024-12-29,False
+C0012,Varun Reddy,32,Male,Chennai,South,Consultant,Electronics,Smartwatch,2024-08-06,2,4533.18,9066.36,UPI,Online,Standard,Silver,0.0,7,2024-10-18,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Running Shoes,2024-11-03,4,3492.36,13270.97,Credit Card,In-Store,Standard,Regular,0.05,36,2024-12-31,True
+C0134,Divya Reddy,64,Female,Bhubaneswar,East,Accountant,Electronics,Power Bank,2024-02-28,2,1206.18,2171.12,UPI,Online,Standard,Gold,0.1,11,2024-11-29,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Beauty & Personal Care,Moisturizing Cream,2024-02-20,1,759.01,759.01,Net Banking,Online,Standard,Regular,0.0,19,2024-12-20,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Beauty & Personal Care,Face Cleanser,2024-03-19,1,374.76,374.76,UPI,Mobile App,Standard,Platinum,0.0,43,2024-12-29,False
+C0049,Riya Nair,39,Male,Kolkata,East,Teacher,Sports & Fitness,Running Shoes,2024-04-03,1,2698.12,2698.12,Net Banking,Mobile App,Standard,Silver,0.0,5,2024-09-05,False
+C0134,Divya Reddy,64,Female,Bhubaneswar,East,Accountant,Electronics,USB-C Hub,2024-05-03,1,1333.51,1066.81,Debit Card,Online,Standard,Gold,0.2,11,2024-11-29,False
+C0120,Tanvi Sharma,26,Female,Bhubaneswar,East,Financial Analyst,Beauty & Personal Care,Herbal Shampoo,2024-06-28,1,714.4,571.52,UPI,In-Store,Standard,Platinum,0.2,26,2024-12-25,False
+C0125,Ananya Kumar,55,Female,Delhi,North,Architect,Books,Psychology of Money,2024-09-13,1,641.32,513.06,Net Banking,Online,Standard,Silver,0.2,9,2024-12-29,False
+C0143,Karan Sharma,71,Female,Hyderabad,South,Software Engineer,Sports & Fitness,Resistance Bands Set,2024-04-30,1,917.59,734.07,UPI,Online,Standard,Silver,0.2,10,2024-12-19,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Sports & Fitness,Adjustable Dumbbells,2024-05-18,2,3739.58,6731.24,UPI,Online,Standard,Regular,0.1,36,2024-12-31,False
+C0051,Varun Das,47,Female,Bangalore,South,Financial Analyst,Clothing,Athletic Shorts,2024-12-16,1,752.05,752.05,UPI,In-Store,Standard,Regular,0.0,15,2024-12-16,False
+C0128,Aarav Patel,53,Other,Chennai,South,Software Engineer,Electronics,Power Bank,2024-08-19,2,1313.23,2101.17,UPI,Online,Standard,Regular,0.2,8,2024-11-18,False
+C0045,Priya Verma,34,Female,Chennai,South,Student,Clothing,Athletic Shorts,2024-01-26,1,1149.35,919.48,UPI,Online,Standard,Regular,0.2,19,2024-12-20,False
+C0131,Ananya Mehta,64,Male,Noida,North,Student,Sports & Fitness,Yoga Mat,2024-05-31,1,976.04,976.04,Credit Card,In-Store,Standard,Platinum,0.0,43,2024-12-29,False
+C0024,Shreya Reddy,66,Male,Kolkata,East,Product Manager,Home & Kitchen,Stainless Steel Knife Set,2024-08-28,1,1208.03,1147.63,Cash on Delivery,In-Store,Standard,Silver,0.05,5,2024-08-28,False
+C0115,Amit Patel,47,Male,Jaipur,North,Sales Executive,Clothing,Slim Fit Jeans,2024-07-22,3,2376.41,5703.38,Net Banking,Online,Standard,Regular,0.2,14,2024-11-28,False
+C0094,Siddharth Kumar,38,Female,Bhubaneswar,East,Marketing Specialist,Sports & Fitness,Resistance Bands Set,2024-08-07,1,650.77,585.69,Net Banking,In-Store,Standard,Regular,0.1,16,2024-12-05,False
+C0020,Nikhil Singh,45,Male,Mumbai,West,Sales Executive,Sports & Fitness,Adjustable Dumbbells,2024-12-30,1,1992.34,1992.34,UPI,In-Store,Standard,Regular,0.0,6,2024-12-30,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Sports & Fitness,Adjustable Dumbbells,2024-10-27,1,4006.79,3405.77,Credit Card,Online,Standard,Gold,0.15,36,2024-12-27,False
+C0003,Nikhil Verma,47,Male,Pune,West,Software Engineer,Electronics,Smartwatch,2024-06-16,1,5228.03,4966.63,UPI,In-Store,Standard,Silver,0.05,5,2024-11-20,False
+C0079,Shreya Sharma,23,Female,Pune,West,Teacher,Electronics,Wireless Headphones,2024-05-31,1,2585.4,2197.59,Debit Card,Online,Standard,Regular,0.15,18,2024-12-01,False
+C0050,Amit Chopra,50,Female,Pune,West,Consultant,Books,Business Strategy Guide,2024-04-16,2,655.98,1049.57,UPI,Online,Standard,Gold,0.2,8,2024-12-04,False
+C0104,Shreya Bose,65,Male,Kolkata,East,Product Manager,Books,Psychology of Money,2024-03-27,2,389.3,622.88,Net Banking,Online,Standard,Regular,0.2,22,2024-12-24,False
+C0050,Amit Chopra,50,Female,Pune,West,Consultant,Electronics,Smartwatch,2024-02-21,1,2792.6,2652.97,UPI,In-Store,Standard,Gold,0.05,8,2024-12-04,False
+C0050,Amit Chopra,50,Female,Pune,West,Consultant,Home & Kitchen,Electric Blender,2024-07-04,3,2425.23,6911.91,Debit Card,Online,Standard,Gold,0.05,8,2024-12-04,False
+C0119,Shreya Nair,40,Female,Noida,North,Entrepreneur,Home & Kitchen,Ceramic Mug Set,2024-05-11,3,632.4,1897.2,UPI,Online,Standard,Regular,0.0,36,2024-12-31,False
+C0013,Aarav Chopra,47,Female,Jaipur,North,Marketing Specialist,Books,Data Analytics Handbook,2024-08-08,1,666.96,633.61,UPI,Mobile App,Standard,Regular,0.05,15,2024-12-02,False
+C0133,Priya Iyer,63,Female,Kolkata,East,Entrepreneur,Books,Psychology of Money,2024-05-04,1,457.0,457.0,Cash on Delivery,Online,Standard,Gold,0.0,3,2024-11-05,False
+C0130,Riya Singh,48,Male,Hyderabad,South,Product Manager,Home & Kitchen,Non-Stick Frying Pan,2024-06-14,1,1023.08,971.93,UPI,Online,Standard,Silver,0.05,20,2024-12-21,False
+C0111,Ananya Sharma,47,Male,Pune,West,Teacher,Books,Psychology of Money,2024-03-29,3,401.91,1085.16,UPI,Online,Standard,Regular,0.1,14,2024-10-12,False
+C0101,Divya Deshmukh,68,Male,Pune,West,Data Analyst,Home & Kitchen,Stainless Steel Knife Set,2024-09-28,4,838.92,3020.11,Debit Card,Mobile App,Standard,Silver,0.1,8,2024-12-30,False
+C0132,Arjun Patel,43,Male,Pune,West,Product Manager,Beauty & Personal Care,Herbal Shampoo,2024-05-30,2,424.93,849.86,UPI,In-Store,Standard,Gold,0.0,21,2024-12-03,False
+C0031,Aarav Iyer,57,Male,Chennai,South,Architect,Home & Kitchen,Electric Blender,2024-08-15,2,2236.11,4472.22,UPI,Online,Standard,Silver,0.0,12,2024-10-25,False
+C0017,Karan Mukherjee,59,Male,Jaipur,North,Consultant,Books,Data Analytics Handbook,2024-05-04,1,839.18,797.22,Credit Card,In-Store,Standard,Silver,0.05,7,2024-12-08,False
+C0040,Aarav Chopra,22,Male,Jaipur,North,Product Manager,Home & Kitchen,Electric Blender,2024-08-17,1,1859.5,1859.5,UPI,Online,Standard,Gold,0.0,36,2024-12-27,False
+C0123,Ananya Joshi,54,Male,Jaipur,North,Doctor,Home & Kitchen,Electric Blender,2024-12-04,2,2718.7,4349.92,Cash on Delivery,Online,Standard,Gold,0.2,26,2024-12-26,False
+C0010,Priya Bose,31,Female,Hyderabad,South,Sales Executive,Clothing,Cotton T-Shirt,2024-03-14,1,510.11,433.59,Cash on Delivery,Online,Standard,Gold,0.15,2,2024-06-26,False
+C0099,Arjun Mukherjee,40,Male,Bhubaneswar,East,Teacher,Sports & Fitness,Running Shoes,2024-12-30,1,3314.28,2982.85,Credit Card,Online,Standard,Regular,0.1,10,2024-12-30,False
