@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Purchase Pattern Analyzer | End-to-End Retail Intelligence</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="End-to-end retail analytics project: data cleaning, RFM segmentation, CLV, SQL analysis and an interactive Streamlit dashboard to uncover customer buying patterns.">
+  <meta name="keywords" content="customer segmentation, RFM analysis, retail analytics, CLV, Streamlit, SQL, machine learning, Python, data science">
+  <meta name="author" content="Ayush">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Customer Purchase Pattern Analyzer | Retail Analytics Portfolio">
+  <meta property="og:description" content="End-to-end retail analytics: data cleaning, RFM segmentation, CLV, SQL analysis and an interactive Streamlit dashboard.">
+  <meta property="og:image" content="images/dashboard_full.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-icon">🛒</span>
+        <span>Customer Analytics</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#overview" class="nav-link">Overview</a></li>
+        <li><a href="#problems" class="nav-link">Problems</a></li>
+        <li><a href="#capabilities" class="nav-link">Capabilities</a></li>
+        <li><a href="#workflow" class="nav-link">Workflow</a></li>
+        <li><a href="#insights" class="nav-link">Insights</a></li>
+        <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+        <li><a href="#tech-stack" class="nav-link">Tech Stack</a></li>
+        <li><a href="https://github.com/ishasaxena2511/customer-purchase-pattern-analyzer" target="_blank" rel="noopener noreferrer" class="nav-cta">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub Repo
+        </a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="container">
+      <div class="hero-pill">
+        <span class="pulse-dot"></span>
+        Production Data Analytics & Intelligence Engineering
+      </div>
+
+      <h1 class="hero-title">Customer Purchase Pattern Analyzer</h1>
+
+      <p class="hero-subtitle">
+        End-to-end retail analytics project: data cleaning, RFM segmentation,
+        CLV, SQL analysis and an interactive Streamlit dashboard to uncover
+        customer buying patterns.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#dashboard" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          Explore Dashboard
+        </a>
+        <a href="https://github.com/ishasaxena2511/customer-purchase-pattern-analyzer" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          View Source Code
+        </a>
+        <a href="#insights" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          Key Business Insights
+        </a>
+      </div>
+
+      <!-- Headline Metric Stats -->
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-value">₹3.77M</div>
+          <div class="stat-label">Total Portfolio Revenue</div>
+          <span class="stat-tag">+58.6% Dec MoM Spike</span>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-value">1,160</div>
+          <div class="stat-label">Validated Transactions</div>
+          <span class="stat-tag">100% Audited Quality</span>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-value">129</div>
+          <div class="stat-label">Customer Profiles</div>
+          <span class="stat-tag">7 RFM Behavioral Cohorts</span>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-value">88.37%</div>
+          <div class="stat-label">Repeat Purchase Rate</div>
+          <span class="stat-tag">99.0% Revenue Driver</span>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-value">13.1x</div>
+          <div class="stat-label">Repeat LTV Multiplier</div>
+          <span class="stat-tag">₹32.8K vs ₹2.5K 1-Time</span>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-value">₹87.7K</div>
+          <div class="stat-label">Average Customer CLV</div>
+          <span class="stat-tag">3.0-Year Horizon</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Project Overview Section -->
+  <section class="section" id="overview">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Executive Summary</span>
+        <h2 class="section-title">Bridging Raw Transactions to Actionable Strategy</h2>
+        <p class="section-desc">
+          An enterprise-grade analytical architecture combining automated ETL data cleaning,
+          probabilistic feature engineering, hybrid RFM + unsupervised K-Means segmentation,
+          and relational SQL modeling to drive quantifiable revenue retention.
+        </p>
+      </div>
+
+      <div class="card-grid-3">
+        <div class="card">
+          <div class="card-icon">🧼</div>
+          <h3 class="card-title">Production Data Cleaning</h3>
+          <p class="card-text">
+            Handles dirty transactional data feeds through automated deduplication, 
+            fuzzy category typo matching (<code class="code">difflib</code>), mixed-date ISO coercion,
+            and category-specific IQR outlier detection (<code class="code">Q3 + 1.5×IQR</code>).
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🎯</div>
+          <h3 class="card-title">Hybrid Customer Segmentation</h3>
+          <p class="card-text">
+            Combines rule-based RFM quintile scoring (1–5) mapped to 7 actionable cohorts 
+            with unsupervised K-Means clustering (<code class="code">k=4</code>, Silhouette Score: 0.4313)
+            to uncover true behavioral affinity.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">📊</div>
+          <h3 class="card-title">Executive BI & Analytics</h3>
+          <p class="card-text">
+            Powered by a SQLite relational store with Common Table Expressions (CTEs), 
+            window functions (<code class="code">RANK()</code>, running totals), and an interactive 
+            corporate Streamlit dashboard with real-time dynamic filtering.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Problem Section -->
+  <section class="section" id="problems" style="background: rgba(11, 37, 69, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Business Context</span>
+        <h2 class="section-title">The Three Core Retail Vulnerabilities</h2>
+        <p class="section-desc">
+          Why traditional retail analytics fall short and how our quantitative framework solves each problem.
+        </p>
+      </div>
+
+      <div class="card-grid-3">
+        <div class="card problem-card">
+          <div class="card-icon" style="color: var(--accent-rose); border-color: rgba(244, 63, 94, 0.3);">⚠️</div>
+          <h3 class="card-title">1. Undifferentiated Mass Marketing</h3>
+          <p class="card-text">
+            Treating high-value champions and one-time discount seekers identically causes
+            coupon abuse, email fatigue, and squandered marketing spend.
+          </p>
+          <div class="problem-impact">
+            <strong>Solution:</strong> 7 RFM behavioral cohorts with targeted triggers: VIP concierge for Champions, 15% win-back vouchers for At Risk.
+          </div>
+        </div>
+
+        <div class="card problem-card warning">
+          <div class="card-icon" style="color: var(--accent-amber); border-color: rgba(245, 158, 11, 0.3);">⏱️</div>
+          <h3 class="card-title">2. Silent Customer Churn</h3>
+          <p class="card-text">
+            Retailers fail to detect when a loyal buyer has exceeded their natural re-order cadence
+            until after they have permanently defected to competitors.
+          </p>
+          <div class="problem-impact">
+            <strong>Solution:</strong> Dynamic inter-purchase interval tracking flagged 32 high-equity repeat spenders overdue for replenishment (>1.5× cadence).
+          </div>
+        </div>
+
+        <div class="card problem-card info">
+          <div class="card-icon" style="color: var(--accent-blue); border-color: rgba(59, 130, 246, 0.3);">📉</div>
+          <h3 class="card-title">3. Margin Dilution</h3>
+          <p class="card-text">
+            Promoting high-GMV hardware categories (Electronics: ₹858.5K, 25.4% margin) without enforcing
+            cross-sell attach rates for high-margin categories (Beauty: 62.8% margin).
+          </p>
+          <div class="problem-impact">
+            <strong>Solution:</strong> Automated market basket affinity analysis identified high-lift bundles (e.g. Electric Blender + Face Cleanser: 2.39× lift).
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Capabilities Section -->
+  <section class="section" id="capabilities">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Core Architecture</span>
+        <h2 class="section-title">Key Capabilities & Analytical Depth</h2>
+        <p class="section-desc">
+          Built from scratch using industry-standard engineering patterns and rigorous validation.
+        </p>
+      </div>
+
+      <div class="card-grid-2">
+        <!-- Capability 1 -->
+        <div class="card">
+          <span class="capability-badge">Data Engineering</span>
+          <h3 class="card-title">Automated Data Cleaning & Quality Audit</h3>
+          <p class="card-text">
+            A battle-tested 8-step pipeline that ingests messy raw feeds, deduplicates transactions,
+            recomputes corrupted monetary totals, imputes missing values using domain-justified
+            statistical rules, and flags outliers without loss of financial auditability.
+          </p>
+          <ul class="capability-list">
+            <li>75 corrupted records removed (35 duplicate rows, 40 missing primary keys)</li>
+            <li>4,630 values imputed, normalized, or formatted to strict ISO standards</li>
+            <li>Category-wise IQR fences (<code class="code">Q3 + 1.5×IQR</code>) preserve financial reconciliation</li>
+          </ul>
+        </div>
+
+        <!-- Capability 2 -->
+        <div class="card">
+          <span class="capability-badge">Customer Intelligence</span>
+          <h3 class="card-title">Rule-Based RFM Quintile Scoring</h3>
+          <p class="card-text">
+            Calculates independent 1–5 quintile scores across Recency (days since last purchase),
+            Frequency (order count), and Monetary value (total spend). Translates composite RFM vectors
+            into 7 distinct behavioral cohorts.
+          </p>
+          <ul class="capability-list">
+            <li><strong>Champions (32 accounts):</strong> 56.2% of company revenue, avg 18.9 orders</li>
+            <li><strong>Loyal Customers (26 accounts):</strong> 21.3% of revenue, avg 10.0 orders</li>
+            <li><strong>Can't Lose Them (11 accounts):</strong> 9.7% revenue share, 73 days dormant</li>
+          </ul>
+        </div>
+
+        <!-- Capability 3 -->
+        <div class="card">
+          <span class="capability-badge">Machine Learning</span>
+          <h3 class="card-title">Unsupervised K-Means Segmentation</h3>
+          <p class="card-text">
+            Standardizes customer features with <code class="code">StandardScaler</code> and evaluates optimal
+            cluster counts using Elbow Inertia curvature and Silhouette Score maximization.
+            Identified mathematically distinct clusters with an impressive <strong>0.4313</strong> silhouette score.
+          </p>
+          <ul class="capability-list">
+            <li>Cluster 0: Core VIP Champions (42 buyers, ₹64.3K avg spend, 14 days recency)</li>
+            <li>Cluster 1: Dormant Low-Frequency (36 buyers, ₹4.9K avg spend, 188 days recency)</li>
+            <li>Cluster 2: Steady Mid-Tier Spenders (28 buyers, ₹18.5K avg spend, 32 days recency)</li>
+          </ul>
+        </div>
+
+        <!-- Capability 4 -->
+        <div class="card">
+          <span class="capability-badge">Financial Analytics</span>
+          <h3 class="card-title">Customer Lifetime Value (CLV) Modeling</h3>
+          <p class="card-text">
+            Calculates customer equity using historical transaction velocity, average basket size,
+            and an empirical 3.0-year conservative retail lifespan horizon:
+            <code class="code">CLV = AOV × Purchase Frequency × Lifespan</code>.
+          </p>
+          <ul class="capability-list">
+            <li>Average Portfolio CLV: <strong>₹87,702.48</strong></li>
+            <li>Top Customer CLV: Shreya Sharma (<code class="code">C0079</code>) at <strong>₹479,077.74</strong></li>
+            <li>Repeat Buyer CLV Premium: <strong>13.1×</strong> greater lifetime spend than one-time shoppers</li>
+          </ul>
+        </div>
+
+        <!-- Capability 5 -->
+        <div class="card">
+          <span class="capability-badge">Relational Database</span>
+          <h3 class="card-title">Production SQL Analytics Engine</h3>
+          <p class="card-text">
+            Syncs processed transactions and customer cohorts into a high-performance SQLite database
+            (<code class="code">retail.db</code>). Executes 8 production-grade SQL analytical queries
+            featuring CTEs, window functions, and cross-checks against Pandas metrics.
+          </p>
+          <ul class="capability-list">
+            <li>Window Functions: <code class="code">RANK() OVER (ORDER BY revenue DESC)</code></li>
+            <li>Running Totals: <code class="code">SUM(...) OVER (PARTITION BY ... ROWS BETWEEN UNBOUNDED PRECEDING...)</code></li>
+            <li>Automated integration tests verify 100% numerical parity with Pandas</li>
+          </ul>
+        </div>
+
+        <!-- Capability 6 -->
+        <div class="card">
+          <span class="capability-badge">Interactive Dashboard</span>
+          <h3 class="card-title">Executive Streamlit BI Dashboard</h3>
+          <p class="card-text">
+            A bespoke executive interface styled in Deep Navy (<code class="code">#0B2545</code>) and Teal
+            (<code class="code">#13A89E</code>), featuring 8 real-time sidebar filters, 5 KPI cards with delta
+            comparisons, monthly revenue toggles, regional heatmaps, and RFM cohort profiles.
+          </p>
+          <ul class="capability-list">
+            <li>Real-time multi-dimensional filtering across categories, channels, and regions</li>
+            <li>Seamless MoM revenue trends, margin vs. revenue toggles, and co-purchase affinity</li>
+            <li>Exportable customer profiles with automated marketing action recommendations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Workflow Section -->
+  <section class="section" id="workflow" style="background: rgba(11, 37, 69, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Methodology</span>
+        <h2 class="section-title">7-Stage End-to-End Analytics Workflow</h2>
+        <p class="section-desc">
+          A completely modular, orchestrated data pipeline executed via <code class="code">src/run_pipeline.py</code>,
+          <code class="code">make pipeline</code>, or <code class="code">./run.sh pipeline</code>.
+        </p>
+      </div>
+
+      <div class="workflow-track">
+        <!-- Step 1 -->
+        <div class="workflow-step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <div class="step-header">
+              <h3 class="step-title">Data Generation & Defect Injection</h3>
+              <span class="step-file">src/generate_data.py</span>
+            </div>
+            <p class="step-desc">
+              Synthesizes 1,235 realistic transactions for 129 customers across 11 Indian cities and 6 categories,
+              intentionally injecting real-world defects: duplicate rows, casing typos, mixed date formats, null keys, and bulk outliers.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="workflow-step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <div class="step-header">
+              <h3 class="step-title">Modular Data Cleaning & Quality Audit</h3>
+              <span class="step-file">src/clean_data.py</span>
+            </div>
+            <p class="step-desc">
+              Executes 8 deterministic cleaning routines: removes 35 duplicates, coerces ISO dates, fixes 97 typos with fuzzy matching,
+              drops 40 null keys, imputes age via median, recomputes monetary totals, and logs full audit metrics to <code class="code">reports/cleaning_log.md</code>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="workflow-step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <div class="step-header">
+              <h3 class="step-title">Feature Engineering (Transaction & Customer 360°)</h3>
+              <span class="step-file">src/features.py</span>
+            </div>
+            <p class="step-desc">
+              Generates 36 transaction-level features (COGS, gross profit, margin %, festive season flags) and 26 customer-level
+              features (AOV, purchase frequency, recency, average inter-purchase days, 3-year CLV).
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="workflow-step">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <div class="step-header">
+              <h3 class="step-title">Hybrid Customer Segmentation</h3>
+              <span class="step-file">src/segmentation.py</span>
+            </div>
+            <p class="step-desc">
+              Computes quintile-based RFM scores (1–5) and maps them to 7 strategic cohorts. Runs K-Means clustering (<code class="code">k=4</code>),
+              generates Elbow and Silhouette diagnostic charts, and assigns tailored marketing actions.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="workflow-step">
+          <div class="step-num">5</div>
+          <div class="step-content">
+            <div class="step-header">
+              <h3 class="step-title">Relational SQLite Modeling & SQL Queries</h3>
+              <span class="step-file">src/load_db.py & sql/queries.sql</span>
+            </div>
+            <p class="step-desc">
+              Loads 1,160 clean transactions and 129 customer records into SQLite (<code class="code">data/processed/retail.db</code>), creates search indexes,
+              and verifies 8 CTE analytical queries with window functions against Pandas metrics.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="workflow-step">
+          <div class="step-num">6</div>
+          <div class="step-content">
+            <div class="step-header">
+              <h3 class="step-title">Automated Insights Synthesis & PDF Compilation</h3>
+              <span class="step-file">src/insights.py</span>
+            </div>
+            <p class="step-desc">
+              Dynamically computes 9 strategic business insights and compiles executive reports in both Markdown
+              (<code class="code">reports/Project_Report.md</code>) and publication-quality PDF (<code class="code">reports/Project_Report.pdf</code>).
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 7 -->
+        <div class="workflow-step">
+          <div class="step-num">7</div>
+          <div class="step-content">
+            <div class="step-header">
+              <h3 class="step-title">Interactive Streamlit Executive Dashboard</h3>
+              <span class="step-file">dashboard/app.py</span>
+            </div>
+            <p class="step-desc">
+              Launches an interactive corporate BI dashboard powered by Plotly, offering real-time cohort exploration,
+              margin vs. volume toggles, cross-sell matrices, and segment drill-downs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Business Insights Section -->
+  <section class="section" id="insights">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Quantitative Insights</span>
+        <h2 class="section-title">Key Strategic Business Findings</h2>
+        <p class="section-desc">
+          Extracted directly from the computed analytics in <code class="code">reports/insights.md</code> and verified against SQLite.
+        </p>
+      </div>
+
+      <div class="card-grid-3">
+        <!-- Insight 1 -->
+        <div class="insight-card">
+          <div>
+            <div class="insight-header">
+              <span class="insight-badge">Revenue Concentration</span>
+              <span style="font-size: 1.4rem;">👑</span>
+            </div>
+            <h3 class="card-title">Pareto 80/20 Distribution</h3>
+            <div class="insight-metric">40.3% → 80%</div>
+            <p class="insight-text">
+              Top 20% of customers (26 accounts) drive <strong>57.29%</strong> of revenue. Just 52 customers (40.3%) generate 80.0% of total sales. Top buyer Tanvi Sharma alone generated ₹286,439.42 across 26 orders.
+            </p>
+          </div>
+          <div class="insight-action">
+            <strong>Strategic Action:</strong> Establish a VIP Concierge Tier with dedicated account management and high-tier anniversary rewards.
+          </div>
+        </div>
+
+        <!-- Insight 2 -->
+        <div class="insight-card">
+          <div>
+            <div class="insight-header">
+              <span class="insight-badge">Retention Equity</span>
+              <span style="font-size: 1.4rem;">🔄</span>
+            </div>
+            <h3 class="card-title">13.1× Repeat Multiplier</h3>
+            <div class="insight-metric">13.1× Spend</div>
+            <p class="insight-text">
+              Repeat buyers average <strong>₹32,752.20</strong> in lifetime spend vs. only <strong>₹2,497.05</strong> for one-time buyers. Repeat shoppers represent 88.37% of customers and 99.01% of total revenue.
+            </p>
+          </div>
+          <div class="insight-action">
+            <strong>Strategic Action:</strong> Deploy an automated 21-day "Second Order Bridge" nurture sequence offering a 10% voucher on complementary categories.
+          </div>
+        </div>
+
+        <!-- Insight 3 -->
+        <div class="insight-card">
+          <div>
+            <div class="insight-header">
+              <span class="insight-badge">Margin Architecture</span>
+              <span style="font-size: 1.4rem;">💄</span>
+            </div>
+            <h3 class="card-title">Beauty vs. Electronics Margins</h3>
+            <div class="insight-metric">62.8% Margin</div>
+            <p class="insight-text">
+              Electronics drives high GMV (₹858.5K) but delivers the lowest margin (<strong>25.43%</strong>). In contrast, Beauty delivers the highest margin (<strong>62.81%</strong>) and Clothing drives ₹402.5K in absolute profit.
+            </p>
+          </div>
+          <div class="insight-action">
+            <strong>Strategic Action:</strong> Mandate checkout attach-rate bundles pairing high-margin beauty and accessories with electronics orders.
+          </div>
+        </div>
+
+        <!-- Insight 4 -->
+        <div class="insight-card">
+          <div>
+            <div class="insight-header">
+              <span class="insight-badge">Geographic Optimization</span>
+              <span style="font-size: 1.4rem;">📍</span>
+            </div>
+            <h3 class="card-title">North Volume vs. East AOV</h3>
+            <div class="insight-metric">₹3,860 East AOV</div>
+            <p class="insight-text">
+              The North Region leads total revenue with <strong>₹1,068,592.56</strong> (28.3% share across 332 orders). However, the East Region commands the highest Average Order Value at <strong>₹3,860.22</strong> (+19.9% vs North).
+            </p>
+          </div>
+          <div class="insight-action">
+            <strong>Strategic Action:</strong> Optimize North logistics for fulfillment speed, while targeting East hubs with high-ticket bundle promotions.
+          </div>
+        </div>
+
+        <!-- Insight 5 -->
+        <div class="insight-card">
+          <div>
+            <div class="insight-header">
+              <span class="insight-badge">Churn Prevention</span>
+              <span style="font-size: 1.4rem;">🚨</span>
+            </div>
+            <h3 class="card-title">Latent Churn Risk</h3>
+            <div class="insight-metric">32 Overdue</div>
+            <p class="insight-text">
+              32 repeat customers have exceeded 1.5× their historical purchase cadence. High-equity accounts like Shreya Sharma (CLV: ₹479.1K) are overdue, representing <strong>₹476,000+</strong> in salvageable retention value.
+            </p>
+          </div>
+          <div class="insight-action">
+            <strong>Strategic Action:</strong> Automate personalized "We Miss You" SMS and email win-back sequences triggered at 1.25× personal purchase interval.
+          </div>
+        </div>
+
+        <!-- Insight 6 -->
+        <div class="insight-card">
+          <div>
+            <div class="insight-header">
+              <span class="insight-badge">Market Basket Affinity</span>
+              <span style="font-size: 1.4rem;">🛍️</span>
+            </div>
+            <h3 class="card-title">Cross-Selling Lift</h3>
+            <div class="insight-metric">2.39× Lift</div>
+            <p class="insight-text">
+              Customers purchasing an <em>Electric Blender</em> are <strong>2.39× more likely</strong> to buy a <em>Face Cleanser</em> (13 co-purchases), and <strong>2.24× more likely</strong> to co-purchase a <em>Power Bank</em>.
+            </p>
+          </div>
+          <div class="insight-action">
+            <strong>Strategic Action:</strong> Program one-click cart cross-sell popups pairing lifestyle essentials with kitchen appliances.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dashboard Showcase Section -->
+  <section class="section" id="dashboard">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Interactive Showcase</span>
+        <h2 class="section-title">Streamlit Executive BI Dashboard</h2>
+        <p class="section-desc">
+          High-resolution captures of the live interactive dashboard running on corporate dark/navy styling.
+          Click any screenshot to zoom in.
+        </p>
+      </div>
+
+      <!-- Gallery Tabs Navigation -->
+      <div class="gallery-nav">
+        <button class="gallery-tab active" data-target="panel-full">Full Dashboard</button>
+        <button class="gallery-tab" data-target="panel-kpi">Executive KPIs</button>
+        <button class="gallery-tab" data-target="panel-revenue">Revenue & Segments</button>
+        <button class="gallery-tab" data-target="panel-filtered">Filtered Region View</button>
+        <button class="gallery-tab" data-target="panel-segmentation">Segmentation Tab</button>
+        <button class="gallery-tab" data-target="panel-clustering">K-Means Diagnostics</button>
+      </div>
+
+      <!-- Gallery Panels -->
+      <!-- Panel 1: Full Dashboard -->
+      <div class="gallery-panel active" id="panel-full">
+        <div class="screenshot-frame" onclick="openLightbox('images/dashboard_full.png', 'Executive Dashboard — Complete Interface')">
+          <div class="screenshot-header">
+            <div class="window-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <span class="window-title">http://localhost:8501 — Executive Analytics Dashboard</span>
+          </div>
+          <img src="images/dashboard_full.png" alt="Executive Dashboard Full Interface" class="screenshot-img" loading="lazy">
+          <div class="screenshot-caption">
+            <span>Complete executive overview: 5 KPI cards, monthly revenue trend line chart, revenue by RFM segment, and category performance breakdown.</span>
+            <span class="screenshot-zoom-hint">🔍 Click to zoom</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 2: KPI Section -->
+      <div class="gallery-panel" id="panel-kpi">
+        <div class="screenshot-frame" onclick="openLightbox('images/kpi_section.png', 'Top-Level Executive KPI Cards')">
+          <div class="screenshot-header">
+            <div class="window-dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+            <span class="window-title">Executive KPI Metrics Banner</span>
+          </div>
+          <img src="images/kpi_section.png" alt="Executive KPI Cards" class="screenshot-img" loading="lazy">
+          <div class="screenshot-caption">
+            <span>Top-row KPI metrics: Total Revenue (₹3.77M), Active Customers (129), Average Order Value (₹3,251), Repeat Rate (88.4%), and Customer Lifetime Value (₹87.7K).</span>
+            <span class="screenshot-zoom-hint">🔍 Click to zoom</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 3: Revenue & Segments -->
+      <div class="gallery-panel" id="panel-revenue">
+        <div class="screenshot-frame" onclick="openLightbox('images/revenue_and_segments.png', 'Revenue Velocity & RFM Breakdown')">
+          <div class="screenshot-header">
+            <div class="window-dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+            <span class="window-title">Revenue Trends & Behavioral Segment Contribution</span>
+          </div>
+          <img src="images/revenue_and_segments.png" alt="Revenue and Segments" class="screenshot-img" loading="lazy">
+          <div class="screenshot-caption">
+            <span>Monthly revenue velocity with MoM toggle (highlighting festive peaks in April and December) alongside revenue distribution across 7 RFM behavioral cohorts.</span>
+            <span class="screenshot-zoom-hint">🔍 Click to zoom</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 4: Filtered View -->
+      <div class="gallery-panel" id="panel-filtered">
+        <div class="screenshot-frame" onclick="openLightbox('images/filtered_view.png', 'Dynamic Real-Time Regional Filter')">
+          <div class="screenshot-header">
+            <div class="window-dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+            <span class="window-title">Sidebar Multi-Dimensional Filtering</span>
+          </div>
+          <img src="images/filtered_view.png" alt="Filtered View - North Region" class="screenshot-img" loading="lazy">
+          <div class="screenshot-caption">
+            <span>All dashboard visualizations dynamically re-indexing in real-time when filtered to the North Region (Delhi, Noida, Jaipur).</span>
+            <span class="screenshot-zoom-hint">🔍 Click to zoom</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 5: Segmentation Tab -->
+      <div class="gallery-panel" id="panel-segmentation">
+        <div class="screenshot-frame" onclick="openLightbox('images/segmentation_tab.png', 'Deep-Dive Customer Segmentation Tab')">
+          <div class="screenshot-header">
+            <div class="window-dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+            <span class="window-title">Customer Segmentation & Cohort Profiling</span>
+          </div>
+          <img src="images/segmentation_tab.png" alt="Segmentation Tab" class="screenshot-img" loading="lazy">
+          <div class="screenshot-caption">
+            <span>Tabbed cohort analysis: RFM segment metrics, K-Means cluster profiling, customer distribution scatter plots, and actionable marketing recommendations.</span>
+            <span class="screenshot-zoom-hint">🔍 Click to zoom</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 6: Clustering Diagnostics -->
+      <div class="gallery-panel" id="panel-clustering">
+        <div class="card-grid-2">
+          <div class="screenshot-frame" onclick="openLightbox('images/kmeans_elbow_curve.png', 'K-Means Elbow Inertia Curve')">
+            <div class="screenshot-header">
+              <div class="window-dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+              <span class="window-title">images/kmeans_elbow_curve.png</span>
+            </div>
+            <img src="images/kmeans_elbow_curve.png" alt="K-Means Elbow Curve" class="screenshot-img" loading="lazy">
+            <div class="screenshot-caption">
+              <span>Elbow method evaluating inertia across k=2 to k=8, identifying an optimal bend at k=4.</span>
+              <span class="screenshot-zoom-hint">🔍 Zoom</span>
+            </div>
+          </div>
+
+          <div class="screenshot-frame" onclick="openLightbox('images/kmeans_silhouette_score.png', 'K-Means Silhouette Score Validation')">
+            <div class="screenshot-header">
+              <div class="window-dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+              <span class="window-title">images/kmeans_silhouette_score.png</span>
+            </div>
+            <img src="images/kmeans_silhouette_score.png" alt="K-Means Silhouette Score" class="screenshot-img" loading="lazy">
+            <div class="screenshot-caption">
+              <span>Silhouette coefficient maximization confirming k=4 with a score of 0.4313.</span>
+              <span class="screenshot-zoom-hint">🔍 Zoom</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology Stack Section -->
+  <section class="section" id="tech-stack" style="background: rgba(11, 37, 69, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Tech Stack</span>
+        <h2 class="section-title">Engineered with Modern Analytics Tools</h2>
+        <p class="section-desc">
+          Strict adherence to production-grade Python patterns, vectorization, and deterministic reproducibility.
+        </p>
+      </div>
+
+      <div class="tech-grid">
+        <div class="tech-card">
+          <div class="tech-icon">🐍</div>
+          <div class="tech-name">Python 3.12</div>
+          <div class="tech-role">Core Analytics Language</div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">🐼</div>
+          <div class="tech-name">Pandas 2.2</div>
+          <div class="tech-role">Data Manipulation & Aggregations</div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">🔢</div>
+          <div class="tech-name">NumPy</div>
+          <div class="tech-role">Vectorized Computations & Fences</div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">🤖</div>
+          <div class="tech-name">Scikit-Learn</div>
+          <div class="tech-role">StandardScaler & K-Means (k=4)</div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">🗄️</div>
+          <div class="tech-name">SQLite 3</div>
+          <div class="tech-role">Relational Database & Indexes</div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">⚡</div>
+          <div class="tech-name">Advanced SQL</div>
+          <div class="tech-role">CTEs, Window Functions, RANK()</div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">🎈</div>
+          <div class="tech-name">Streamlit</div>
+          <div class="tech-role">Interactive BI Dashboard</div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">📈</div>
+          <div class="tech-name">Plotly</div>
+          <div class="tech-role">Interactive Dynamic Visualizations</div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">📑</div>
+          <div class="tech-name">ReportLab</div>
+          <div class="tech-role">Automated PDF Report Generator</div>
+        </div>
+
+        <div class="tech-card">
+          <div class="tech-icon">🧪</div>
+          <div class="tech-name">Pytest</div>
+          <div class="tech-role">36 Automated Unit & Integration Tests</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Structure Section -->
+  <section class="section" id="structure">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Repository Blueprint</span>
+        <h2 class="section-title">Clean, Modular Project Structure</h2>
+        <p class="section-desc">
+          Structured for maintainability, continuous integration, and rapid reproducibility.
+        </p>
+      </div>
+
+      <div class="code-container">
+<pre>customer-purchase-pattern-analyzer/
+├── 📁 data/
+│   ├── 📁 raw/
+│   │   └── customer_purchases_raw.csv        # 1,235 synthetic transactions with intentional quality defects
+│   └── 📁 processed/
+│       ├── customer_purchases_clean.csv      # 1,160 clean validated transactions (21 columns)
+│       ├── transactions_features.csv         # 36 transaction-level engineered features (COGS, margins)
+│       ├── customer_features.csv             # 26 customer-level behavioral metrics & RFM scores
+│       ├── customer_segments.csv             # 129 customer cohort classifications & marketing actions
+│       └── retail.db                         # SQLite database with transactions and customer tables
+├── 📁 src/
+│   ├── generate_data.py                      # Synthetic retail data generation with controlled defect injection
+│   ├── clean_data.py                         # 8-step modular data cleaning, fuzzy normalization, and IQR fences
+│   ├── features.py                           # Transaction and customer-level feature engineering & CLV
+│   ├── segmentation.py                       # RFM quintiles (1-5) and K-Means (k=4, silhouette=0.4313)
+│   ├── load_db.py                            # SQLite database loader and search index creator
+│   ├── run_sql.py                            # Analytical SQL query executor and Pandas cross-validator
+│   ├── metrics.py                            # Topline KPI, margin, Pareto, and cross-sell lift calculators
+│   ├── insights.py                           # Dynamic business insight synthesizer & PDF report compiler
+│   └── run_pipeline.py                       # Master end-to-end pipeline runner with structured logging
+├── 📁 dashboard/
+│   ├── app.py                                # Streamlit executive analytics dashboard application
+│   ├── theme.py                              # Executive corporate color palette (Navy #0B2545, Teal #13A89E)
+│   └── 📁 components/
+│       ├── kpis.py                           # Top KPI summary cards and delta calculations
+│       ├── charts.py                         # Plotly visualization components (trends, margins, heatmaps)
+│       ├── segments_tab.py                   # Deep-dive segmentation explorer and cohort profiles
+│       ├── data_quality.py                   # Data cleaning audit log and before/after comparisons
+│       └── recommendations.py                # Automated strategic business recommendations engine
+├── 📁 sql/
+│   └── queries.sql                           # 8 CTE-based analytical queries with window functions (RANK, running totals)
+├── 📁 notebooks/
+│   └── 01_EDA.ipynb                          # 28-cell comprehensive exploratory data analysis with Plotly charts
+├── 📁 reports/
+│   ├── insights.md                           # 9 data-backed strategic insights with actionable recommendations
+│   ├── Project_Report.md                     # Full executive portfolio report in Markdown format
+│   ├── Project_Report.pdf                    # Publication-quality executive PDF report compiled via ReportLab
+│   └── cleaning_log.md                       # Comprehensive data cleaning audit log and validation checks
+├── 📁 images/                                # High-resolution dashboard screenshots and diagnostic plots
+├── 📁 tests/                                 # 36 automated unit & integration tests (100% passing)
+├── 📁 docs/                                  # Static GitHub Pages portfolio website (index.html, style.css)
+├── Makefile                                  # Command runner (setup, pipeline, dashboard, test, clean)
+├── run.sh & run.ps1                          # Cross-platform CLI launchers with automatic venv detection
+└── requirements.txt                          # Pinned dependency manifest</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- Action CTA Banner -->
+  <section class="section">
+    <div class="container">
+      <div class="action-banner">
+        <h2 class="banner-title">Ready to Explore the Codebase?</h2>
+        <p class="banner-desc">
+          Clone the repository, execute the end-to-end pipeline in one command, and launch the interactive dashboard locally.
+        </p>
+        <div class="hero-actions" style="margin-bottom: 0;">
+          <a href="https://github.com/ishasaxena2511/customer-purchase-pattern-analyzer" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub Repository
+          </a>
+          <a href="#hero" class="btn btn-secondary">
+            ↑ Back to Top
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>🛒 Customer Purchase Pattern Analyzer</h4>
+          <p>
+            An end-to-end retail intelligence and analytics engineering project. 
+            Delivering data-driven customer segmentation, CLV equity modeling, 
+            and interactive business intelligence.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#overview">Project Overview</a></li>
+            <li><a href="#capabilities">Core Capabilities</a></li>
+            <li><a href="#workflow">Analytics Workflow</a></li>
+            <li><a href="#insights">Key Business Insights</a></li>
+            <li><a href="#dashboard">Live Dashboard</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Repository</h5>
+          <ul class="footer-links">
+            <li><a href="https://github.com/ishasaxena2511/customer-purchase-pattern-analyzer" target="_blank" rel="noopener noreferrer">Source Code</a></li>
+            <li><a href="https://github.com/ishasaxena2511/customer-purchase-pattern-analyzer/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a></li>
+            <li><a href="https://github.com/ishasaxena2511/customer-purchase-pattern-analyzer/blob/main/README.md" target="_blank" rel="noopener noreferrer">Documentation</a></li>
+            <li><a href="https://github.com/ishasaxena2511/customer-purchase-pattern-analyzer/issues" target="_blank" rel="noopener noreferrer">Issue Tracker</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Customer Purchase Pattern Analyzer. Released under the <strong>MIT License</strong>.
+        </div>
+        <div>
+          Designed for GitHub Pages &bullet; Static HTML5 &bullet; CSS3 &bullet; Vanilla JS
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Screenshots -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <span class="lightbox-close" onclick="closeLightbox(event)">&times;</span>
+    <img src="" alt="Enlarged Screenshot" class="lightbox-content" id="lightboxImg">
+  </div>
+
+  <!-- Vanilla JavaScript for Interactivity -->
+  <script>
+    // Mobile navigation toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('mobile-open');
+    });
+
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('mobile-open');
+      });
+    });
+
+    // Dashboard Gallery Tab Switching
+    const tabs = document.querySelectorAll('.gallery-tab');
+    const panels = document.querySelectorAll('.gallery-panel');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        panels.forEach(p => p.classList.remove('active'));
+
+        tab.classList.add('active');
+        const targetId = tab.getAttribute('data-target');
+        const targetPanel = document.getElementById(targetId);
+        if (targetPanel) {
+          targetPanel.classList.add('active');
+        }
+      });
+    });
+
+    // Screenshot Lightbox Modal
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+
+    function openLightbox(src, alt) {
+      lightboxImg.src = src;
+      lightboxImg.alt = alt || 'Screenshot Preview';
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox(e) {
+      if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    }
+
+    // Close lightbox on Escape key
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  </script>
+
+</body>
+</html>
