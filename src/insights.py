@@ -683,6 +683,7 @@ def export_project_report_pdf(
         import re
 
         def clean_md(text: str) -> str:
+            """Convert Markdown styling into ReportLab-compatible XML tags."""
             # Escape XML entities first
             t = text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             # Standardize currency to ASCII
