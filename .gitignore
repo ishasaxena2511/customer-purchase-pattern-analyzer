@@ -37,8 +37,9 @@ wheels/
 .coverage
 htmlcov/
 
-# Streamlit
-.streamlit/
+# Streamlit & Logs
+.streamlit/secrets.toml
+*.log
 
 # OS generated files
 .DS_Store
