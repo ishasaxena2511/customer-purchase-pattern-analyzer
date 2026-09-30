@@ -1,0 +1,23 @@
+# Core Data Analysis & Manipulation
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+openpyxl==3.1.5
+
+# Machine Learning & Segmentation
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# Visualization & Dashboard
+plotly==7.1.0
+streamlit==1.64.0
+altair==6.3.0
+pydeck==0.9.3
+
+# Automated Testing & Quality
+pytest==9.1.1
+
+# Supporting Utilities
+requests==2.34.2
+python-dateutil==2.9.0.post0
+watchdog==6.0.0
