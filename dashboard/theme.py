@@ -42,6 +42,18 @@ CUSTOM_CSS = """
         background-color: #F8FAFC;
     }
     
+    /* Clean Chrome Styling */
+    header[data-testid="stHeader"] {
+        visibility: hidden;
+        height: 0px;
+    }
+    #MainMenu {
+        visibility: hidden;
+    }
+    footer {
+        visibility: hidden;
+    }
+    
     /* Executive Header */
     .executive-header {
         background: linear-gradient(135deg, #0B2545 0%, #134074 100%);

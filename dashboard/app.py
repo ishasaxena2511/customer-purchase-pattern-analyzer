@@ -71,6 +71,7 @@ def load_datasets() -> Tuple[pd.DataFrame, pd.DataFrame]:
 
 
 def main() -> None:
+    """Render the primary Streamlit executive analytics dashboard."""
     st.set_page_config(
         page_title="Executive Analytics | Customer Purchase Analyzer",
         page_icon="💼",
@@ -121,9 +122,11 @@ def main() -> None:
     else:
         start_date, end_date = min_date, max_date
 
-    # Region Filter
+    # Region Filter (Supports ?region=North via URL query parameter)
     all_regions = sorted(transactions_df["Region"].dropna().unique().tolist())
-    selected_regions = st.sidebar.multiselect("Region", options=all_regions, default=all_regions)
+    query_param_region = st.query_params.get("region", None)
+    default_regions = [query_param_region] if (query_param_region and query_param_region in all_regions) else all_regions
+    selected_regions = st.sidebar.multiselect("Region", options=all_regions, default=default_regions)
 
     # City Filter (Hierarchically filtered by selected regions)
     available_cities = sorted(
@@ -153,6 +156,7 @@ def main() -> None:
 
     # Reset Filter Button
     if st.sidebar.button("🔄 Reset All Filters", use_container_width=True):
+        st.query_params.clear()
         st.rerun()
 
     # -------------------------------------------------------------
@@ -231,103 +235,92 @@ def main() -> None:
         )
         render_kpi_cards(kpi_metrics, subtext=delta_subtext)
 
-        st.markdown("<div style='height: 18px;'></div>", unsafe_allow_html=True)
+        st.markdown("<div style='height: 14px;'></div>", unsafe_allow_html=True)
 
         # Middle Section: Three Columns (Trend, Segment, Category)
-        col_m1, col_m2, col_m3 = st.columns([1.1, 0.95, 0.95])
+        col_m1, col_m2, col_m3 = st.columns([1.05, 0.95, 1.05])
 
         with col_m1:
-            st.markdown('<div class="section-card">', unsafe_allow_html=True)
-            head_col, tog_col = st.columns([2, 1])
-            with head_col:
-                st.markdown("##### 📈 Revenue Trajectory")
-            with tog_col:
-                show_mom = st.toggle("MoM Growth %", key="mom_toggle", value=False)
-            fig_trend = render_revenue_trend(filtered_tx, show_mom=show_mom)
-            st.plotly_chart(fig_trend, use_container_width=True)
-            st.markdown("</div>", unsafe_allow_html=True)
+            with st.container(border=True):
+                head_col, tog_col = st.columns([2.3, 1.0])
+                with head_col:
+                    st.markdown("##### 📈 Revenue Trajectory")
+                with tog_col:
+                    show_mom = st.toggle("MoM %", key="mom_toggle", value=False)
+                fig_trend = render_revenue_trend(filtered_tx, show_mom=show_mom)
+                st.plotly_chart(fig_trend, use_container_width=True)
 
         with col_m2:
-            st.markdown('<div class="section-card">', unsafe_allow_html=True)
-            st.markdown("##### 👥 Segment Revenue")
-            fig_segment = render_segment_revenue(filtered_tx)
-            st.plotly_chart(fig_segment, use_container_width=True)
-            st.markdown("</div>", unsafe_allow_html=True)
+            with st.container(border=True):
+                st.markdown("##### 👥 Segment Revenue")
+                fig_segment = render_segment_revenue(filtered_tx)
+                st.plotly_chart(fig_segment, use_container_width=True)
 
         with col_m3:
-            st.markdown('<div class="section-card">', unsafe_allow_html=True)
-            head_col, tog_col = st.columns([2, 1])
-            with head_col:
-                st.markdown("##### 🏷️ Category Performance")
-            with tog_col:
-                show_margin = st.toggle("Margin %", key="margin_toggle", value=False)
-            fig_category = render_category_performance(filtered_tx, show_margin=show_margin)
-            st.plotly_chart(fig_category, use_container_width=True)
-            st.markdown("</div>", unsafe_allow_html=True)
+            with st.container(border=True):
+                head_col, tog_col = st.columns([2.1, 1.0])
+                with head_col:
+                    st.markdown("##### 🏷️ Category Sales")
+                with tog_col:
+                    show_margin = st.toggle("Margin %", key="margin_toggle", value=False)
+                fig_category = render_category_performance(filtered_tx, show_margin=show_margin)
+                st.plotly_chart(fig_category, use_container_width=True)
 
         # Second Middle Row: Three Columns (Regional Heatmap, Top 10, Frequency)
         col_s1, col_s2, col_s3 = st.columns([1, 1, 1])
 
         with col_s1:
-            st.markdown('<div class="section-card">', unsafe_allow_html=True)
-            st.markdown("##### 🗺️ Regional Sales Heatmap")
-            fig_heatmap = render_regional_heatmap(filtered_tx)
-            st.plotly_chart(fig_heatmap, use_container_width=True)
-            st.markdown("</div>", unsafe_allow_html=True)
+            with st.container(border=True):
+                st.markdown("##### 🗺️ Regional Sales Heatmap")
+                fig_heatmap = render_regional_heatmap(filtered_tx)
+                st.plotly_chart(fig_heatmap, use_container_width=True)
 
         with col_s2:
-            st.markdown('<div class="section-card">', unsafe_allow_html=True)
-            st.markdown("##### 🏆 Top 10 Customers")
-            fig_top_cust = render_top_customers(filtered_tx, top_n=10)
-            st.plotly_chart(fig_top_cust, use_container_width=True)
-            st.markdown("</div>", unsafe_allow_html=True)
+            with st.container(border=True):
+                st.markdown("##### 🏆 Top 10 Customers")
+                fig_top_cust = render_top_customers(filtered_tx, top_n=10)
+                st.plotly_chart(fig_top_cust, use_container_width=True)
 
         with col_s3:
-            st.markdown('<div class="section-card">', unsafe_allow_html=True)
-            st.markdown("##### 🔁 Purchase Frequency")
-            fig_freq = render_purchase_frequency(filtered_tx)
-            st.plotly_chart(fig_freq, use_container_width=True)
-            st.markdown("</div>", unsafe_allow_html=True)
+            with st.container(border=True):
+                st.markdown("##### 🔁 Purchase Frequency")
+                fig_freq = render_purchase_frequency(filtered_tx)
+                st.plotly_chart(fig_freq, use_container_width=True)
 
         # Third Row: Two Columns (Age Group, Payment Method)
         col_t1, col_t2 = st.columns([1.1, 0.9])
 
         with col_t1:
-            st.markdown('<div class="section-card">', unsafe_allow_html=True)
-            st.markdown("##### 🎂 Customer Age-Group Spend")
-            fig_age = render_age_group_analysis(filtered_tx)
-            st.plotly_chart(fig_age, use_container_width=True)
-            st.markdown("</div>", unsafe_allow_html=True)
+            with st.container(border=True):
+                st.markdown("##### 🎂 Customer Age-Group Spend")
+                fig_age = render_age_group_analysis(filtered_tx)
+                st.plotly_chart(fig_age, use_container_width=True)
 
         with col_t2:
-            st.markdown('<div class="section-card">', unsafe_allow_html=True)
-            st.markdown("##### 💳 Payment Method Distribution")
-            fig_payment = render_payment_donut(filtered_tx)
-            st.plotly_chart(fig_payment, use_container_width=True)
-            st.markdown("</div>", unsafe_allow_html=True)
+            with st.container(border=True):
+                st.markdown("##### 💳 Payment Method Distribution")
+                fig_payment = render_payment_donut(filtered_tx)
+                st.plotly_chart(fig_payment, use_container_width=True)
 
         # Bottom Section: Dynamic Recommendations & At-Risk Export
-        st.markdown('<div class="section-card">', unsafe_allow_html=True)
-        insights, at_risk_df = compute_insights(filtered_tx, customer_df)
-        render_insights_section(insights, at_risk_df)
-        st.markdown("</div>", unsafe_allow_html=True)
+        with st.container(border=True):
+            insights, at_risk_df = compute_insights(filtered_tx, customer_df)
+            render_insights_section(insights, at_risk_df)
 
     # =============================================================
     # Tab 2: Segments (RFM)
     # =============================================================
     with tab_rfm:
-        st.markdown('<div class="section-card">', unsafe_allow_html=True)
-        render_segments_tab(filtered_cf if not filtered_cf.empty else customer_df)
-        st.markdown("</div>", unsafe_allow_html=True)
+        with st.container(border=True):
+            render_segments_tab(filtered_cf if not filtered_cf.empty else customer_df)
 
     # =============================================================
     # Tab 3: Data Quality
     # =============================================================
     with tab_quality:
-        st.markdown('<div class="section-card">', unsafe_allow_html=True)
-        cleaning_log_path = REPORTS_DIR / "cleaning_log.md"
-        render_data_quality_tab(cleaning_log_path)
-        st.markdown("</div>", unsafe_allow_html=True)
+        with st.container(border=True):
+            cleaning_log_path = REPORTS_DIR / "cleaning_log.md"
+            render_data_quality_tab(cleaning_log_path)
 
 
 if __name__ == "__main__":

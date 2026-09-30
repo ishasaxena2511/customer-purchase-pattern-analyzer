@@ -445,7 +445,23 @@ def render_rfm_scatter(customer_df: pd.DataFrame) -> go.Figure:
         color_discrete_sequence=PLOTLY_COLORWAY,
         size_max=28,
     )
-    apply_theme_to_figure(fig, title="Customer RFM Landscape (Recency vs Monetary)", height=450)
+    apply_theme_to_figure(fig, title="Customer RFM Landscape (Recency vs Monetary)", height=480)
+    fig.update_layout(
+        title=dict(
+            text="<b>Customer RFM Landscape (Recency vs Monetary)</b>",
+            y=0.98,
+            x=0.01,
+        ),
+        legend=dict(
+            orientation="h",
+            yanchor="top",
+            y=-0.22,
+            xanchor="center",
+            x=0.5,
+            title_text="",
+        ),
+        margin=dict(l=40, r=30, t=40, b=90),
+    )
     fig.update_xaxes(title_text="Recency (Days since last purchase — Lower is fresher)")
     fig.update_yaxes(title_text="Monetary Value / Revenue (₹)", tickprefix="₹")
     return fig
