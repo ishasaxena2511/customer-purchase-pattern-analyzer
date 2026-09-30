@@ -1,4 +1,5 @@
-# 🛒 Customer Purchase Pattern Analyzer (https://customer-purchase-pattern-analyzer.streamlit.app/)
+# 🛒 Customer Purchase Pattern Analyzer 
+(https://customer-purchase-pattern-analyzer.streamlit.app/)
 
 [![Python Version](https://img.shields.io/badge/Python-3.11%20%7C%203.12-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit App](https://img.shields.io/badge/Streamlit-1.32+-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
