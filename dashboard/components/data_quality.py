@@ -11,7 +11,10 @@ from pathlib import Path
 import streamlit as st
 import pandas as pd
 
-from dashboard.theme import render_kpi_card_html
+try:
+    from dashboard.theme import render_kpi_card_html
+except ModuleNotFoundError:
+    from theme import render_kpi_card_html
 
 
 def render_data_quality_tab(log_path: Path) -> None:

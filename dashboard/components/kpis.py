@@ -10,11 +10,18 @@ from typing import Dict, Any, Optional
 import pandas as pd
 import streamlit as st
 
-from dashboard.theme import (
-    format_currency,
-    format_number,
-    render_kpi_card_html,
-)
+try:
+    from dashboard.theme import (
+        format_currency,
+        format_number,
+        render_kpi_card_html,
+    )
+except ModuleNotFoundError:
+    from theme import (
+        format_currency,
+        format_number,
+        render_kpi_card_html,
+    )
 
 
 def calculate_kpis(

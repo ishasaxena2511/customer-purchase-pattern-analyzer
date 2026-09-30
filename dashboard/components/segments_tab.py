@@ -9,8 +9,17 @@ Purpose:
 import pandas as pd
 import streamlit as st
 
-from dashboard.components.charts import render_rfm_scatter
-from dashboard.theme import format_currency
+try:
+    from dashboard.components.charts import render_rfm_scatter
+    from dashboard.theme import format_currency
+except ModuleNotFoundError:
+    from dashboard.components.charts import render_rfm_scatter
+    from dashboard.theme import format_currency
+    try:
+        from charts import render_rfm_scatter
+        from theme import format_currency
+    except ModuleNotFoundError:
+        pass
 
 
 def render_segments_tab(customer_df: pd.DataFrame) -> None:

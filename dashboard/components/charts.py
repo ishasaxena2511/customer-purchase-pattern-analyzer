@@ -13,12 +13,20 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-from dashboard.theme import (
-    COLORS,
-    PLOTLY_COLORWAY,
-    apply_theme_to_figure,
-    format_currency,
-)
+try:
+    from dashboard.theme import (
+        COLORS,
+        PLOTLY_COLORWAY,
+        apply_theme_to_figure,
+        format_currency,
+    )
+except ModuleNotFoundError:
+    from theme import (
+        COLORS,
+        PLOTLY_COLORWAY,
+        apply_theme_to_figure,
+        format_currency,
+    )
 
 
 def _empty_figure(message: str = "No data available for selected filters.") -> go.Figure:

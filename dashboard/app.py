@@ -7,8 +7,15 @@ Purpose:
     sales analytics, dynamic recommendations, RFM segmentation, and data quality audits.
 """
 
+import sys
 from pathlib import Path
 from typing import Tuple
+
+# Ensure project root is in sys.path when launched directly via 'streamlit run dashboard/app.py'
+BASE_DIR = Path(__file__).resolve().parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
 import pandas as pd
 import streamlit as st
 
@@ -32,7 +39,7 @@ from dashboard.components.segments_tab import render_segments_tab
 from dashboard.components.data_quality import render_data_quality_tab
 
 # Base Paths
-BASE_DIR = Path(__file__).resolve().parent.parent
+
 DATA_DIR = BASE_DIR / "data" / "processed"
 REPORTS_DIR = BASE_DIR / "reports"
 

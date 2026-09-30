@@ -13,11 +13,18 @@ from collections import Counter
 import pandas as pd
 import streamlit as st
 
-from dashboard.theme import (
-    COLORS,
-    format_currency,
-    render_insight_card_html,
-)
+try:
+    from dashboard.theme import (
+        COLORS,
+        format_currency,
+        render_insight_card_html,
+    )
+except ModuleNotFoundError:
+    from theme import (
+        COLORS,
+        format_currency,
+        render_insight_card_html,
+    )
 
 
 def compute_insights(
